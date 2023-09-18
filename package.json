@@ -1,17 +1,19 @@
 {
   "name": "witivio-documentation",
-  "version": "1.0.0",
-  "description": "User documentation for all Witivio products",
+  "version": "0.0.1",
+  "description": "User documentation for all Witivio products.",
   "main": "index.js",
+  "authors": {
+    "name": "witivio",
+    "email": ""
+  },
   "repository": "https://github.com/Witivio/documentation",
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src"
   },
-  "keywords": [],
-  "author": "",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.9.10"
+    "vuepress": "^1.5.3"
   }
 }
