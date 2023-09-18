@@ -1,14 +1,16 @@
 {
-  "name": "src",
+  "name": "witivio-documentation",
   "version": "1.0.0",
-  "description": "",
+  "description": "User documentation for all Witivio products",
   "main": "index.js",
+  "repository": "https://github.com/Witivio/documentation",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "vuepress": "^1.9.10"
   }
