@@ -1,25 +1,26 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: User documentation for all Witivio products.
+heroImage: /HomeIcon.png
+tagTitle: User documentation for all Witivio products !
+tagline: Take your time to learn and understand all the different and various Witivio products, from the beginning to the very very end...
 actionText: Quick Start →
-actionLink: /documentation/overview/overview.html
+actionLink: /documentation/overview/
 items:
 - title: Virtual Agent Studio
-  itemImage: /assets/img/gpt-pro-icon.png
+  itemImage: /VirtualAgentStudio.png
   itemDescription: Take a look to the VAS doc...
-  link: /documentation/virtual-agent-studio/overview/overview.html
+  link: /documentation/virtual-agent-studio/overview/
 - title: GPT Pro
-  itemImage: /assets/img/gpt-pro-icon.png
+  itemImage: /gpt-pro-icon.png
   itemDescription: Take a look to the GPT Pro doc...
-  link: /documentation/gpt-pro-icon/overview/overview.html
+  link: /documentation/gpt-pro/overview/
 - title: Teams Pro
-  itemImage: /assets/img/gpt-pro-icon.png
+  itemImage: /TeamsPro.png
   itemDescription: Take a look to the Teams Pro doc...
-  link: /documentation/teams-pro/overview/overview.html
+  link: /documentation/teams-pro/overview/
 - title: Meta Office Pro
-  itemImage: /assets/img/gpt-pro-icon.png
-  itemDescription: Configure your knowledge base.
-  link: /documentation/meta-office-pro/overview/overview.html
+  itemImage: /
+  itemDescription: Take a look to the Meta Office Pro doc...
+  link: /documentation/meta-office-pro/overview/
 footer: Made by Witivio with ❤️
 ---

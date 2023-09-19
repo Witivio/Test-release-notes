@@ -7,32 +7,31 @@
     >
       
   
-  
-        <header class="hero">
-            <div class="hero_container">
-                <div class="hero_image">
+         <header class="hero">
+            <div class="overview_hero_container">
+              <div class="hero_image">
                     <img
                       v-if="data.heroImage"
                       :src="$withBase(data.heroImage)"
                       :alt="data.heroAlt || 'hero'"
                     >
                 </div>  
-
                 <div class="hero_text">
                   <div>
                     <p
                       v-if="data.tagline !== null"
-                      class="description_title"
-                    >
-                      {{ data.tagTitle || 'Welcome to your VuePress site' }}
-                    </p>
-                    <p
-                      v-if="data.tagline !== null"
-                      class="description"
+                      class="overview_description"
                     >
                       {{ data.tagline || 'Welcome to your VuePress site' }}
                     </p>
+                    <p
+                        v-if="data.tagline !== null"
+                        class="description"
+                      >
+                        {{ "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus placeat quos recusandae nemo temporibus ullam adipisci ipsum blanditiis hic, praesentium animi in excepturi iure, laborum eos unde tempore! Dicta, perferendis." || 'Welcome to your VuePress site' }}
+                    </p>
                   </div>
+                
                   <p
                     v-if="data.actionText && data.actionLink"
                     class="action"
@@ -46,33 +45,20 @@
             </div>
         </header>
   
-      <div class="container_items">
+      <div class="overview_container_items">
         <a
           v-for="(item, index) in data.items"
           :key="index"
-          class="container_item wrap_range" 
+          class="overview_container_item overview_wrap_range" 
           :href="item.link"
         >
-          <div>
-            <div class="container_image">
-              <img :src="item.itemImage" >
-            </div>
-            <h2 class="container_item_title"></h2>
-            <p class="container_item_description">{{ item.itemDescription }}</p>
+          <div class="container_item_content">
+            <h2 class="container_item_title">{{item.title}}</h2>
+          </div>
+          <div class="container_image">
+            <img :src="item.itemImage">
           </div>
         </a>
-      </div>
-      
-  
-      <Content class="theme-default-content custom" />
-      
-     
-  
-      <div
-        v-if="data.footer"
-        class="footer"
-      >
-        {{ data.footer }}
       </div>
   
     </main>
@@ -84,7 +70,7 @@
   
   
   export default {
-    name: 'Home',
+    name: 'Overview',
     components: { NavLink },
     computed: {
       data () {
@@ -101,8 +87,10 @@
   </script>
   
   <style lang="stylus">
-  .wrap_range
-    flex-basis 35%
+  .container_item_content
+    height 70px
+  .overview_wrap_range
+    flex-basis 10%
   .container_item_title
     font-size 1rem
     margin: 25px
@@ -120,55 +108,50 @@
       height 50px
       padding 15px
   
-  .container_items
-    padding 3.2rem 0
+  .overview_container_items
     margin-top 2.5rem
     display flex
     flex-wrap wrap
     align-items center
     justify-content center
   
-  .container_item 
+  .overview_container_item 
     display flex
     flex-direction column
-    justify-content center
-    height clamp(200px, 20vw, 250px)
+    height 150px
     margin 2.5rem
     border: 1px solid #eaecef
     border-radius: 5px
     transition-duration: 0.5s;
+    justify-content: center;
   
-  .container_item:hover
+  .overview_container_item:hover
     background-color: #903163
     color: white
     transition: all .2s
     cursor: pointer
     transform: scale(1.07) 
 
-  .hero_container
+  .overview_hero_container
     display flex
     width 100%
     flex-direction row
     justify-content center
     max-width 80vw
-    margin-top: 4em
+    height 40vh
 
-  .hero_text
-    display flex
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    width 40vw
-    margin-left 10px
-    margin-right 10px
-
-  .hero_image 
-    width 40vw 
+    .hero_text
+      display flex
+      flex-direction: column;
+      align-content: center;
+      width 40vw
+      margin-left 10px
+      margin-right 10px
   
   .image_index_documentaion
     height 150px
   
-  // $homePageWidth
+  
   .home
     width 100%
     margin 0px auto
@@ -185,20 +168,14 @@
         margin 3rem auto 1.5rem
       h1
         font-size 3rem
-      h1, .description, .action, .description_title
+      h1, .overview_description, .action
         margin 1.8rem auto
-      .description
+      .overview_description
         max-width 35rem
-        font-size 1.0rem
-        line-height 1.0
-        color $accentColor
-        opacity 0.9
-      .description_title
-        max-width 35rem
-        font-size 1.6rem
-        font-weight bold
+        font-size 1.2rem
         line-height 1.3
         color $accentColor
+        font-weight bold
       .action-button
         display inline-block
         font-size 1.2rem
@@ -220,60 +197,21 @@
       align-items center
       align-content stretch
       justify-content center
-    .feature
-      display flex
-      flex-direction column
-      flex-grow 1
-      flex-basis 30%
-      max-width 20%
-      justify-content flex-start
-      align-items center
-      h2
-        font-size 1.4rem
-        font-weight 500
-        border-bottom none
-        padding-bottom 0
-        color lighten($textColor, 10%)
-      p
-        color lighten($textColor, 25%)
-        padding 55px
-        text-align center
-    .footer
-      padding 2.5rem
-      border-top 1px solid $borderColor
-      text-align center
-      color white
-      background-color #202020
+   
   @media (max-width: $MQMobile)
-    .hero_container
+    .overview_hero_container
       display flex
       flex-direction column
       align-items center
-      width 100%
       h1
         font-size 2rem
-    .hero_text
-      width 90vw
-    .hero_image 
-      width 80vw 
-    .home
-      .features
-        flex-direction column
-      .feature
-        max-width 100%
-        padding 0 2.5rem
-    .wrap_range
+    .overview_wrap_range
         flex-basis 85%
   @media (max-width: 1024px)
-    .hero_container
+    .overview_hero_container
       display flex
       flex-direction column
       align-items center
-      width 100%
-    .hero_text
-      width 90vw
-    .hero_image 
-      width 80vw 
     .home
       padding-left 1.5rem
       padding-right 1.5rem
@@ -283,9 +221,9 @@
           margin 2rem auto 1.2rem
         h1
           font-size 1.5rem
-        h1, .description, .action, .description_title
+        h1, .overview_description, .action
           margin 1.2rem auto
-        .description
+        .overview_description
           font-size 1.2rem
         .action-button
           font-size 1rem
