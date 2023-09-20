@@ -5,6 +5,7 @@
  */
 import Overview from './theme/components/Overview'
 import Teams from './theme/components/Teams'
+import Comments from './theme/components/Comments'
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app
@@ -14,4 +15,5 @@ export default ({
 }) => {
   Vue.component("Overview", Overview)
   Vue.component("Teams", Teams)
+  Vue.component("Comments", Comments)
 }

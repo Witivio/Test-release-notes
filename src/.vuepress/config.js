@@ -1,5 +1,5 @@
 module.exports = {
-  	title: 'Documentation by Witivio',
+  	title: 'Documentation',
   	description: "Witivio's documentation for any users who want to learn a bit about our product",
 
 	head: [
@@ -11,6 +11,7 @@ module.exports = {
 	themeConfig: {
    		smoothScroll: true,
    		repo: '',
+		logo: '/witivio.png',
    		editLinks: false,
    		docsDir: '',
    		editLinkText: '',
