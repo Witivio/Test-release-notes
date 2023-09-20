@@ -1,5 +1,5 @@
 ---
-heroImage: /teams-pro.png
+heroImage: /TeamsPro.png
 tagline: User documentation for Teams Pro.
 items:
 - title: Booking Room Pro
