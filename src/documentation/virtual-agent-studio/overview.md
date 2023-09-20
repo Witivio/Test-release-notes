@@ -1,6 +1,6 @@
 ---
 tagline: User documentation for Virtual Agent Studio.
-heroImage: /VirtualAgentStudio.png
+heroImage: /virtual-agent-studio.png
 actionText: Get Started →
 actionLink: /documentation/virtual-agent-studio/get-started/
 items:
