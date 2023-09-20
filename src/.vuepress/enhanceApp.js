@@ -3,9 +3,9 @@
  *
  * https://v1.vuepress.vuejs.org/guide/basic-config.html#app-level-enhancements
  */
-import Overview from './theme/components/Overview'
-import Teams from './theme/components/Teams'
-import Comments from './theme/components/Comments'
+import Overview from './theme/components/overview'
+import Teams from './theme/components/teams'
+import Comments from './theme/components/comments'
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app
