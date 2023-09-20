@@ -17,7 +17,7 @@ items:
   itemImage: /alert.png
   link: /documentation/virtual-agent-studio/limits/
 - title: Changelog
-  itemImage: /changelog.png
+  itemImage: /changelog.svg
   link: /documentation/virtual-agent-studio/changelog/
 ---
 

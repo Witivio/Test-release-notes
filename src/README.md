@@ -10,14 +10,14 @@ items:
   itemImage: /VirtualAgentStudio.png
   itemDescription: Take a look to the VAS doc...
   link: /documentation/virtual-agent-studio/overview/
-- title: GPT Pro
-  itemImage: /gpt-pro-icon.png
-  itemDescription: Take a look to the GPT Pro doc...
-  link: /documentation/gpt-pro/overview/
 - title: Teams Pro
   itemImage: /TeamsPro.png
   itemDescription: Take a look to the Teams Pro doc...
   link: /documentation/teams-pro/overview/
+- title: GPT Pro
+  itemImage: /gpt-pro-icon.png
+  itemDescription: Take a look to the GPT Pro doc...
+  link: /documentation/gpt-pro/overview/
 - title: Meta Office Pro
   itemImage: /
   itemDescription: Take a look to the Meta Office Pro doc...

@@ -16,7 +16,7 @@ items:
   itemImage: /alert.gif
   link: /documentation/meta-office-pro/limits/
 - title: Changelog
-  itemImage: /changelog.png
+  itemImage: /changelog.svg
   link: /documentation/meta-office-pro/changelog/
 ---
 

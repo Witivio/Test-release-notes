@@ -1,23 +1,34 @@
 ---
+heroImage: /TeamsPro.png
 tagline: User documentation for Teams Pro.
-actionText: Get Started →
-actionLink: /documentation/teams-pro/get-started/
 items:
-- title: Fundamentals​
-  itemImage: /fundamental.png
-  link: /documentation/teams-pro/fundamentals/
-- title: What’s new
-  itemImage: /shining.gif
-  link: /documentation/teams-pro/whats-new/
-- title: Tutorials
-  itemImage: /tuto.png
-  link: /documentation/teams-pro/tutorials/
-- title: Limits
-  itemImage: /alert.gif
-  link: /documentation/teams-pro/limits/
-- title: Changelog
-  itemImage: /changelog.png
-  link: /documentation/teams-pro/changelog/
+- title: Booking Room Pro
+  itemImage: /booking.svg
+  link: /documentation/teams-pro/booking-room-pro/overview/
+- title: Calendar Pro
+  itemImage: /calendar.svg
+  link: /documentation/teams-pro/calendar-pro/overview/
+- title: Contacts Pro
+  itemImage: /contacts.svg
+  link: /documentation/teams-pro/contacts-pro/overview/
+- title: Distribution List Pro
+  itemImage: /distribution.svg
+  link: /documentation/teams-pro/distribution-list-pro/overview/
+- title: Gantt Chart Pro
+  itemImage: /gantt-chart.svg
+  link: /documentation/teams-pro/gantt-chart-pro/overview/
+- title: Home Pro
+  itemImage: /home.svg
+  link: /documentation/teams-pro/home-pro/overview/
+- title: KeePass Pro
+  itemImage: /keepass.svg
+  link: /documentation/teams-pro/keepass-pro/overview/
+- title: Map Pro
+  itemImage: /map.svg
+  link: /documentation/teams-pro/map-pro/overview/
+- title: Parking Pro
+  itemImage: /parking.svg
+  link: /documentation/teams-pro/parking-pro/overview/
 ---
 
-<Overview />
+<Teams />

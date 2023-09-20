@@ -57,12 +57,132 @@ module.exports = {
 							path: "/documentation/teams-pro/overview/",
 							children: [
 								['/documentation/teams-pro/overview.md', "Teams Pro - Overview"],
-								['/documentation/teams-pro/get-started.md', "Teams Pro - Get Started !"],
-								['/documentation/teams-pro/fundamentals.md', "Teams Pro - Fundamentals"],
-								['/documentation/teams-pro/whats-new.md', "Teams Pro - What’s new​"],
-								['/documentation/teams-pro/tutorials.md', "Teams Pro - Tutorials"],
-								['/documentation/teams-pro/limits.md', "Teams Pro - Limits"],
-								['/documentation/teams-pro/changelog.md', "Teams Pro - Change log​"],
+								{
+									title: 'Booking Rooom Pro',
+									collapsable: true,
+									path: "/documentation/teams-pro/booking-room-pro/overview/",
+									children: [
+										['/documentation/teams-pro/booking-room-pro/overview.md', "Booking Room Pro - Overview"],
+										['/documentation/teams-pro/booking-room-pro/get-started.md', "Booking Room Pro - Get Started !"],
+										['/documentation/teams-pro/booking-room-pro/fundamentals.md', "Booking Room Pro - Fundamentals"],
+										['/documentation/teams-pro/booking-room-pro/whats-new.md', "Booking Room Pro - What’s new​"],
+										['/documentation/teams-pro/booking-room-pro/tutorials.md', "Booking Room Pro - Tutorials"],
+										['/documentation/teams-pro/booking-room-pro/limits.md', "Booking Room Pro - Limits"],
+										['/documentation/teams-pro/booking-room-pro/changelog.md', "Booking Room Pro - Change log​"],
+									]
+								},
+								{
+									title: 'Calendar Pro',
+									collapsable: true,
+									path: "/documentation/teams-pro/calendar-pro/overview/",
+									children: [
+										['/documentation/teams-pro/calendar-pro/overview.md', "Calendar Pro - Overview"],
+										['/documentation/teams-pro/calendar-pro/get-started.md', "Calendar Pro - Get Started !"],
+										['/documentation/teams-pro/calendar-pro/fundamentals.md', "Calendar Pro - Fundamentals"],
+										['/documentation/teams-pro/calendar-pro/whats-new.md', "Calendar Pro - What’s new​"],
+										['/documentation/teams-pro/calendar-pro/tutorials.md', "Calendar Pro - Tutorials"],
+										['/documentation/teams-pro/calendar-pro/limits.md', "Calendar Pro - Limits"],
+										['/documentation/teams-pro/calendar-pro/changelog.md', "Calendar Pro - Change log​"],
+									]
+								},
+								{
+									title: 'Contacts Pro',
+									collapsable: true,
+									path: "/documentation/teams-pro/contacts-pro/overview/",
+									children: [
+										['/documentation/teams-pro/contacts-pro/overview.md', "Contacts Pro - Overview"],
+										['/documentation/teams-pro/contacts-pro/get-started.md', "Contacts Pro - Get Started !"],
+										['/documentation/teams-pro/contacts-pro/fundamentals.md', "Contacts Pro - Fundamentals"],
+										['/documentation/teams-pro/contacts-pro/whats-new.md', "Contacts Pro - What’s new​"],
+										['/documentation/teams-pro/contacts-pro/tutorials.md', "Contacts Pro - Tutorials"],
+										['/documentation/teams-pro/contacts-pro/limits.md', "Contacts Pro - Limits"],
+										['/documentation/teams-pro/contacts-pro/changelog.md', "Contacts Pro - Change log​"],
+									]
+								},
+								{
+									title: 'Distribution List Pro',
+									collapsable: true,
+									path: "/documentation/teams-pro/distribution-list-pro/overview/",
+									children: [
+										['/documentation/teams-pro/distribution-list-pro/overview.md', "Distribution List Pro - Overview"],
+										['/documentation/teams-pro/distribution-list-pro/get-started.md', "Distribution List Pro - Get Started !"],
+										['/documentation/teams-pro/distribution-list-pro/fundamentals.md', "Distribution List Pro - Fundamentals"],
+										['/documentation/teams-pro/distribution-list-pro/whats-new.md', "Distribution List Pro - What’s new​"],
+										['/documentation/teams-pro/distribution-list-pro/tutorials.md', "Distribution List Pro - Tutorials"],
+										['/documentation/teams-pro/distribution-list-pro/limits.md', "Distribution List Pro - Limits"],
+										['/documentation/teams-pro/distribution-list-pro/changelog.md', "Distribution List Pro - Change log​"],
+									]
+								},
+								{
+									title: 'Gantt Chart Pro',
+									collapsable: true,
+									path: "/documentation/teams-pro/gantt-chart-pro/overview/",
+									children: [
+										['/documentation/teams-pro/gantt-chart-pro/overview.md', "Gantt Chart Pro - Overview"],
+										['/documentation/teams-pro/gantt-chart-pro/get-started.md', "Gantt Chart Pro - Get Started !"],
+										['/documentation/teams-pro/gantt-chart-pro/fundamentals.md', "Gantt Chart Pro - Fundamentals"],
+										['/documentation/teams-pro/gantt-chart-pro/whats-new.md', "Gantt Chart Pro - What’s new​"],
+										['/documentation/teams-pro/gantt-chart-pro/tutorials.md', "Gantt Chart Pro - Tutorials"],
+										['/documentation/teams-pro/gantt-chart-pro/limits.md', "Gantt Chart Pro - Limits"],
+										['/documentation/teams-pro/gantt-chart-pro/changelog.md', "Gantt Chart Pro - Change log​"],
+									]
+								},
+								{
+									title: 'Home Pro',
+									collapsable: true,
+									path: "/documentation/teams-pro/home-pro/overview/",
+									children: [
+										['/documentation/teams-pro/home-pro/overview.md', "Home Pro - Overview"],
+										['/documentation/teams-pro/home-pro/get-started.md', "Home Pro - Get Started !"],
+										['/documentation/teams-pro/home-pro/fundamentals.md', "Home Pro - Fundamentals"],
+										['/documentation/teams-pro/home-pro/whats-new.md', "Home Pro - What’s new​"],
+										['/documentation/teams-pro/home-pro/tutorials.md', "Home Pro - Tutorials"],
+										['/documentation/teams-pro/home-pro/limits.md', "Home Pro - Limits"],
+										['/documentation/teams-pro/home-pro/changelog.md', "Home Pro - Change log​"],
+									]
+								},
+								{
+									title: 'KeePass Pro',
+									collapsable: true,
+									path: "/documentation/teams-pro/keepass-pro/overview/",
+									children: [
+										['/documentation/teams-pro/keepass-pro/overview.md', "KeePass Pro - Overview"],
+										['/documentation/teams-pro/keepass-pro/get-started.md', "KeePass Pro - Get Started !"],
+										['/documentation/teams-pro/keepass-pro/fundamentals.md', "KeePass Pro - Fundamentals"],
+										['/documentation/teams-pro/keepass-pro/whats-new.md', "KeePass Pro - What’s new​"],
+										['/documentation/teams-pro/keepass-pro/tutorials.md', "KeePass Pro - Tutorials"],
+										['/documentation/teams-pro/keepass-pro/limits.md', "KeePass Pro - Limits"],
+										['/documentation/teams-pro/keepass-pro/changelog.md', "KeePass Pro - Change log​"],
+									]
+								},
+								{
+									title: 'Map Pro',
+									collapsable: true,
+									path: "/documentation/teams-pro/map-pro/overview/",
+									children: [
+										['/documentation/teams-pro/map-pro/overview.md', "Map Pro - Overview"],
+										['/documentation/teams-pro/map-pro/get-started.md', "Map Pro - Get Started !"],
+										['/documentation/teams-pro/map-pro/fundamentals.md', "Map Pro - Fundamentals"],
+										['/documentation/teams-pro/map-pro/whats-new.md', "Map Pro - What’s new​"],
+										['/documentation/teams-pro/map-pro/tutorials.md', "Map Pro - Tutorials"],
+										['/documentation/teams-pro/map-pro/limits.md', "Map Pro - Limits"],
+										['/documentation/teams-pro/map-pro/changelog.md', "Map Pro - Change log​"],
+									]
+								},
+								{
+									title: 'Parking Pro',
+									collapsable: true,
+									path: "/documentation/teams-pro/parking-pro/overview/",
+									children: [
+										['/documentation/teams-pro/parking-pro/overview.md', "Parking Pro - Overview"],
+										['/documentation/teams-pro/parking-pro/get-started.md', "Parking Pro - Get Started !"],
+										['/documentation/teams-pro/parking-pro/fundamentals.md', "Parking Pro - Fundamentals"],
+										['/documentation/teams-pro/parking-pro/whats-new.md', "Parking Pro - What’s new​"],
+										['/documentation/teams-pro/parking-pro/tutorials.md', "Parking Pro - Tutorials"],
+										['/documentation/teams-pro/parking-pro/limits.md', "Parking Pro - Limits"],
+										['/documentation/teams-pro/parking-pro/changelog.md', "Parking Pro - Change log​"],
+									]
+								},
 							]
 						},
 						{

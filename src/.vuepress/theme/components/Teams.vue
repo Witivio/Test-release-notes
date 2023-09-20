@@ -7,9 +7,10 @@
     >
       
   
-         <header class="overview_hero">
-            <div class="overview_hero_container">
-                <div class="overview_hero_text">
+         <header class="teams_hero">
+            <div class="teams_hero_container">
+              
+                <div class="teams_hero_text">
                     <p
                       v-if="data.tagline !== null"
                       class="overview_description"
@@ -22,40 +23,30 @@
                       >
                         {{ "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus placeat quos recusandae nemo temporibus ullam adipisci ipsum blanditiis hic, praesentium animi in excepturi iure, laborum eos unde tempore! Dicta, perferendis." || 'Welcome to your VuePress site' }}
                     </p>
-                    <p
-                      v-if="data.actionText && data.actionLink"
-                      class="action"
-                    >
-                      <NavLink
-                        class="action-button"
-                        :item="actionLink"
-                      />
-                    </p>
                   </div>
-                  <div class="overview_hero_content">
+                  <div class="teams_hero_content">
                     <img
-                        v-if="data.heroImage"
-                        :src="$withBase(data.heroImage)"
-                        :alt="data.heroAlt || 'hero'"
-                        class="overview_img"
-                      >
-                   
-                </div>
+                      v-if="data.heroImage"
+                      :src="$withBase(data.heroImage)"
+                      :alt="data.heroAlt || 'hero'"
+                      class="teams_img"
+                    >
+                </div>  
             </div>
         </header>
   
-      <div class="overview_container_items">
+      <div class="container_items">
         <a
           v-for="(item, index) in data.items"
           :key="index"
-          class="overview_container_item overview_wrap_range" 
+          class="teams_container_item wrap_range" 
           :href="item.link"
         >
-          <div class="container_item_content">
-            <h2 class="container_item_title">{{item.title}}</h2>
+          <div class="teams_container_item_content">
+            <h2 class="teams_container_item_title">{{item.title}}</h2>
           </div>
           <div class="container_image">
-            <img :src="item.itemImage" class="home_img">
+            <img :src="item.itemImage" class="teams_img">
           </div>
         </a>
       </div>
@@ -86,22 +77,21 @@
   </script>
   
   <style lang="stylus">
-  .overview_img
-    padding-top 20px
-  .overview_hero_content
+  .teams_hero_content
     display flex
     flex-direction column
     justify-content space-around
     align-items center
     height auto
-  .container_item_content
-    height 70px
-    border-bottom: 1px solid #eaecef;
+  .teams_container_item_content
+    height 54px
   .overview_wrap_range
     flex-basis 10%
-  .container_item_title
+  .teams_container_item_title
     font-size 1rem
-    margin: 25px
+    margin-top: 15px
+    margin-left: 25px
+    margin-right: 25px
   
   .container_item_description
     font-size 1rem
@@ -112,7 +102,7 @@
     display flex
     justify-content center
     align-items flex-start
-    .overview_img
+    .teams_img
       height 50px
       padding 15px
   
@@ -123,30 +113,30 @@
     align-items center
     justify-content center
   
-  .overview_container_item 
+  .teams_container_item 
     display flex
     flex-direction column
     height 150px
-    margin 2.5rem
+    margin 1.5rem
     border: 1px solid #eaecef
     border-radius: 5px
     transition-duration: 0.5s;
-    justify-content: center;
+    justify-content flex-start
   
-  .overview_container_item:hover
+  .teams_container_item:hover
     transition: all .2s
     cursor: pointer
     box-shadow: rgb(144, 49, 99) 2px 2px 6px 0px , rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 
-  .overview_hero_container
+  .teams_hero_container
     display flex
     width 100%
     flex-direction row
-    justify-content space-around
+    justify-content center
     max-width 80vw
     height auto
 
-  .overview_hero_text
+    .teams_hero_text
       display flex
       flex-direction: column;
       justify-content: center
@@ -161,7 +151,7 @@
     width 100%
     margin 0px auto
     display block
-    .overview_hero
+    .teams_hero
       opacity 1
       display flex
       flex-direction column
@@ -169,8 +159,9 @@
       justify-content flex-start
       border: 2px solid #eaecef
       background-color rgba(234, 236, 239, 0.15)
-      .overview_img
+      .teams_img
         display block
+        margin 3rem auto 1.5rem
       h1
         font-size 3rem
       h1, .overview_description, .action
@@ -213,7 +204,7 @@
     .overview_wrap_range
         flex-basis 85%
   @media (max-width: 1024px)
-    .overview_hero_container
+    .teams_hero_container
       display flex
       flex-direction column-reverse
       align-items center
@@ -221,7 +212,10 @@
     .home
       padding-left 1.5rem
       padding-right 1.5rem
-      .overview_hero
+      .teams_hero
+        .teams_img
+          max-height 210px
+          margin 2rem auto 1.2rem
         h1
           font-size 1.5rem
         h1, .overview_description, .action

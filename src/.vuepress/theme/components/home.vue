@@ -15,6 +15,7 @@
                       v-if="data.heroImage"
                       :src="$withBase(data.heroImage)"
                       :alt="data.heroAlt || 'hero'"
+                      class="home_img"
                     >
                 </div>  
 
@@ -55,7 +56,7 @@
         >
           <div>
             <div class="container_image">
-              <img :src="item.itemImage" >
+              <img :src="item.itemImage" class="home_img">
             </div>
             <h2 class="container_item_title"></h2>
             <p class="container_item_description">{{ item.itemDescription }}</p>
@@ -116,7 +117,7 @@
     display flex
     justify-content center
     align-items flex-start
-    img
+    .home_img
       height 50px
       padding 15px
   
@@ -139,11 +140,9 @@
     transition-duration: 0.5s;
   
   .container_item:hover
-    background-color: #903163
-    color: white
     transition: all .2s
     cursor: pointer
-    transform: scale(1.07) 
+    box-shadow: rgb(144, 49, 99) 2px 2px 6px 0px , rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; 
 
   .hero_container
     display flex
@@ -180,7 +179,8 @@
       align-items center
       justify-content flex-start
       border: 2px solid #eaecef
-      img
+      background-color rgba(234, 236, 239, 0.15)
+      .home_img
         display block
         margin 3rem auto 1.5rem
       h1
@@ -278,7 +278,7 @@
       padding-left 1.5rem
       padding-right 1.5rem
       .hero
-        img
+        .home_img
           max-height 210px
           margin 2rem auto 1.2rem
         h1
