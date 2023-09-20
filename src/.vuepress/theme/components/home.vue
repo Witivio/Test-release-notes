@@ -142,6 +142,7 @@
   .container_item:hover
     transition: all .2s
     cursor: pointer
+    transform scale(1.05)
     box-shadow: rgb(144, 49, 99) 2px 2px 6px 0px , rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; 
 
   .hero_container
