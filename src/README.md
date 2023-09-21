@@ -19,7 +19,7 @@ items:
   itemDescription: Take a look to the GPT Pro doc...
   link: /documentation/gpt-pro/overview/
 - title: Meta Office Pro
-  itemImage: /
+  itemImage: /meta-office-pro.png
   itemDescription: Take a look to the Meta Office Pro doc...
   link: /documentation/meta-office-pro/overview/
 footer: Made by Witivio with ❤️

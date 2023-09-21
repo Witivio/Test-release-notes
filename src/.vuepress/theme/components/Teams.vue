@@ -39,7 +39,7 @@
         <a
           v-for="(item, index) in data.items"
           :key="index"
-          class="teams_container_item wrap_range" 
+          class="teams_container_item overview_wrap_range" 
           :href="item.link"
         >
           <div class="teams_container_item_content">
@@ -85,8 +85,7 @@
     height auto
   .teams_container_item_content
     height 54px
-  .overview_wrap_range
-    flex-basis 10%
+ 
   .teams_container_item_title
     font-size 1rem
     margin-top: 15px
@@ -96,7 +95,7 @@
   .container_item_description
     font-size 1rem
     margin: 25px
-  
+    
   .container_image
     height 70px
     display flex
@@ -105,13 +104,6 @@
     .teams_img
       height 50px
       padding 15px
-  
-  .overview_container_items
-    margin-top 2.5rem
-    display flex
-    flex-wrap wrap
-    align-items center
-    justify-content center
   
   .teams_container_item 
     display flex
@@ -142,9 +134,6 @@
       justify-content: center
       margin-left 10px
       margin-right 10px
-  
-  .image_index_documentaion
-    height 150px
   
   
   .home
@@ -184,25 +173,15 @@
         border-bottom 1px solid darken($accentColor, 10%)
         &:hover
           background-color lighten($accentColor, 10%)
-    .features
-      border-top 1px solid $borderColor
-      padding 3.2rem 0
-      margin-top 2.5rem
-      display flex
-      flex-wrap wrap
-      align-items center
-      align-content stretch
-      justify-content center
    
   @media (max-width: $MQMobile)
-    .overview_hero_container
+    .teams_hero_container
       display flex
-      flex-direction column
+      flex-direction column-reverse
       align-items center
+      height auto
       h1
         font-size 2rem
-    .overview_wrap_range
-        flex-basis 85%
   @media (max-width: 1024px)
     .teams_hero_container
       display flex
@@ -225,7 +204,4 @@
         .action-button
           font-size 1rem
           padding 0.6rem 1.2rem
-      .feature
-        h2
-          font-size 1.25rem
   </style>

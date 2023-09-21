@@ -5,8 +5,6 @@
       class="home"
       :aria-labelledby="data.heroText !== null ? 'main-title' : null"
     >
-      
-  
          <header class="overview_hero">
             <div class="overview_hero_container">
                 <div class="overview_hero_text">
@@ -51,7 +49,7 @@
           class="overview_container_item overview_wrap_range" 
           :href="item.link"
         >
-          <div class="container_item_content">
+          <div class="teams_container_item_content">
             <h2 class="container_item_title">{{item.title}}</h2>
           </div>
           <div class="container_image">
@@ -86,6 +84,8 @@
   </script>
   
   <style lang="stylus">
+   .overview_wrap_range
+    flex-basis 35%
   .overview_img
     padding-top 20px
   .overview_hero_content
@@ -94,18 +94,6 @@
     justify-content space-around
     align-items center
     height auto
-  .container_item_content
-    height 70px
-    border-bottom: 1px solid #eaecef;
-  .overview_wrap_range
-    flex-basis 10%
-  .container_item_title
-    font-size 1rem
-    margin: 25px
-  
-  .container_item_description
-    font-size 1rem
-    margin: 25px
   
   .container_image
     height 70px
@@ -153,10 +141,6 @@
       margin-left 10px
       margin-right 10px
   
-  .image_index_documentaion
-    height 150px
-  
-  
   .home
     width 100%
     margin 0px auto
@@ -193,25 +177,17 @@
         border-bottom 1px solid darken($accentColor, 10%)
         &:hover
           background-color lighten($accentColor, 10%)
-    .features
-      border-top 1px solid $borderColor
-      padding 3.2rem 0
-      margin-top 2.5rem
-      display flex
-      flex-wrap wrap
-      align-items center
-      align-content stretch
-      justify-content center
    
   @media (max-width: $MQMobile)
     .overview_hero_container
       display flex
-      flex-direction column
+      flex-direction column-reverse
       align-items center
+      height auto
       h1
         font-size 2rem
     .overview_wrap_range
-        flex-basis 85%
+        flex-basis 50%
   @media (max-width: 1024px)
     .overview_hero_container
       display flex
@@ -231,7 +207,4 @@
         .action-button
           font-size 1rem
           padding 0.6rem 1.2rem
-      .feature
-        h2
-          font-size 1.25rem
   </style>

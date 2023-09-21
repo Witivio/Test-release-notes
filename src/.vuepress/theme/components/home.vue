@@ -149,8 +149,7 @@
     display flex
     width 100%
     flex-direction row
-    justify-content center
-    max-width 80vw
+    justify-content space-evenly
     margin-top: 4em
 
   .hero_text
@@ -162,11 +161,6 @@
     margin-left 10px
     margin-right 10px
 
-  .hero_image 
-    width 40vw 
-  
-  .image_index_documentaion
-    height 150px
   
   // $homePageWidth
   .home
@@ -212,33 +206,6 @@
         border-bottom 1px solid darken($accentColor, 10%)
         &:hover
           background-color lighten($accentColor, 10%)
-    .features
-      border-top 1px solid $borderColor
-      padding 3.2rem 0
-      margin-top 2.5rem
-      display flex
-      flex-wrap wrap
-      align-items center
-      align-content stretch
-      justify-content center
-    .feature
-      display flex
-      flex-direction column
-      flex-grow 1
-      flex-basis 30%
-      max-width 20%
-      justify-content flex-start
-      align-items center
-      h2
-        font-size 1.4rem
-        font-weight 500
-        border-bottom none
-        padding-bottom 0
-        color lighten($textColor, 10%)
-      p
-        color lighten($textColor, 25%)
-        padding 55px
-        text-align center
     .footer
       padding 2.5rem
       border-top 1px solid $borderColor
@@ -257,12 +224,6 @@
       width 90vw
     .hero_image 
       width 80vw 
-    .home
-      .features
-        flex-direction column
-      .feature
-        max-width 100%
-        padding 0 2.5rem
     .wrap_range
         flex-basis 85%
   @media (max-width: 1024px)
@@ -291,7 +252,4 @@
         .action-button
           font-size 1rem
           padding 0.6rem 1.2rem
-      .feature
-        h2
-          font-size 1.25rem
   </style>
