@@ -173,8 +173,8 @@
       flex-direction column
       align-items center
       justify-content flex-start
-      border: 2px solid #eaecef
-      background-color rgba(234, 236, 239, 0.15)
+      border: 2px solid rgba($borderColor, 1)
+      background-color rgba($borderColor, 0.1)
       .home_img
         display block
         margin 3rem auto 1.5rem

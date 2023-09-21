@@ -35,7 +35,6 @@ module.exports = {
 				{
 					title: 'Documentation',
 					collapsable: false,
-					path: "/documentation/overview/",
 					children: [
 						['/documentation/overview.md', "Overview"],
 						{
