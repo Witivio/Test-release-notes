@@ -103,7 +103,7 @@
   
   <style lang="stylus">
   .wrap_range
-    flex-basis 35%
+    flex-basis 25%
   .container_item_title
     font-size 1rem
     margin: 25px
