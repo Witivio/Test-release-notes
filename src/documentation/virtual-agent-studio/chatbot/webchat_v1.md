@@ -147,4 +147,4 @@ To enable Webchat V1 control on your website, simply add the iframe and replace 
 ### Comments
 ---
 
-<Commentaire />
+<Comments />

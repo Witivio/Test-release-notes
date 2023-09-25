@@ -32,4 +32,4 @@ on “Communication” then [**“Campaign”**](/documentation/virtual-agent-st
 ### Comments
 ---
 
-<Commentaire />
+<Comments />

@@ -27,4 +27,4 @@
 
 ### Comments
 
-<Commentaire />
+<Comments />

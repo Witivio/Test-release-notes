@@ -37,4 +37,4 @@ Don't forget to save changes!
 ### Comments
 ---
 
-<Commentaire />
+<Comments />

@@ -14,4 +14,4 @@
 
 ### Comments
 
-<Commentaire />
+<Comments />

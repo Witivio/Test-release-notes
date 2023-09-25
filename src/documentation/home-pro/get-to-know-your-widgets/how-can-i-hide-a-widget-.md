@@ -10,4 +10,4 @@
 
 ### Comments
 
-<Commentaire />
+<Comments />

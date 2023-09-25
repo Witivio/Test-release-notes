@@ -36,4 +36,4 @@
 
 ### Comments
 
-<Commentaire />
+<Comments />

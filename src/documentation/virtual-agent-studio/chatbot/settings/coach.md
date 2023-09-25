@@ -39,4 +39,4 @@ Click [**here**](/documentation/virtual-agent-studio/chatbot/licence_administrat
 ### Comments
 ---
 
-<Commentaire />
+<Comments />

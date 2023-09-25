@@ -6,4 +6,4 @@
 
 ### Comments
 
-<Commentaire />
+<Comments />

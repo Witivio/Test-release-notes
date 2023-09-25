@@ -59,4 +59,4 @@ knowledge base must be modified (red 👎) (3).
 ### Comments
 ---
 
-<Commentaire />
+<Comments />

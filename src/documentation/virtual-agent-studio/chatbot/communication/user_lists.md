@@ -96,4 +96,4 @@ Save changes!
 ### Comments
 ---
 
-<Commentaire />
+<Comments />

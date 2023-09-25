@@ -17,4 +17,4 @@ This page also contains a summary table indicating:
 
 #### Comments
 ---
-<Commentaire />
+<Comments />

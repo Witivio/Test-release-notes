@@ -19,4 +19,4 @@ MetaOffice transforms your typical workday into a dynamic, engaging experience. 
 
 ### Comments
 
-<Commentaire />
+<Comments />

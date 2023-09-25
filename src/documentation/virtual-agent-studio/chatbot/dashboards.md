@@ -29,4 +29,4 @@ at 4:55 p.m. statistics will not be available at the current time.
 ### Comments
 ---
 
-<Commentaire />
+<Comments />

@@ -34,4 +34,4 @@ actions:
 ### Comments
 ---
 
-<Commentaire />
+<Comments />

@@ -52,4 +52,4 @@ Here is an **example** of a dashboard:
 ### Comments
 ---
 
-<Commentaire />
+<Comments />

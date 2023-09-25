@@ -432,4 +432,4 @@ The user may then keep talking with the chatbot and ask a new question.
 ### Comments
 ---
 
-<Commentaire />
+<Comments />

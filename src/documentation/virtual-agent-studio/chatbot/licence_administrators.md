@@ -54,4 +54,4 @@ chatbots (2) :
 ### Comments
 ---
 
-<Commentaire />
+<Comments />

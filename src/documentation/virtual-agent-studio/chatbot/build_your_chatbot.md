@@ -104,5 +104,5 @@ Let’s go ! 🕺
 ### Comments
 ---
 
-<Commentaire />
+<Comments />
 

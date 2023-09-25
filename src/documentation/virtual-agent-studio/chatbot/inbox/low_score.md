@@ -29,4 +29,4 @@ actions:
 ### Comments
 ---
 
-<Commentaire />
+<Comments />

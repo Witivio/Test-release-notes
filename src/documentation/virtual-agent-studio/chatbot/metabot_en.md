@@ -248,4 +248,4 @@ Click [here](/documentation/virtual-agent-studio/chatbot/communication/campaign.
 
 ---
 
-<Commentaire />
+<Comments />

@@ -173,5 +173,5 @@ Then click on publish.
 #### Comments
 ---
 
-<Commentaire />
+<Comments />
 

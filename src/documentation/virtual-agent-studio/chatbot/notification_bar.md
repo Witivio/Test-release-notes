@@ -64,4 +64,4 @@ suggested by users and the number of unresolved feedbacks.
 ### Comments
 ---
 
-<Commentaire />
+<Comments />

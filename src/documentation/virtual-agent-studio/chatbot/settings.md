@@ -20,4 +20,4 @@ The **Settings tab** allows you to configure:
 ### Comments
 ---
 
-<Commentaire />
+<Comments />
