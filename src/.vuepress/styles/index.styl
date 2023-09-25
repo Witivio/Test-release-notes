@@ -1,3 +1,59 @@
+section
+  ul
+    li
+      section
+        li
+          .sidebar-sub-headers
+            border-left: 4px solid rgba($codeBgColor, 0.6)
+
+.sidebar 
+  ul
+    li
+      section
+        ul
+          li
+           .sidebar-sub-headers
+            border-left: 4px solid rgba($codeBgColor, 0.6)
+
+
+.sidebar-group.is-sub-group > .sidebar-heading:not(.clickable) {
+    opacity: 1 !important;
+}
+
+.sidebar-group.is-sub-group > .sidebar-group-items > .active {
+    font-size: 0.95em;
+    border-left: 4px solid #903163 !important;
+    border-bottom: 2px solid rgba($codeBgColor, 0.6)
+}
+
+// .sidebar-sub-headers
+//   border-top: solid 2px rgba($codeBgColor, 0.6) !important
+
+
+.arrow 
+  display none !important
+
+section
+  ul
+    li
+      section
+        .sidebar-links
+          border-top: solid 2px rgba($codeBgColor, 0.6) !important
+          
+section
+  ul
+    li
+      section
+        .open
+          border-left: solid 4px #903163 !important
+section
+  p
+    border-left-color: #903163 !important
+
+section
+    .open
+      border-left-color: #903163 !important
+
 .hero img
   max-width 450px!important
 
@@ -58,6 +114,19 @@
 .sidebar {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+  padding-left: 2px
+}
+
+.sidebar-heading {
+    font-size: 0.95em;
+    line-height: 1.4;
+    font-weight: bold !important
+    padding-left: 2rem;
+    margin-bottom: 2px;
+}
+
+.sidebar-heading {
+  font-weight: bold;  
 }
 
 .container_item_title

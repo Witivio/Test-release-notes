@@ -4,16 +4,16 @@ actionText: Get Started →
 actionLink: /documentation/gpt-pro/get-started/
 items:
 - title: Fundamentals​
-  itemImage: /fundamental.png
+  itemImage: /heart-book.svg
   link: /documentation/gpt-pro/fundamentals/
 - title: What’s new
-  itemImage: /shining.gif
+  itemImage: /light.svg
   link: /documentation/gpt-pro/whats-new/
 - title: Tutorials
-  itemImage: /tuto.png
+  itemImage: /graduation-hat.svg
   link: /documentation/gpt-pro/tutorials/
 - title: Limits
-  itemImage: /alert.gif
+  itemImage: /wheel.svg
   link: /documentation/gpt-pro/limits/
 - title: Changelog
   itemImage: /changelog.svg

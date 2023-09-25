@@ -5,16 +5,16 @@ actionText: Get Started →
 actionLink: /documentation/virtual-agent-studio/get-started/
 items:
 - title: Fundamentals​
-  itemImage: /fundamental.png
+  itemImage: /heart-book.svg
   link: /documentation/virtual-agent-studio/fundamentals/
 - title: What’s new
-  itemImage: /shining.png
+  itemImage: /light.svg
   link: /documentation/virtual-agent-studio/whats-new/
 - title: Tutorials
-  itemImage: /tuto.png
+  itemImage: /graduation-hat.svg
   link: /documentation/virtual-agent-studio/tutorials/
 - title: Limits
-  itemImage: /alert.png
+  itemImage: /wheel.svg
   link: /documentation/virtual-agent-studio/limits/
 - title: Changelog
   itemImage: /changelog.svg
