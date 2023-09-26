@@ -1,3 +1,18 @@
+.page-nav .inner 
+  display flex
+  justify-content space-between
+
+.page-nav .inner:not(:has(.prev)) 
+  display flex
+  justify-content space-between
+  flex-direction: row-reverse
+
+.page-nav {
+    max-width: none !important;
+    padding: 2rem 1.5rem !important;
+}
+
+
 section
   ul
     li

@@ -9,16 +9,16 @@
             <div class="overview_hero_container">
                 <div class="overview_hero_text">
                     <p
-                      v-if="data.tagline !== null"
+                      v-if="data.tagTitle !== null"
                       class="overview_description"
                     >
-                      {{ data.tagline || 'Welcome to your VuePress site' }}
+                      {{ data.tagTitle || 'Welcome to your VuePress site' }}
                     </p>
                     <p
-                        v-if="data.tagline !== null"
+                        v-if="data.tagLine !== null"
                         class="description"
                       >
-                        {{ "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus placeat quos recusandae nemo temporibus ullam adipisci ipsum blanditiis hic, praesentium animi in excepturi iure, laborum eos unde tempore! Dicta, perferendis." || 'Welcome to your VuePress site' }}
+                        {{ data.tagLine || 'Welcome to your VuePress site' }}
                     </p>
                     <p
                       v-if="data.actionText && data.actionLink"
@@ -86,14 +86,15 @@
   <style lang="stylus">
    .overview_wrap_range
     flex-basis 35%
-  .overview_img
-    padding-top 20px
+  
   .overview_hero_content
     display flex
     flex-direction column
     justify-content space-around
     align-items center
     height auto
+    width: 250px;
+    max-width: 100%
   
   .container_image
     height 70px
@@ -135,11 +136,13 @@
     height auto
 
   .overview_hero_text
-      display flex
-      flex-direction: column;
-      justify-content: center
-      margin-left 10px
-      margin-right 10px
+    display flex
+    flex-direction: column;
+    justify-content: center
+    align-items: center
+    margin-left 10px
+    margin-right 10px
+    width: 60%;
   
   .home
     width 100%
@@ -189,12 +192,20 @@
         font-size 2rem
     .overview_wrap_range
         flex-basis 50%
+    .overview_img
+      padding-top 20px
+    .overview_hero_text
+      width: auto
   @media (max-width: 1024px)
     .overview_hero_container
       display flex
       flex-direction column-reverse
       align-items center
       height auto
+    .overview_img
+      padding-top 20px
+    .overview_hero_text
+      width: auto
     .home
       padding-left 1.5rem
       padding-right 1.5rem

@@ -22,7 +22,7 @@
                 <div class="hero_text">
                   <div>
                     <p
-                      v-if="data.tagline !== null"
+                      v-if="data.tagTitle !== null"
                       class="description_title"
                     >
                       {{ data.tagTitle || 'Welcome to your VuePress site' }}
@@ -120,6 +120,7 @@
     .home_img
       height 50px
       padding 15px
+      max-width 80%
   
   .container_items
     padding 3.2rem 0
@@ -133,7 +134,8 @@
     display flex
     flex-direction column
     justify-content center
-    height clamp(200px, 20vw, 250px)
+    height auto
+    min-height clamp(200px, 20vw, 250px)
     margin 2.5rem
     border: 1px solid #eaecef
     border-radius: 5px
