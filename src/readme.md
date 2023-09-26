@@ -4,7 +4,7 @@ heroImage: /home-icon.png
 tagTitle: User documentation for all Witivio products !
 tagline: Take your time to learn and understand all the different and various Witivio products, from the beginning to the very very end...
 actionText: Quick Start →
-actionLink: /documentation/apps/overview/
+actionLink: /documentation/apps/
 items:
 - title: Virtual Agent Studio
   itemImage: /virtual-agent-studio.png
