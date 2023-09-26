@@ -288,11 +288,10 @@ module.exports = {
 									title: 'Get started !',
 									collapsable: true,
 									children: [
-										['/documentation/apps/calendar-pro/getting-started-with-calendar-pro/how-can-i-change-the-first-day-of-the-week-in-calendar-pro-.md', "How can I change the first day of the week in Calendar Pro ?"],
-										['/documentation/apps/calendar-pro/getting-started-with-calendar-pro/how-can-i-change-the-view-of-the-calendar-pro-to-day-week-monthly-.md', "How can I change the view of the Calendar Pro to day/week/monthly ?"],
-										['/documentation/apps/calendar-pro/getting-started-with-calendar-pro/i-want-calendar-pro-to-reflect-my-business-days-and-hours.md', "I want Calendar Pro to reflect my business days and hours"],
-										['/documentation/apps/calendar-pro/getting-started-with-calendar-pro/show-and-hide-weekends-and-the-number-of-the-week.md', "Show and hide weekends and the number of the week"],
-										['/documentation/apps/calendar-pro/getting-started-with-calendar-pro/view-customized-public-holidays-in-calendar-pro.md', "View customized public holidays in Calendar Pro"],
+										['/documentation/apps/calendar-pro/getting-started-with-calendar-pro/how-can-i-change-the-name-of-the-calendar-pro-tab-.md', "How can I change the name of the Calendar Pro tab ?"],
+										['/documentation/apps/calendar-pro/getting-started-with-calendar-pro/how-can-i-connect-my-calendar-pro-with-map-pro-.md', "How can I connect my Calendar Pro with Map Pro ?"],
+										['/documentation/apps/calendar-pro/getting-started-with-calendar-pro/how-to-check-the-calendar-id-.md', "How to check the Calendar ID ?"],
+										['/documentation/apps/calendar-pro/getting-started-with-calendar-pro/how-to-get-the-calendar-pro-version-.md', "How to get the Calendar Pro version ?"],
 									],
 								},
 								{
