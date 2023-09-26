@@ -1,0 +1,11 @@
+# How to check the Calendar ID?
+
+<p class="no-margin">Click on the <b>Help button ❔</b> next to the Settings ⚙️ button &gt; select<b> ' ℹ️ About' (1)</b>.</p>
+<p class="no-margin"></p>
+<p class="no-margin">A new dialog will pop up with the <b>Calendar Pro 'Unique Identifier' (2)</b></p>
+<p class="no-margin"></p>
+<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/834980982/c73b24793cc1cb82f9e8dfa8/2.png"></div>
+
+### Comments
+
+<Comments />

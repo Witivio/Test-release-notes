@@ -7,7 +7,7 @@ actionLink: /documentation/apps/home-pro/get-started/
 items:
 - title: Fundamentals​
   itemImage: /heart-book.svg
-  link: /documentation/apps/home-pro/fundamentals/
+  link: /documentation/apps/home-pro/get-to-know-your-widgets/how-can-i-add-widget-to-the-home-pro-dashboard-/
 - title: What’s new
   itemImage: /light.svg
   link: /documentation/apps/home-pro/whats-new/

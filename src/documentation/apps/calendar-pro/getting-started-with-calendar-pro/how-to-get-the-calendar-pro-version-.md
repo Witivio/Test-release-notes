@@ -1,0 +1,12 @@
+# How to get the Calendar Pro version?
+
+<p class="no-margin">Click on the <b>Help button ❔</b> next to the Settings ⚙️ button &gt; select<b> ' ℹ️ About' (1)</b>.</p>
+<p class="no-margin"></p>
+<p class="no-margin">A new dialog will pop up with the <b>Calendar Pro 'Version' (2)</b></p>
+<p class="no-margin"></p>
+<p class="no-margin"></p>
+<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/834982000/ded735bb070077bef309e304/1.png"></div>
+
+### Comments
+
+<Comments />
