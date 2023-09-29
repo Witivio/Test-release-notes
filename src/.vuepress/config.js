@@ -26,7 +26,8 @@ module.exports = {
 					//{ text: '🧑‍🎓 Academy', link: '/academy/overview/' },
 					{ text: '🔒 Trust Center', link: '/documentation/trust/center/' },
                     { text: '🔋 Status', link: 'https://status.witivio.com' },
-                    { text: 'Witivio', link: 'https://www.witivio.com' }
+                    { text: 'Witivio', link: 'https://www.witivio.com' },
+					{ text: '🌎 Change language', link: '/documentation/translator/' },					
                 ]
             }
         },

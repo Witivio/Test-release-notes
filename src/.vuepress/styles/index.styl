@@ -1,3 +1,24 @@
+.VIpgJd-ZVi9od-ORHb-OEVmcd
+    
+
+.sidebar-heading.open 
+  font-weight: 600 !important
+  color: inherit !important
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+p.sidebar-heading
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+.sidebar-heading.clickable
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
 .page-nav .inner 
   display flex
   justify-content space-between
@@ -12,6 +33,18 @@
     padding: 2rem 1.5rem !important;
 }
 
+// .sidebar
+//   ul
+//     li
+//       section
+//         ul
+//           li
+//             section
+//               ul
+//                 li
+//                   section
+//                     .sidebar-group-items:not(:has(li > ul))
+//                       border-left: 4px solid rgba($codeBgColor, 0.6)
 
 section
   ul
@@ -45,8 +78,14 @@ section
 //   border-top: solid 2px rgba($codeBgColor, 0.6) !important
 
 
-.arrow 
+.sidebar > ul > li > section > p > .arrow 
   display none !important
+
+.arrow.right
+  border-left 6px solid #903163 !important
+
+.arrow.down
+  border-top 6px solid #903163 !important
 
 section
   ul
@@ -135,14 +174,11 @@ section
 .sidebar-heading {
     font-size: 0.95em;
     line-height: 1.4;
-    font-weight: bold !important
+    //font-weight: bold !important;  
     padding-left: 2rem;
     margin-bottom: 2px;
 }
-
-.sidebar-heading {
-  font-weight: bold;  
-}
+        
 
 .container_item_title
   font-size 1rem
