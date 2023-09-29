@@ -21,5 +21,5 @@ items:
   itemImage: /changelog.svg
   link: /documentation/apps/booking-room-pro/changelog/
 ---
-
+<Translator />
 <Overview />

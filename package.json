@@ -19,5 +19,8 @@
     "@vuepress/plugin-medium-zoom": "^1.9.10",
     "@vuepress/plugin-register-components": "^1.9.10",
     "vuepress": "^1.9.10"
+  },
+  "dependencies": {
+    "fsevents": "^2.3.3"
   }
 }
