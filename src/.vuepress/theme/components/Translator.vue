@@ -81,8 +81,6 @@
     cursor: pointer
     box-shadow: rgb(144, 49, 99) 2px 2px 6px 0px , rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 
-.translate_button:
-
 .goog-te-combo {
     width: 10rem !important;
     height: 1.5rem !important;
