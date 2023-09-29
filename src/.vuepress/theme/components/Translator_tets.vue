@@ -3,13 +3,8 @@
         <div class="translate_page">
         <!-- Code de chargement du bouton de traduction ici -->
       
-            <div class="translate_container">
-                <p><b>Select a language</b></p>
-                <button class="translate_button" @click="changeLanguage" v-if="showTranslateButton"><b>English (United State)</b></button>
-                <div id="google_translate_element"></div>
-              </div>
-
             
+            <div id="google_translate_element"></div>
         </div>
     </main>
   </template>
@@ -28,18 +23,6 @@
 }
   export default {
     name: 'Translator',
-    data() {
-      return {
-        showTranslateButton: true, // Initialiser l'état du bouton
-      };
-    },
-    methods: {
-        changeLanguage() {
-          this.showTranslateButton = false;
-          // Utilisez la langue sélectionnée pour mettre à jour la traduction
-          googleTranslateElementInit();
-        },
-    },
     mounted() {
     // Initialisation du bouton de traduction Google Translate
 
@@ -48,6 +31,8 @@
     const script = document.createElement('script');
     script.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
     script.async = true;
+    script.onload = googleTranslateElementInit()
+   // setTimeout(googleTranslateElementInit(), 500);
     document.head.appendChild(script);
   },
   };
@@ -60,19 +45,17 @@
     height 50vh
     display flex
     flex-direction column
-    justify-content center
-    align-items center
-
-.translate_container
-    width 60%
-    display flex 
-    flex-direction row 
     justify-content space-evenly
     align-items center
 
+.translate_container
+    display flex 
+    flex-direction column 
+    align-items center
+
 .translate_button
-    width 10rem
-    height 2.5rem
+    width 7rem
+    height 2rem
     border: 2px solid rgba($borderColor, 1)
     background-color rgba($borderColor, 0.1)
     
@@ -80,8 +63,6 @@
     transition: all .2s
     cursor: pointer
     box-shadow: rgb(144, 49, 99) 2px 2px 6px 0px , rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
-
-.translate_button:
 
 .goog-te-combo {
     width: 10rem !important;
@@ -105,6 +86,5 @@
 
 .VIpgJd-ZVi9od-ORHb-OEVmcd
     display none !important
-
 
 </style>
