@@ -5,5 +5,4 @@
 <p class="no-margin">*Kindly make sure you have a premium subscription as this is a premium feature.</p>
 
 ### Comments
-
 <Comments />

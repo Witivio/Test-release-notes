@@ -3,5 +3,4 @@
 <p class="no-margin">It automatically synchronizes with your Outlook Account.</p>
 
 ### Comments
-
 <Comments />

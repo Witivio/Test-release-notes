@@ -6,13 +6,12 @@
 <li>
 <p class="no-margin">Select <b>Delete</b> icon.</p>
 <p class="no-margin"></p>
-<div class="intercom-container"><img src="https://teams-pro.intercom-attachments-1.com/i/o/664843649/da09dd0aeccecc2971ac09a3/how_to_delete_the_trips_added.png"></div>
+<div class="intercom-container"><img src="/assets/img/teams-pro/image_128.png"></div>
 </li>
 <li>
 <p class="no-margin">Then <b>Confirm</b>.</p>
 </li>
-</ol><div class="intercom-container"><img src="https://teams-pro.intercom-attachments-1.com/i/o/664843667/d6d344c41797615eaea33d46/how_to_delete_the_trips_added.png"></div>
+</ol><div class="intercom-container"><img src="/assets/img/teams-pro/image_129.png"></div>
 
 ### Comments
-
 <Comments />

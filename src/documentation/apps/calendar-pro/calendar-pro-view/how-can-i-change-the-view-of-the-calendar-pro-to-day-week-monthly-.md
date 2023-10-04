@@ -4,10 +4,9 @@
 <p class="no-margin"></p>
 <p class="no-margin">Here you can personalize the view of your Calendar Pro: select one of the options (Month, Week, Day) within the <b>'Default display mode' (2)</b> drop down and click <b>'Save'</b>.</p>
 <p class="no-margin"></p>
-<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/831320448/df78d97c8596c311f2a726ba/5.png"></div><p class="no-margin"></p>
+<div class="intercom-container"><img src="/assets/img/teams-pro/image_93.png"></div><p class="no-margin"></p>
 <p class="no-margin"></p>
 <p class="no-margin"></p>
 
 ### Comments
-
 <Comments />

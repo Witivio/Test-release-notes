@@ -18,7 +18,7 @@
 </li>
 </ul><p class="no-margin"><b>To recover your Calendar Pro, follow these steps:</b></p>
 <p class="no-margin"><b>1. Choose the app you want to recover.</b></p>
-<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/780414714/a791ca9db07adc20decd77da/Select+app.png"></div><p class="no-margin"></p>
+<div class="intercom-container"><img src="/assets/img/teams-pro/image_40.png"></div><p class="no-margin"></p>
 <p class="no-margin"></p>
 <p class="no-margin"><b>2. Locate the channel link where the Calendar Pro was originally:</b></p>
 <ul>
@@ -41,15 +41,15 @@
 <p class="no-margin">Please copy this link, paste it in the space provided below, and hit 'Search'.</p>
 </li>
 </ul><p class="no-margin"><b> </b></p>
-<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/780415149/bcfc9c0ba8827059ede942ff/get+channel+link.png"></div><p class="no-margin"></p>
+<div class="intercom-container"><img src="/assets/img/teams-pro/image_41.png"></div><p class="no-margin"></p>
 <p class="no-margin"><b> </b></p>
 <p class="no-margin"><b>3. Paste the Channel link and click 'Search'.</b> A list of Calendar Pros will be displayed. Click on the 'Restore' button to bring back the Calendar Pro that was removed.</p>
 <p class="no-margin"></p>
-<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/780415420/e4a1a43094687c6a60beb888/select+calendar+pro.png"></div><p class="no-margin"></p>
+<div class="intercom-container"><img src="/assets/img/teams-pro/image_42.png"></div><p class="no-margin"></p>
 <p class="no-margin"></p>
 <p class="no-margin"><b>4. Review and follow the instructions on the subsequent screen.</b></p>
 <p class="no-margin"></p>
-<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/780415769/89778e703b56d7711a77b6bb/review+details.png"></div><p class="no-margin"></p>
+<div class="intercom-container"><img src="/assets/img/teams-pro/image_43.png"></div><p class="no-margin"></p>
 <p class="no-margin"></p>
 <p class="no-margin"><b>5. Proceed to make the payment.</b></p>
 <p class="no-margin">Recovery duration varies between 2 to 48 hours, depending on the number of events and our team's availability.</p>
@@ -66,5 +66,4 @@
 <p class="no-margin">❌ From a tenant A deployment to tenant B.</p>
 
 ### Comments
-
 <Comments />

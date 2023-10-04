@@ -7,7 +7,7 @@
 </li>
 <li>
 <p class="no-margin">Open the <b>Run</b> dialog box by pressing the Windows logo key</p>
-<div class="intercom-container"><img src="https://teams-pro.intercom-attachments-1.com/i/o/797532811/d31349e2ba989ddcade8c327/windows-logo-key.png"></div>
+<div class="intercom-container"><img src="/assets/img/teams-pro/image_113.png"></div>
 <p class="no-margin">+R.</p>
 </li>
 <li>
@@ -43,5 +43,4 @@
 </ol>
 
 ### Comments
-
 <Comments />

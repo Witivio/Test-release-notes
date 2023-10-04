@@ -4,9 +4,8 @@
 <p class="no-margin"></p>
 <p class="no-margin">A new dialog will pop up with the <b>Parking Pro 'Version' (2)</b></p>
 <p class="no-margin"></p>
-<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/828503756/48f7861940b382a982b00351/1.png"></div><p class="no-margin"></p>
+<div class="intercom-container"><img src="/assets/img/teams-pro/image_19.png"></div><p class="no-margin"></p>
 <p class="no-margin"></p>
 
 ### Comments
-
 <Comments />

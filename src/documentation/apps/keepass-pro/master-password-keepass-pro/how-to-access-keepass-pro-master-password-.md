@@ -13,7 +13,7 @@
 <p class="no-margin">Click on 'Close'. ⚠️ Do NOT click on remove. </p>
 </li>
 </ol><p class="no-margin"></p>
-<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/798707280/35f9601989883da4e9e51037/master+password+shared.png"></div><p class="no-margin"></p>
+<div class="intercom-container"><img src="/assets/img/teams-pro/image_50.png"></div><p class="no-margin"></p>
 <p class="no-margin"></p>
 <p class="no-margin"></p>
 <h2 id="h_74d39337be">Personal KeePass Pro (pinned on the navigation bar)</h2>
@@ -21,8 +21,7 @@
 <p class="no-margin"></p>
 <p class="no-margin">When you first create the vault, a pop up message will appear. This is the ONLY moment the Master Password will appear to you. </p>
 <p class="no-margin"></p>
-<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/798715288/4748ebd7a671130c762e64e2/personal+master+password.png"></div><p class="no-margin">⚠️ Make sure you have a copy of the master password. If you lose/forget the master password, even Witivio <b>can't help in retrieving it.</b></p>
+<div class="intercom-container"><img src="/assets/img/teams-pro/image_51.png"></div><p class="no-margin">⚠️ Make sure you have a copy of the master password. If you lose/forget the master password, even Witivio <b>can't help in retrieving it.</b></p>
 
 ### Comments
-
 <Comments />
