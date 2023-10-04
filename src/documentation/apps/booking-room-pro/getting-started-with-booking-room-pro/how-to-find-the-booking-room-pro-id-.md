@@ -4,8 +4,7 @@
 <p class="no-margin"></p>
 <p class="no-margin">A new dialog will pop up with the <b>Booking Room Pro 'Unique Identifier' (2)</b></p>
 <p class="no-margin"></p>
-<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/829529045/975ca8eae0fdf31eb5a9a890/2.png"></div><p class="no-margin"></p>
+<div class="intercom-container"><img src="/assets/img/teams-pro/image_154.png"></div><p class="no-margin"></p>
 
 ### Comments
-
 <Comments />

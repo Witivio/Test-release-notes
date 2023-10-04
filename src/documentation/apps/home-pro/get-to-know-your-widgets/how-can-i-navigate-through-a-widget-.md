@@ -3,5 +3,4 @@
 <p class="no-margin">You can navigate with the help of arrows inside the widget.</p>
 
 ### Comments
-
 <Comments />

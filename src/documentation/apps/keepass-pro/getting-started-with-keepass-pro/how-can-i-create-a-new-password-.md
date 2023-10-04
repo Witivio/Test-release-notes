@@ -4,8 +4,7 @@
 <p class="no-margin"></p>
 <p class="no-margin">When you've finished, make sure to save it.</p>
 <p class="no-margin"></p>
-<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/798558639/dc05b4e6061cb85cd699b8d8/new+password.png"></div><p class="no-margin"></p>
+<div class="intercom-container"><img src="/assets/img/teams-pro/image_64.png"></div><p class="no-margin"></p>
 
 ### Comments
-
 <Comments />

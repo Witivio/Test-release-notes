@@ -24,8 +24,7 @@
 </li>
 </ul><p class="no-margin">Once your configuration is set, confirm the changes by clicking <b>'Confirm.'</b></p>
 <p class="no-margin"></p>
-<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/803934053/4d7cc49df424d215d20e5f4c/Gantt+Chart+Pro+settings.png"></div><p class="no-margin"></p>
+<div class="intercom-container"><img src="/assets/img/teams-pro/image_20.png"></div><p class="no-margin"></p>
 
 ### Comments
-
 <Comments />

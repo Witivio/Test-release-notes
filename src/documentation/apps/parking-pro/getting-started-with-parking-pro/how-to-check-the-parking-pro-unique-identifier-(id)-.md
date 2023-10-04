@@ -4,8 +4,7 @@
 <p class="no-margin"></p>
 <p class="no-margin">A new dialog will pop up with the <b>Parking Pro 'Unique Identifier' (2)</b></p>
 <p class="no-margin"></p>
-<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/828506013/47c98d9303b72a74b4f0d03b/2.png"></div><p class="no-margin"></p>
+<div class="intercom-container"><img src="/assets/img/teams-pro/image_18.png"></div><p class="no-margin"></p>
 
 ### Comments
-
 <Comments />

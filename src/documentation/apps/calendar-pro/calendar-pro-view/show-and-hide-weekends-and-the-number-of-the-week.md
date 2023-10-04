@@ -4,8 +4,7 @@
 <p class="no-margin"></p>
 <p class="no-margin">Here you can personalize the view of your Calendar Pro by toggleing the <b>'Show weekends' (2)</b> and <b>'Number the weeks' (3) </b>options. </p>
 <p class="no-margin"></p>
-<div class="intercom-container"><img src="https://downloads.intercomcdn.com/i/o/831385484/0b8aba9e4dbfc43080e7db4b/8.png"></div><p class="no-margin"></p>
+<div class="intercom-container"><img src="/assets/img/teams-pro/image_1.png"></div><p class="no-margin"></p>
 
 ### Comments
-
 <Comments />
