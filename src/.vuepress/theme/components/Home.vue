@@ -46,25 +46,135 @@
                 </div>
             </div>
         </header>
-  
-      <div class="container_items">
-        <a
-          v-for="(item, index) in data.items"
-          :key="index"
-          class="container_item wrap_range" 
-          :href="item.link"
-        >
-          <div>
-            <div class="container_image">
-              <img :src="item.itemImage" class="home_img">
-            </div>
-            <h2 class="container_item_title"></h2>
-            <p class="container_item_description">{{ item.itemDescription }}</p>
-          </div>
-        </a>
-      </div>
+
       
-  
+      <section style="padding-bottom:0">
+<div class="container text-center mb-10">
+<h2>Unlock the Full Potential of Witivio Documentation!</h2>
+    <h5 class="font-w-4 mb-6">Customize your knowledge acquisition journey from beginning to mastery</h5>
+
+    <div class="grid_custom_flow">
+
+
+
+        <a :href="item.link" class="shadow p-3 text-start custom_radius" v-for="(item, index) in data.items" :key="index">
+            <div class="bg-primary custom_key_radius text-white h3"> {{index}}</div>
+            <div class="container mt-0">
+                <p class="h4">{{ item.itemDescription }}</p>
+                <div class="text-italic mt-4">Discover {{ item.itemDescription }}</div>
+
+                <div class="arrow">
+                    
+                </div>
+
+            </div>
+        </a>
+
+    </div>
+</div>
+</section>
+     <section style="background-color:#FBF0F7; margin-top:40px" > 
+      <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col-lg-10">
+                <div class="mb-1">
+                    <h2><span class="font-w-4 d-block">Unlock Your Potential</span> with Witivio Documentation</h2>
+                    <p class="lead mb-0">Discover the power of Witivio's suite of products and why having skills in Witivio solutions is essential for success.</p>
+                </div>
+            </div>
+        </div>
+
+    <div class="row align-items-center text-center mt-5">
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="counter">
+                <div class="counter-desc text-dark">
+                    <span class="count-number h2" data-to="500" data-speed="2000">500</span>
+                    <span class="h2">k +</span>
+                    <h6 class="text-muted mb-0">Monthly Active Users</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 mt-4 mt-sm-0">
+            <div class="counter">
+                <div class="counter-desc text-dark">
+                    <span class="count-number h2" data-to="120" data-speed="2000">120</span>
+                    <span class="h2">k +</span>
+                    <h6 class="text-muted mb-0">Happy Organizations</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 mt-4 mt-lg-0">
+            <div class="counter">
+                <div class="counter-desc text-dark">
+                    <span class="count-number h2" data-to="4" data-speed="500">4</span>
+                    <span class="h2">.8 <i class="fa-regular fa-star"></i></span>
+                    <h6 class="text-muted mb-0">Microsoft Appsource rate</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!-- Additional Text -->
+<section class="pt-5">
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col-lg-10">
+                <p class="lead">Join the ranks of leading companies who rely on Witivio products to streamline their operations, enhance employee experiences, and drive success. With a rapidly growing community of users and a high rating on Microsoft Appsource, Witivio's solutions are the key to staying ahead in today's digital landscape.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mb-2">
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col-lg-10">
+                <div class="mb-5">
+                    <h2><span class="font-w-4 d-block">You're in Good Hands with</span> Microsoft's Most Trusted Partner
+                    </h2>
+                    <p class="lead mb-0">Witivio has been recognized as Microsoft's Startup of the Year, a finalist for
+                        the Workplace Award, and is the most-used Teams app globally.<br> Endorsed by Satya Nadella as
+                        an innovative company for AI Copilot plugins, we serve over 500,000 employees daily. Experience
+                        the best in class with Witivio.</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row customer-logos slider slick-initialized slick-slider">
+            <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 960px; transform: translate3d(0px, 0px, 0px);"><div class="slide slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 120px;" tabindex="0"><img loading="lazy" class="img-fluid" src="https://www.witivio.com/images/ms-partner-finalist.webp" alt="ms logo witivio" max-width="250px" max-height="180"></div><div class="slide slick-slide slick-active" data-slick-index="1" aria-hidden="false" style="width: 120px;" tabindex="0"><img loading="lazy" class="img-fluid" src="https://www.witivio.com/images/ms-partner-azm.webp" alt="ms logo witivio" max-width="150px" max-height="180"></div><div class="slide slick-slide slick-active" data-slick-index="2" aria-hidden="false" style="width: 120px;" tabindex="0"><img loading="lazy" class="img-fluid" src="https://www.witivio.com/images/ms-partner-apps.webp" alt="ms logo witivio" max-width="150px" max-height="180"></div><div class="slide slick-slide slick-active" data-slick-index="3" aria-hidden="false" style="width: 120px;" tabindex="0"><img loading="lazy" class="img-fluid" src="https://www.witivio.com/images/ms-partner-macc.webp" alt="ms logo witivio" max-width="150px" max-height="180"></div><div class="slide slick-slide slick-active" data-slick-index="4" aria-hidden="false" style="width: 120px;" tabindex="0"><img loading="lazy" class="img-fluid" src="https://www.witivio.com/images/ms-partner-ipc.webp" alt="ms logo witivio" max-width="150px" max-height="180"></div><div class="slide slick-slide slick-active" data-slick-index="5" aria-hidden="false" style="width: 120px;" tabindex="0"><img loading="lazy" class="img-fluid" src="https://www.witivio.com/images/ms-partner-aicp.webp" alt="ms logo witivio" max-width="150px" max-height="180"></div></div></div>
+            
+            
+            
+            
+            
+
+
+        </div>
+    </div>
+</section>
+
+
+<section class="bg-primary p-0 p-md-6">
+    <div class="container">
+        <div class="row align-items-end mb-5 bg-white p-5">
+            <div class="col-12 col-md-12 col-lg-4">
+                <div>
+                    <h2 class="mb-0"><span class="font-w-4 d-block">Explore Witivio Documentation</span></h2>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-5 ps-lg-5 my-3 my-lg-0">
+                <p class="lead mb-0">Discover the power of Witivio products and why having skills in these solutions is essential for your business.</p>
+            </div>
+            <div class="col-12 col-md-12 col-lg-3 text-lg-end"> <a href="/documentation/apps/" class="btn btn-primary">
+                    Get started <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
       <Content class="theme-default-content custom" />
       
      

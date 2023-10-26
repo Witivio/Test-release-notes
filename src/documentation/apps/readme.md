@@ -1,9 +1,52 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ante nibh, pellentesque sit amet mattis eget, ultricies ut massa. Praesent ac turpis tempor orci commodo vulputate ut sed est. Nullam ac elementum felis, non viverra tortor. Pellentesque convallis metus tellus, et gravida nibh egestas eu. Donec nisi justo, hendrerit sed ultricies eget, commodo eu leo. Sed molestie eros justo, a tempor nisl molestie a. Quisque molestie suscipit nisi, posuere pretium libero malesuada eget. Phasellus lobortis nisi massa, eu pharetra purus congue vitae. Etiam vestibulum lectus lectus. Ut ac leo in enim pharetra pretium. Quisque et dignissim tortor. Aenean nec faucibus est. Sed nec ante commodo, accumsan dui sed, iaculis tortor.
+## Introduction to the Witivio Documentation
 
-Integer consequat eget ante id volutpat. Aliquam ultrices, sapien vel malesuada finibus, ligula nunc facilisis ex, lobortis maximus elit felis ut enim. In maximus rhoncus facilisis. Suspendisse luctus tortor at cursus hendrerit. Donec ultrices nisi nec egestas cursus. Vestibulum imperdiet scelerisque neque sit amet congue. Phasellus et tincidunt elit, sed egestas lorem. Suspendisse ultrices sapien sit amet nisi placerat mollis. Nulla libero elit, lacinia at eros ut, varius pulvinar nisl. Pellentesque et urna non nibh lobortis dignissim. Donec accumsan mi elit, eu tempor nisi maximus at. Nullam ut ex lacus. Duis quis sem non orci lobortis consequat ac id dolor.
+<div style="align-items: center; justify-content: center;display: flex; postion:relative;     box-sizing: border-box; background-position: 50% 50%;
+    background-repeat: no-repeat; background-size: cover; height:300px;   background-image: url(/assets/img/docs.png);">
+  <div class="bg-text" style="padding: 15px; text-align: center!important;  display: flow-root;
+    box-sizing: border-box; ">
+    <p class="uk-text-large">
+     Unlocking Skills Through Transparency: Your Ultimate Guide to Our Products & Services.</p>
+  </div>
+</div>
 
-Aenean bibendum felis lorem, vel lobortis sem ornare et. Proin vulputate et felis eu commodo. Maecenas pretium purus malesuada, fermentum enim in, laoreet risus. Fusce vitae commodo neque. Integer ullamcorper ligula in sodales bibendum. Nullam gravida tincidunt ipsum. Vestibulum sem quam, facilisis at accumsan id, tristique non elit. In varius felis sagittis scelerisque feugiat. In interdum, sapien sit amet bibendum mollis, lorem diam sagittis tellus, non posuere tortor orci id urna. Nulla sit amet aliquam lectus, in ornare nibh. Nulla pretium quam tortor, eu rhoncus dolor pretium ac. Aliquam placerat nisi quam, nec mollis nisl interdum nec. Proin aliquam sit amet est non luctus.
+<style>
+  .bg-text {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);  
+  }
+</style>
 
-Duis posuere pharetra odio efficitur gravida. Integer consectetur orci pellentesque purus rhoncus, ut maximus magna aliquet. Morbi accumsan venenatis mi et vestibulum. Nunc euismod sit amet purus consectetur consequat. In aliquam vel mauris sed sodales. Phasellus convallis, diam quis condimentum luctus, sapien risus aliquam libero, vel pretium velit lorem quis nisl. Maecenas vitae luctus nulla, non fermentum tellus.
+Welcome to our comprehensive Documentation Website, your one-stop resource for all the information you need about our product and services. As we continue to innovate and improve, this documentation will serve as your guide, detailing every aspect, feature, and functionality available to you.
 
-Fusce sit amet pulvinar orci. Etiam a nisi felis. Nunc eget diam vestibulum, vestibulum ex ac, molestie nisl. Vivamus porta dolor sit amet elit sodales, ac semper odio mattis. Pellentesque arcu libero, semper vitae mollis eget, posuere nec magna. Proin id accumsan diam, ac vehicula enim. Aenean aliquam nibh id vulputate ornare. Fusce scelerisque lacus in augue luctus tristique. Suspendisse potenti. Duis ac convallis quam, et posuere arcu. Nam sodales congue turpis a luctus. Proin nunc ex, imperdiet eu eros sit amet, porta ultricies nunc. Nulla facilisi. Etiam feugiat bibendum odio, non consequat eros tincidunt non.
+### Why Read This Documentation?
+
+1. **Comprehensive Understanding**: Delve deep into the intricacies of our offerings. Whether you're a beginner just starting out or an expert seeking specific details, our documentation caters to all levels of expertise.
+ 
+2. **Efficient Problem-Solving**: Encountered an issue? Our documentation provides troubleshooting guidelines and frequently asked questions to assist you in resolving challenges swiftly.
+
+3. **Stay Updated**: As our products and services evolve, so does our documentation. Stay abreast of the latest features, enhancements, and best practices by referring to our regularly updated content.
+
+### Features of Our Documentation Website:
+
+- **Search Functionality**: Quickly find what you're looking for with our powerful search tool, which offers suggestions and filters to refine your search.
+
+- **User-Friendly Navigation**: Our content is organized into clear sections and subsections, making it easy to navigate and find relevant information.
+
+- **Interactive Tutorials**: For those who prefer hands-on learning, we offer interactive tutorials to guide you through processes step by step.
+
+- **Feedback Loop**: Your feedback is invaluable. Found something amiss or have suggestions? Use the feedback option available on every page to let us know.
+
+- **Responsive Design**: Whether you're accessing our documentation from a desktop, tablet, or smartphone, our website's responsive design ensures a seamless experience.
+
+### How to Use This Documentation:
+
+1. **Start with the Basics**: If you're new, we recommend starting with the 'Getting Started' section to familiarize yourself with the basics.
+ 
+2. **Explore In-Depth**: Dive into specific sections based on your interest or requirements. Each section is designed to provide detailed insights.
+ 
+3. **Bookmark and Share**: Found something useful? Bookmark pages for easy access later or share them with your peers.
+
+4. **Stay Connected**: Subscribe to our newsletter or updates to receive notifications about new additions or changes to the documentation.
+
+Thank you for choosing us. We are committed to ensuring that our documentation serves as a valuable resource for you. Dive in, explore, and let's embark on this journey of discovery together!

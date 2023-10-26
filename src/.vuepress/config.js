@@ -1,11 +1,16 @@
 module.exports = {
-  	title: 'Documentation',
+  	title: 'Witivio Documentation',
   	description: "Witivio's documentation for any users who want to learn a bit about our product",
 
 	head: [
     	['meta', { name: 'theme-color', content: '#3eaf7c' }],
 	    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     	['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+
+		['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css' }],
+		['link', { rel: 'stylesheet', href: 'https://www.witivio.com/css/vendor.min.css' }],
+		['link', { rel: 'stylesheet', href: 'https://www.witivio.com/css/index.css' }],
+		
 	],
 
 	themeConfig: {

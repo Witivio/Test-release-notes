@@ -1,6 +1,24 @@
 .VIpgJd-ZVi9od-ORHb-OEVmcd
     
 
+.custom_key_radius
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+.custom_radius
+    position: relative;
+    border-radius: 2rem 80% 2rem 2rem;
+
+.grid_custom_flow
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4.5rem;
+
+
 .sidebar-heading.open 
   font-weight: 600 !important
   color: inherit !important
@@ -63,6 +81,12 @@ section
            .sidebar-sub-headers
             border-left: 4px solid rgba($codeBgColor, 0.6)
 
+.custom-block p
+  margin-top:16px
+
+.sidebar-group
+  padding: 0 0 0 0;
+  padding-left: 0.5em;
 
 .sidebar-group.is-sub-group > .sidebar-heading:not(.clickable) {
     opacity: 1 !important;
@@ -92,8 +116,16 @@ section
     li
       section
         .sidebar-links
-          border-top: solid 2px rgba($codeBgColor, 0.6) !important
-          
+          border-top: solid 0px rgba($codeBgColor, 0.6) !important
+
+.uhf-container       
+{
+      width: calc(100% - 32px);
+    max-width: calc(100% - 32px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
 section
   ul
     li
