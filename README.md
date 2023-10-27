@@ -17,7 +17,7 @@ npx vuepress dev
 ## Add topic
 
 - Add a new topic to the sidebar : 
-    - **Create a new .md file** in one of the existing applications located in the directory ./src/documentation/apps/
+    - **Create a new .md file** in one of the existing applications located in the directory ./src/solutions/
     - In the file (./src/.vuepress/config.js), find the name of the application for which you want to add a topic, then add the link (**relative path starting with '/documentation/where/is/your/new/topic'**) of your new topic to the "children" array of the application and add the name that you want to be up on the website by adding **['/documentation/where/is/your/new/topic', "Any name that you want there"]**.
 
 ## Design modification
@@ -34,7 +34,7 @@ npx vuepress dev
 
 - First of all, you have to add it to the homepage so you have to modify the file ./src/readme.md by **adding a new item** with a title, an itemImage, an itemDescription and a link to the path where you want to redirect when you click on the app button.
 
-- Then add a new directory with the app name to the directory **./src/documentation/apps/** and the different mandatory file/repository into it.
+- Then add a new directory with the app name to the directory **./src/solutions/** and the different mandatory file/repository into it.
 
 - Any app need to have the 6 main topics (**Get started, Fundamentals, What's new, Tutorials, Limits, Changelog**) and an **Overview** with all the redirect button to the different topics.
 

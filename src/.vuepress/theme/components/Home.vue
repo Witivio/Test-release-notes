@@ -167,7 +167,7 @@
             <div class="col-12 col-md-12 col-lg-5 ps-lg-5 my-3 my-lg-0">
                 <p class="lead mb-0">Discover the power of Witivio products and why having skills in these solutions is essential for your business.</p>
             </div>
-            <div class="col-12 col-md-12 col-lg-3 text-lg-end"> <a href="/documentation/apps/" class="btn btn-primary">
+            <div class="col-12 col-md-12 col-lg-3 text-lg-end"> <a href="/solutions/" class="btn btn-primary">
                     Get started <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
                 </a>
             </div>
