@@ -472,8 +472,8 @@ module.exports = {
 											collapsable: true,
 											children: [
 												['/solutions/calendar-pro/troubleshooting-in-calendar-pro/how-to-clean-the-microsoft-teams-cache-.md', "How to clean the Microsoft Teams cache ?"],
-												['/solutions/calendar-pro/troubleshooting-in-calendar-pro/i-accidentally-deleted-my-calendar,-or-somebody-deleted-it--how-can-i-restore-it-.md', "I accidentally deleted my Calendar, or somebody deleted it? How can I restore it ?"],
-												['/solutions/calendar-pro/troubleshooting-in-calendar-pro/blank-screen-popup-aftersign-in-.md', "Blank screen popup after sign in"],
+												['/solutions/calendar-pro/troubleshooting-in-calendar-pro/i-accidentally-deleted-my-calendar-or-somebody-deleted-it--how-can-i-restore-it-.md', "I accidentally deleted my Calendar, or somebody deleted it? How can I restore it ?"],
+												['/solutions/calendar-pro/troubleshooting-in-calendar-pro/blank-screen-popup-after-sign-in-.md', "Blank screen popup after sign in"],
 											],
 										},
 									],
@@ -1279,8 +1279,8 @@ module.exports = {
 											collapsable: true,
 											children: [
 												['/solutions/calendar-pro/troubleshooting-in-calendar-pro/how-to-clean-the-microsoft-teams-cache-.md', "How to clean the Microsoft Teams cache ?"],
-												['/solutions/calendar-pro/troubleshooting-in-calendar-pro/i-accidentally-deleted-my-calendar,-or-somebody-deleted-it--how-can-i-restore-it-.md', "I accidentally deleted my Calendar, or somebody deleted it? How can I restore it ?"],
-												['/solutions/calendar-pro/troubleshooting-in-calendar-pro/blank-screen-popup-aftersign-in-.md', "Blank screen popup after sign in"],
+												['/solutions/calendar-pro/troubleshooting-in-calendar-pro/i-accidentally-deleted-my-calendar-or-somebody-deleted-it--how-can-i-restore-it-.md', "I accidentally deleted my Calendar, or somebody deleted it? How can I restore it ?"],
+												['/solutions/calendar-pro/troubleshooting-in-calendar-pro/blank-screen-popup-after-sign-in-.md', "Blank screen popup after sign in"],
 											],
 										},
 									],
@@ -2086,8 +2086,8 @@ module.exports = {
 											collapsable: true,
 											children: [
 												['/solutions/calendar-pro/troubleshooting-in-calendar-pro/how-to-clean-the-microsoft-teams-cache-.md', "How to clean the Microsoft Teams cache ?"],
-												['/solutions/calendar-pro/troubleshooting-in-calendar-pro/i-accidentally-deleted-my-calendar,-or-somebody-deleted-it--how-can-i-restore-it-.md', "I accidentally deleted my Calendar, or somebody deleted it? How can I restore it ?"],
-												['/solutions/calendar-pro/troubleshooting-in-calendar-pro/blank-screen-popup-aftersign-in-.md', "Blank screen popup after sign in"],
+												['/solutions/calendar-pro/troubleshooting-in-calendar-pro/i-accidentally-deleted-my-calendar-or-somebody-deleted-it--how-can-i-restore-it-.md', "I accidentally deleted my Calendar, or somebody deleted it? How can I restore it ?"],
+												['/solutions/calendar-pro/troubleshooting-in-calendar-pro/blank-screen-popup-after-sign-in-.md', "Blank screen popup after sign in"],
 											],
 										},
 									],
