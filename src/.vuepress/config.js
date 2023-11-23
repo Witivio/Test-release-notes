@@ -245,6 +245,39 @@ module.exports = {
 							]
 						},*/
 						{
+							title: 'Admin center',
+							collapsable: true,
+							path: "/solutions/admin-center/overview/",
+							children: [
+								['/solutions/admin-center/overview.md', "Overview"],
+								{
+									title: 'Fundamentals',
+									collapsable: true,
+									children: [
+										{
+											title: 'Manage my subscription',
+											collapsable: true,
+											children: [
+												['/solutions/admin-center/manage-my-subscription/how-to-download-the-invoices-for-the-subscription-purchased-.md', "How to download the invoices for the subscription purchased"],
+												['/solutions/admin-center/manage-my-subscription/how-to-change-to-yearly-plan-.md', "How to change to yearly plan"],
+												['/solutions/admin-center/manage-my-subscription/how-to-cancel-your-subscription-.md', "How to cancel your subscription"],
+												['/solutions/admin-center/manage-my-subscription/how-to-increase-the-number-of-licenses-of-your-subscription-.md', "How to increase the number of licenses of your subscription"],
+												['/solutions/admin-center/manage-my-subscription/how-to-modify-billing-information-details-including-vat.md', "How to modify 'Billing' information details (including-VAT)"],
+												['/solutions/admin-center/manage-my-subscription/how-to-modify-or-update-your-credit-card-details-.md', "How to modify or update your credit card details"],
+												['/solutions/admin-center/manage-my-subscription/how-to-modify-your-account-information-.md', "How to modify your account information"],
+												['/solutions/admin-center/manage-my-subscription/how-to-remove-your-account-.md', "How to remove your account"],
+											
+											],
+										},
+										]
+								},
+								['/solutions/admin-center/whats-new.md', "What’s new​"],
+								['/solutions/admin-center/tutorials.md', "Tutorials"],
+								['/solutions/admin-center/limits.md', "Limits"],
+								['/solutions/admin-center/changelog.md', "Changelog​"],
+							]
+						},
+						{
 							title: 'Booking Room Pro',
 							collapsable: true,
 							path: "/solutions/booking-room-pro/overview/",
@@ -371,6 +404,16 @@ module.exports = {
 											],
 										},
 										{
+											title: 'Synchronization',
+											collapsable: true,
+											children: [
+												['/solutions/calendar-pro/synchronization-in-calendar-pro/how-to-export-my-calendar-pro-to-another-calendar-', "How to export my calendar pro to another calendar?"],
+												['/solutions/calendar-pro/synchronization-in-calendar-pro/how-to-import-a-calendar-in-my-calendar-pro-.md', "How to import a calendar in my Calendar Pro?"],
+												['/solutions/calendar-pro/synchronization-in-calendar-pro/how-to-manage-my-synchronized-calendar-.md', "How to manage my synchronized calendars?"],
+												['/solutions/calendar-pro/synchronization-in-calendar-pro/see-the-shared-synchronized-calendars-', "See the shared synchronized calendars"],
+											],
+										},
+										{
 											title: 'Power automate connector',
 											collapsable: true,
 											children: [
@@ -429,7 +472,8 @@ module.exports = {
 											collapsable: true,
 											children: [
 												['/solutions/calendar-pro/troubleshooting-in-calendar-pro/how-to-clean-the-microsoft-teams-cache-.md', "How to clean the Microsoft Teams cache ?"],
-												['/solutions/calendar-pro/troubleshooting-in-calendar-pro/i-accidentally-deleted-my-calendar,-or-somebody-deleted-it--how-can-i-restore-it-.md', "I accidentally deleted my Calendar, or somebody deleted it? How can I restore it ?"],
+												['/solutions/calendar-pro/troubleshooting-in-calendar-pro/i-accidentally-deleted-my-calendar-or-somebody-deleted-it--how-can-i-restore-it-.md', "I accidentally deleted my Calendar, or somebody deleted it? How can I restore it ?"],
+												['/solutions/calendar-pro/troubleshooting-in-calendar-pro/blank-screen-popup-after-sign-in-.md', "Blank screen popup after sign in"],
 											],
 										},
 									],
@@ -1008,6 +1052,39 @@ module.exports = {
 							]
 						},*/
 						{
+							title: 'Admin center',
+							collapsable: true,
+							path: "/solutions/admin-center/overview/",
+							children: [
+								['/solutions/admin-center/overview.md', "Overview"],
+								{
+									title: 'Fundamentals',
+									collapsable: true,
+									children: [
+										{
+											title: 'Manage my subscription',
+											collapsable: true,
+											children: [
+												['/solutions/admin-center/manage-my-subscription/how-to-download-the-invoices-for-the-subscription-purchased-.md', "How to download the invoices for the subscription purchased"],
+												['/solutions/admin-center/manage-my-subscription/how-to-change-to-yearly-plan-.md', "How to change to yearly plan"],
+												['/solutions/admin-center/manage-my-subscription/how-to-cancel-your-subscription-.md', "How to cancel your subscription"],
+												['/solutions/admin-center/manage-my-subscription/how-to-increase-the-number-of-licenses-of-your-subscription-.md', "How to increase the number of licenses of your subscription"],
+												['/solutions/admin-center/manage-my-subscription/how-to-modify-billing-information-details-including-vat.md', "How to modify 'Billing' information details (including-VAT)"],
+												['/solutions/admin-center/manage-my-subscription/how-to-modify-or-update-your-credit-card-details-.md', "How to modify or update your credit card details"],
+												['/solutions/admin-center/manage-my-subscription/how-to-modify-your-account-information-.md', "How to modify your account information"],
+												['/solutions/admin-center/manage-my-subscription/how-to-remove-your-account-.md', "How to remove your account"],
+											
+											],
+										},
+										]
+								},
+								['/solutions/admin-center/whats-new.md', "What’s new​"],
+								['/solutions/admin-center/tutorials.md', "Tutorials"],
+								['/solutions/admin-center/limits.md', "Limits"],
+								['/solutions/admin-center/changelog.md', "Changelog​"],
+							]
+						},
+						{
 							title: 'Booking Room Pro',
 							collapsable: true,
 							path: "/solutions/booking-room-pro/overview/",
@@ -1134,6 +1211,16 @@ module.exports = {
 											],
 										},
 										{
+											title: 'Synchronization',
+											collapsable: true,
+											children: [
+												['/solutions/calendar-pro/synchronization-in-calendar-pro/how-to-export-my-calendar-pro-to-another-calendar-', "How to export my calendar pro to another calendar?"],
+												['/solutions/calendar-pro/synchronization-in-calendar-pro/how-to-import-a-calendar-in-my-calendar-pro-.md', "How to import a calendar in my Calendar Pro?"],
+												['/solutions/calendar-pro/synchronization-in-calendar-pro/how-to-manage-my-synchronized-calendar-.md', "How to manage my synchronized calendars?"],
+												['/solutions/calendar-pro/synchronization-in-calendar-pro/see-the-shared-synchronized-calendars-', "See the shared synchronized calendars"],
+											],
+										},
+										{
 											title: 'Power automate connector',
 											collapsable: true,
 											children: [
@@ -1192,7 +1279,8 @@ module.exports = {
 											collapsable: true,
 											children: [
 												['/solutions/calendar-pro/troubleshooting-in-calendar-pro/how-to-clean-the-microsoft-teams-cache-.md', "How to clean the Microsoft Teams cache ?"],
-												['/solutions/calendar-pro/troubleshooting-in-calendar-pro/i-accidentally-deleted-my-calendar,-or-somebody-deleted-it--how-can-i-restore-it-.md', "I accidentally deleted my Calendar, or somebody deleted it? How can I restore it ?"],
+												['/solutions/calendar-pro/troubleshooting-in-calendar-pro/i-accidentally-deleted-my-calendar-or-somebody-deleted-it--how-can-i-restore-it-.md', "I accidentally deleted my Calendar, or somebody deleted it? How can I restore it ?"],
+												['/solutions/calendar-pro/troubleshooting-in-calendar-pro/blank-screen-popup-after-sign-in-.md', "Blank screen popup after sign in"],
 											],
 										},
 									],
@@ -1771,6 +1859,39 @@ module.exports = {
 							]
 						},*/
 						{
+							title: 'Admin center',
+							collapsable: true,
+							path: "/solutions/admin-center/overview/",
+							children: [
+								['/solutions/admin-center/overview.md', "Overview"],
+								{
+									title: 'Fundamentals',
+									collapsable: true,
+									children: [
+										{
+											title: 'Manage my subscription',
+											collapsable: true,
+											children: [
+												['/solutions/admin-center/manage-my-subscription/how-to-download-the-invoices-for-the-subscription-purchased-.md', "How to download the invoices for the subscription purchased"],
+												['/solutions/admin-center/manage-my-subscription/how-to-change-to-yearly-plan-.md', "How to change to yearly plan"],
+												['/solutions/admin-center/manage-my-subscription/how-to-cancel-your-subscription-.md', "How to cancel your subscription"],
+												['/solutions/admin-center/manage-my-subscription/how-to-increase-the-number-of-licenses-of-your-subscription-.md', "How to increase the number of licenses of your subscription"],
+												['/solutions/admin-center/manage-my-subscription/how-to-modify-billing-information-details-including-vat.md', "How to modify 'Billing' information details (including-VAT)"],
+												['/solutions/admin-center/manage-my-subscription/how-to-modify-or-update-your-credit-card-details-.md', "How to modify or update your credit card details"],
+												['/solutions/admin-center/manage-my-subscription/how-to-modify-your-account-information-.md', "How to modify your account information"],
+												['/solutions/admin-center/manage-my-subscription/how-to-remove-your-account-.md', "How to remove your account"],
+											
+											],
+										},
+										]
+								},
+								['/solutions/admin-center/whats-new.md', "What’s new​"],
+								['/solutions/admin-center/tutorials.md', "Tutorials"],
+								['/solutions/admin-center/limits.md', "Limits"],
+								['/solutions/admin-center/changelog.md', "Changelog​"],
+							]
+						},
+						{
 							title: 'Booking Room Pro',
 							collapsable: true,
 							path: "/solutions/booking-room-pro/overview/",
@@ -1897,6 +2018,16 @@ module.exports = {
 											],
 										},
 										{
+											title: 'Synchronization',
+											collapsable: true,
+											children: [
+												['/solutions/calendar-pro/synchronization-in-calendar-pro/how-to-export-my-calendar-pro-to-another-calendar-', "How to export my calendar pro to another calendar?"],
+												['/solutions/calendar-pro/synchronization-in-calendar-pro/how-to-import-a-calendar-in-my-calendar-pro-.md', "How to import a calendar in my Calendar Pro?"],
+												['/solutions/calendar-pro/synchronization-in-calendar-pro/how-to-manage-my-synchronized-calendar-.md', "How to manage my synchronized calendars?"],
+												['/solutions/calendar-pro/synchronization-in-calendar-pro/see-the-shared-synchronized-calendars-', "See the shared synchronized calendars"],
+											],
+										},
+										{
 											title: 'Power automate connector',
 											collapsable: true,
 											children: [
@@ -1955,7 +2086,8 @@ module.exports = {
 											collapsable: true,
 											children: [
 												['/solutions/calendar-pro/troubleshooting-in-calendar-pro/how-to-clean-the-microsoft-teams-cache-.md', "How to clean the Microsoft Teams cache ?"],
-												['/solutions/calendar-pro/troubleshooting-in-calendar-pro/i-accidentally-deleted-my-calendar,-or-somebody-deleted-it--how-can-i-restore-it-.md', "I accidentally deleted my Calendar, or somebody deleted it? How can I restore it ?"],
+												['/solutions/calendar-pro/troubleshooting-in-calendar-pro/i-accidentally-deleted-my-calendar-or-somebody-deleted-it--how-can-i-restore-it-.md', "I accidentally deleted my Calendar, or somebody deleted it? How can I restore it ?"],
+												['/solutions/calendar-pro/troubleshooting-in-calendar-pro/blank-screen-popup-after-sign-in-.md', "Blank screen popup after sign in"],
 											],
 										},
 									],
