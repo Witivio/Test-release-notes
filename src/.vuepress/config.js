@@ -841,7 +841,8 @@ module.exports = {
 						['/architecture-security/keepass-pro/', 'Keepass Pro'],
 						['/architecture-security/map-pro/', 'Map Pro'],
 						['/architecture-security/gantt-chart-pro/', 'Gantt Chart Pro'],
-						['/architecture-security/metaoffice-pro/', 'MetaOffice Pro']
+						['/architecture-security/metaoffice-pro/', 'MetaOffice Pro'],
+						['/architecture-security/gpt-pro/', 'GPT Pro']
 					]
 
 				}
@@ -1648,7 +1649,8 @@ module.exports = {
 						['/architecture-security/keepass-pro/', 'Keepass Pro'],
 						['/architecture-security/map-pro/', 'Map Pro'],
 						['/architecture-security/gantt-chart-pro/', 'Gantt Chart Pro'],
-						['/architecture-security/metaoffice-pro/', 'MetaOffice Pro']
+						['/architecture-security/metaoffice-pro/', 'MetaOffice Pro'],
+						['/architecture-security/gpt-pro/', 'GPT Pro']
 					]
 
 				}
@@ -2455,7 +2457,8 @@ module.exports = {
 						['/architecture-security/keepass-pro/', 'Keepass Pro'],
 						['/architecture-security/map-pro/', 'Map Pro'],
 						['/architecture-security/gantt-chart-pro/', 'Gantt Chart Pro'],
-						['/architecture-security/metaoffice-pro/', 'MetaOffice Pro']
+						['/architecture-security/metaoffice-pro/', 'MetaOffice Pro'],
+						['/architecture-security/gpt-pro/', 'GPT Pro']
 					]
 
 				}
