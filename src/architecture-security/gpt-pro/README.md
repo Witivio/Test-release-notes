@@ -21,8 +21,8 @@ Here is how we're managing data for these different categories:
 | User profiles | ✔ | ✔ | ✔ |🚫| Accessed and updated after each login.<br/>Stored as long as the organization is active. |
 | Bot Configuration | ✔ | ✔ | ✔ |🚫| Accessed and updated after creation of a bot.<br/>Stored as long as the organization is active. |
 | User data | ✔ | 🚫 | ✔ |🚫| Users data (AAD ID, UPN).<br/>Stored as long as the organization is active. |
-| Bot conversations | ✔ | ✔ | ✔ |🚫| Bot conversations.<br/>Accessed at each time the user connect to an office. |
-| KB files | ✔ | ✔ | ✔ |🚫| Files for the KB of the bot.<br/>Accessed at each time the user connect to an office. |
+| Bot conversations | ✔ | ✔ | ✔ |🚫| Bot conversations.<br/>Accessed at each time the user connect to the bot. |
+| KB files | ✔ | ✔ | ✔ |🚫| Files for the KB of the bot.<br/>Accessed when the indexer vectorize the content. |
 | Teams files | 🚫 | 🚫 | 🚫 |🚫| No access.<br/>No cache.<br/>No storage. |
 
 ## Microsoft Graph
