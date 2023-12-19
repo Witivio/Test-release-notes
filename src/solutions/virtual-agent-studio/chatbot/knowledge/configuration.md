@@ -58,7 +58,7 @@ the different questions).
 </div>
 
 
-#### Comments
+#
 ---
 
-<Comments />
+

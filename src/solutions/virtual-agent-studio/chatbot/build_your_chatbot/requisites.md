@@ -104,7 +104,7 @@ Don't forget to register !
 :::
 
 
-### Comments
+
 ---
 
-<Comments />
+

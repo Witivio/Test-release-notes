@@ -96,7 +96,7 @@ once the chat window is open, the "Hello" message is automatically displayed.
 Do not forget to save changes !
 :::
 
-### Comments
+
 ---
 
-<Comments />
+

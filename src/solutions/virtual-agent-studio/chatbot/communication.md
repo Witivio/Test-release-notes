@@ -29,7 +29,7 @@ The push communication is supported in Skype for Business and Microsoft Teams.
 on “Communication” then [**“Campaign”**](/solutions/virtual-agent-studio/chatbot/communication/campaign.html)
 
 
-### Comments
+
 ---
 
-<Comments />
+

@@ -27,6 +27,5 @@ Just before connecting, a device configuration menu will appear. You can choose 
 
  ![Select your device](/assets/img/peripheriques-start-app.png)
 
-### Comments
 
-<Comments />
+

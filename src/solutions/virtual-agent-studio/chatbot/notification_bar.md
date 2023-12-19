@@ -61,7 +61,7 @@ suggested by users and the number of unresolved feedbacks.
   <img :src="$withBase('/assets/img/virtual-agent-studio/notification_bar/notification3.png')" alt="low score">
 </div>
 
-### Comments
+
 ---
 
-<Comments />
+

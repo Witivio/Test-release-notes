@@ -47,7 +47,6 @@ To add an image in your Adaptive card, drag the **Image** element > Open the pro
   <img :src="$withBase('/assets/img/virtual-agent-studio/tools/image5.png')" alt="low score">
 </div>
 
-### Comments
+
 ---
 
-<Comments />

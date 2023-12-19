@@ -154,7 +154,7 @@ Once this training is over, if you make new changes and start a second training,
 
 </div>
 
-### Comments
+
 ---
 
-<Comments />
+

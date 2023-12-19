@@ -17,7 +17,7 @@ The **Settings tab** allows you to configure:
 -   [**General settings**](/solutions/virtual-agent-studio/chatbot/settings/settings.html)
 
 
-### Comments
+
 ---
 
-<Comments />
+

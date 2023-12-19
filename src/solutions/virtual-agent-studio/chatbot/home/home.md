@@ -24,10 +24,10 @@ You can also find the status of publications as well as the tags of your chatbot
 </div>
 
 
-### Comments
+
 ---
 
-<Comments />
+
 
 
 

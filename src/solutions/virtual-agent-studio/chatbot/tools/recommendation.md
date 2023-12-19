@@ -10,7 +10,6 @@ A recommendation tool allows you to provide additional content in addition to th
 
 
 
-### Comments
+
 ---
 
-<Comments />

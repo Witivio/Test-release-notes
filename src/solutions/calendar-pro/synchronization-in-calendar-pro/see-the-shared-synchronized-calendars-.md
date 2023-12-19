@@ -5,8 +5,8 @@
 <div class="intercom-container"><img src="/assets/img/teams-pro/shared_synchro.png"></div>
 <p class="no-margin"></p>
 
-### Comments
-<Comments />
+
+
 
 
 

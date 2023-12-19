@@ -90,7 +90,7 @@ Once you have configured your authorization API, don't forget to register!
 :::
 
 
-### Comments
+
 ---
 
-<Comments />
+

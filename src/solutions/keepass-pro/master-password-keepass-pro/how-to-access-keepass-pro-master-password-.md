@@ -23,5 +23,5 @@
 <p class="no-margin"></p>
 <div class="intercom-container"><img src="/assets/img/teams-pro/image_51.png"></div><p class="no-margin">⚠️ Make sure you have a copy of the master password. If you lose/forget the master password, even Witivio <b>can't help in retrieving it.</b></p>
 
-### Comments
-<Comments />
+
+

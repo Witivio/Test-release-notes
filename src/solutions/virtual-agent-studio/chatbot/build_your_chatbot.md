@@ -101,8 +101,8 @@ The next step is optional and allows you to import from a SharePoint site. The l
 Let’s go ! 🕺
 :::
 
-### Comments
+
 ---
 
-<Comments />
+
 

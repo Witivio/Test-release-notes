@@ -65,5 +65,5 @@
 <p class="no-margin">❌ From one channel (Channel A) to a different channel (Channel B). <br>❌ From one team's channel (Channel A in Team A) to another team's channel (Channel B in Team B). </p>
 <p class="no-margin">❌ From a tenant A deployment to tenant B.</p>
 
-### Comments
-<Comments />
+
+

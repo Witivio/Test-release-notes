@@ -24,7 +24,6 @@ You can find all conversations in the tab **Tools** > **History**.
   <img :src="$withBase('/assets/img/virtual-agent-studio/tools/history2.png')" alt="low score">
 </div>
 
-### Comments
+
 ---
 
-<Comments />

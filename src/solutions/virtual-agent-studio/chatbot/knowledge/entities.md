@@ -56,7 +56,7 @@ A question may include several entities.
 
 Once your knowledge base is **enough trained**, the detection will be done automatically. 
 
-### Comments
+
 ---
 
-<Comments />
+

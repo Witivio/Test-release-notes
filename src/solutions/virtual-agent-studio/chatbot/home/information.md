@@ -15,6 +15,5 @@ This page also contains a summary table indicating:
 -   Available amount
 -   Off-licence consumed
 
-#### Comments
+#
 ---
-<Comments />

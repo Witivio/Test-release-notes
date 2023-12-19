@@ -429,7 +429,6 @@ clicks on the "Disconnect" button to end the conversation.
 The user may then keep talking with the chatbot and ask a new question.
 
 
-### Comments
+
 ---
 
-<Comments />

@@ -26,7 +26,7 @@ will have access to all the statistics available between 4pm and 5pm. However,
 at 4:55 p.m. statistics will not be available at the current time.
 :::
 
-### Comments
+
 ---
 
-<Comments />
+
