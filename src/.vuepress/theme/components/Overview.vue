@@ -1,6 +1,5 @@
 <template>
   
-  
     <main
       class="home"
       :aria-labelledby="data.heroText !== null ? 'main-title' : null"
