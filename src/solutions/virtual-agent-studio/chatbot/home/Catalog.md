@@ -170,8 +170,8 @@ Then click on publish.
 </div>
 
 
-#### Comments
+#
 ---
 
-<Comments />
+
 

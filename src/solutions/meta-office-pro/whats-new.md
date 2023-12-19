@@ -11,6 +11,5 @@ Welcome to the MetaOffice Pro What's new page!
 
 
 
- ### Comments
+ 
 
-<Comments />

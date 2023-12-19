@@ -11,5 +11,5 @@
 </ol><p class="no-margin"></p>
 <div class="intercom-container"><img src="/assets/img/teams-pro/image_74.png"></div>
 
-### Comments
-<Comments />
+
+

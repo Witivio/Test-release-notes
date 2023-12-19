@@ -27,7 +27,7 @@ The platform is compatible with the following browser versions:
 -   Microsoft Edge 44 +
 
 
-### Comments
+
 ---
 
-<Comments />
+

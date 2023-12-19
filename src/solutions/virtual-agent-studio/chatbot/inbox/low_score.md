@@ -26,7 +26,7 @@ actions:
 </div>
 
 
-### Comments
+
 ---
 
-<Comments />
+

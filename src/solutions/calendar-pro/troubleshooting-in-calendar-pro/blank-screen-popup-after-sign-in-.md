@@ -9,5 +9,4 @@
  <p class="no-margin">Once done, you can have access with ease in the Teams application as well.</p>
   <p class="no-margin"></p>
 
-### Comments
-<Comments />
+

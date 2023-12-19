@@ -47,6 +47,5 @@ Note that if you want to use the MetaOffice application in multiple teams, you w
 
 
 
-### Comments
 
-<Comments />
+

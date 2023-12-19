@@ -36,7 +36,7 @@ at the top right, then on “Administrators”.
 Click [**here**](/solutions/virtual-agent-studio/chatbot/licence_administrators) to know more about super administrators.
 
 
-### Comments
+
 ---
 
-<Comments />
+

@@ -17,7 +17,7 @@ chatbots (2) :
 Remember to save changes !
 :::
 
-### Comments
+
 ---
 
-<Comments />
+

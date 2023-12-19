@@ -4,7 +4,6 @@
  * https://v1.vuepress.vuejs.org/guide/basic-config.html#app-level-enhancements
  */
 import Overview from './theme/components/Overview'
-import Comments from './theme/components/Comments'
 import Translator from './theme/components/Translator'
 
 export default ({
@@ -14,6 +13,5 @@ export default ({
   siteData // site metadata
 }) => {
   Vue.component("Overview", Overview)
-  Vue.component("Comments", Comments)
   Vue.component("Translator", Translator)
 }

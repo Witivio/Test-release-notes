@@ -34,7 +34,6 @@ This tab is automatically set up but it is possible to modify its settings:
 Don't forget to save changes!
 :::
 
-### Comments
+
 ---
 
-<Comments />

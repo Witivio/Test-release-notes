@@ -56,7 +56,7 @@ knowledge base must be modified (red 👎) (3).
 </div>
 
 
-### Comments
+
 ---
 
-<Comments />
+

@@ -92,7 +92,7 @@ Here you can also configure the minimum score to launch a conversation tree
 </div>
 
 
-### Comments
+
 ---
 
-<Comments />
+

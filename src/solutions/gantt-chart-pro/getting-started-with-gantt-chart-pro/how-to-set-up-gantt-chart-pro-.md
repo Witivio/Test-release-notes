@@ -26,5 +26,5 @@
 <p class="no-margin"></p>
 <div class="intercom-container"><img src="/assets/img/teams-pro/image_20.png"></div><p class="no-margin"></p>
 
-### Comments
-<Comments />
+
+

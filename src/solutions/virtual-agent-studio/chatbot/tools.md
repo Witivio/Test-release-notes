@@ -15,7 +15,7 @@ Click on "Tools" tab and then on the appropriate tool among :
 -   [**History**](/solutions/virtual-agent-studio/chatbot/tools/history.html)
 
 
-### Comments
+
 ---
 
-<Comments />
+

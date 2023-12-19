@@ -244,8 +244,7 @@ Click [here](/solutions/virtual-agent-studio/chatbot/communication/campaign.html
 <br />
 <br />
 
-### Comments
+
 
 ---
 
-<Comments />
