@@ -19,8 +19,8 @@ This feature aims to help users get relevant answers to their questions, even if
 
 ### Document Management
 
-:::mermaid
-flowchart TD
+```mermaid
+graph TD
     A[Authentified User with valid licence] --> Z(Knowledge / GPT Learning)
     Z --> C(Display the document gallery component
     The documents are classified by categories and if the bot has several languages, by language)
@@ -32,7 +32,7 @@ flowchart TD
     on a document icon| H[Delete the document from
     database and index]
     H --> | Actualize content | D
-:::
+```
 
 #### How to View Documents
 
@@ -42,11 +42,11 @@ flowchart TD
 4. Click on a category to see the documents within it.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/virtual-agent-studio/menu.png')" alt="Menu">
+  <img :src="$withBase('/assets/img/virtual-agent-studio/semantic_indexing/menu.png')" alt="Menu">
 </div>
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/virtual-agent-studio/gallery.png')" alt="Documents gallery">
+  <img :src="$withBase('/assets/img/virtual-agent-studio/semantic_indexing/gallery.png')" alt="Documents gallery">
 </div>
 
 
@@ -58,7 +58,7 @@ flowchart TD
 4. If successful, the document will be indexed within an hour.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/virtual-agent-studio/documents.png')" alt="Add document">
+  <img :src="$withBase('/assets/img/virtual-agent-studio/semantic_indexing/documents.png')" alt="Add document">
 </div>
 
 
@@ -68,7 +68,7 @@ flowchart TD
 2. Confirm deletion to remove the document from the database and index.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/virtual-agent-studio/delete_doc.png')" alt="Delete document">
+  <img :src="$withBase('/assets/img/virtual-agent-studio/semantic_indexing/delete_doc.png')" alt="Delete document">
 </div>
 
 
@@ -105,8 +105,8 @@ flowchart TD
 2. If the chatbot can't answer, it checks the API for relevant information in indexed documents.
 3. The system presents the answer from the documents or notifies the user that no pertinent answer was found.
 
-:::mermaid
-flowchart TD
+mermaid
+graph TD
     A[Authentified User with valid licence] --> Z(Talk to the bot, ask a question without response)
     Z --> C(If the bot escalation is configured to fetch the API, it does,
     and answer the question asked with the relative data found in indexed documents)
@@ -114,7 +114,6 @@ flowchart TD
     E --> | The api send back a response containing an answer | X( The answer is displayed into an adaptive card )
    E --> | The api send back a response with no answer | S( A generic message is displayed to inform
    the user no pertinent answer could be found )
-:::
 
 
 #### Behind the Scenes
@@ -129,7 +128,7 @@ flowchart TD
 ## Architecture
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/virtual-agent-studio/archi_sem.png')" alt="Architecture">
+  <img :src="$withBase('/assets/img/virtual-agent-studio/semantic_indexing/archi_sem.png')" alt="Architecture">
 </div>
 
 
@@ -166,7 +165,7 @@ The Azure OpenAI Service is fully controlled by Microsoft; Microsoft hosts the O
 
 Data flow :
 <div class="image_center">
-  <img :src="$withBase('/assets/img/virtual-agent-studio/semantic_indexing.azure-data-flow.png')" alt="Azure OpenAI Data flow">
+  <img :src="$withBase('/assets/img/virtual-agent-studio/semantic_indexing/azure-data-flow.png')" alt="Azure OpenAI Data flow">
 </div>
 
 

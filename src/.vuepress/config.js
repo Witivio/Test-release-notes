@@ -174,12 +174,9 @@ module.exports = {
 									// ]
 								},
 								{
-									title: 'Semantic Indexing API',
-									path: '/solutions/virtual-agent-studio/chatbot/semantic_indexing',
+									title: 'Semantic Indexing API V3',
+									path: '/solutions/virtual-agent-studio/chatbot/semantic_indexing/semantic_indexing_api.md',
 									collapsable: true,
-									children: [
-										['/solutions/virtual-agent-studio/chatbot/semantic_indexing/semantic_indexing_api.md', 'V3'],
-									]
 								},
 								{
 									title: 'Notification bar',
@@ -990,12 +987,9 @@ module.exports = {
 									// ]
 								},
 								{
-									title: 'Semantic Indexing API',
-									path: '/solutions/virtual-agent-studio/chatbot/semantic_indexing',
+									title: 'Semantic Indexing API V3',
+									path: '/solutions/virtual-agent-studio/chatbot/semantic_indexing/semantic_indexing_api.md',
 									collapsable: true,
-									children: [
-									  ['/solutions/virtual-agent-studio/chatbot/semantic_indexing/semantic_indexing_api.md', 'V3'],
-									]
 								},
 								{
 									title: 'Notification bar',
@@ -1806,12 +1800,9 @@ module.exports = {
 									// ]
 								},
 								{
-									title: 'Semantic Indexing API',
-									path: '/solutions/virtual-agent-studio/chatbot/semantic_indexing',
+									title: 'Semantic Indexing API V3',
+									path: '/solutions/virtual-agent-studio/chatbot/semantic_indexing/semantic_indexing_api.md',
 									collapsable: true,
-									children: [
-										['/solutions/virtual-agent-studio/chatbot/semantic_indexing/semantic_indexing_api.md', 'V3'],
-									]
 								},
 								{
 									title: 'Notification bar',
