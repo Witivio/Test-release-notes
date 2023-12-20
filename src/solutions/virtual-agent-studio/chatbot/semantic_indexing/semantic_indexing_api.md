@@ -19,20 +19,9 @@ This feature aims to help users get relevant answers to their questions, even if
 
 ### Document Management
 
-```mermaid
-graph TD
-    A[Authentified User with valid licence] --> Z(Knowledge / GPT Learning)
-    Z --> C(Display the document gallery component
-    The documents are classified by categories and if the bot has several languages, by language)
-    C --> |Click on a category| D[The documents already charged are displayed]
-    D --> |Click on Add| G[Select document to add]
-    G --> |If valid, document added
-    Will be indexed in the next hour| D
-    D --> |Click on the red trash 
-    on a document icon| H[Delete the document from
-    database and index]
-    H --> | Actualize content | D
-```
+<div class="image_center">
+  <img :src="$withBase('/assets/img/virtual-agent-studio/semantic_indexing/userflow_studio.png')" alt="Userflow studio">
+</div>
 
 #### How to View Documents
 
@@ -105,15 +94,10 @@ graph TD
 2. If the chatbot can't answer, it checks the API for relevant information in indexed documents.
 3. The system presents the answer from the documents or notifies the user that no pertinent answer was found.
 
-mermaid
-graph TD
-    A[Authentified User with valid licence] --> Z(Talk to the bot, ask a question without response)
-    Z --> C(If the bot escalation is configured to fetch the API, it does,
-    and answer the question asked with the relative data found in indexed documents)
-    C --> E(The bot call the API and wait for a response)
-    E --> | The api send back a response containing an answer | X( The answer is displayed into an adaptive card )
-   E --> | The api send back a response with no answer | S( A generic message is displayed to inform
-   the user no pertinent answer could be found )
+<div class="image_center">
+  <img :src="$withBase('/assets/img/virtual-agent-studio/semantic_indexing/userflow_api.png')" alt="Userflow api">
+</div>
+
 
 
 #### Behind the Scenes
