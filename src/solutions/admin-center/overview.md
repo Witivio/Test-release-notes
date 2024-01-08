@@ -1,6 +1,6 @@
 ---
-tagTitle: User documentation for Admin center.
-tagLine: Organize and manage your subscription
+tagTitle: User documentation for TeamsPro Admin center.
+tagline: Organize and manage your TeamsPro subscription
 heroImage: /booking.png
 actionText: Get Started →
 actionLink: /solutions/admin-center/manage-my-subscription/how-to-modify-your-account-information-/

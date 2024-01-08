@@ -221,36 +221,51 @@ module.exports = {
 									
 							]
 						},
+						// {
+						// 	title: 'Meta Office Pro',
+						// 	collapsable: true,
+						// 	path: "/solutions/meta-office-pro/overview/",
+						// 	children: [
+						// 		['/solutions/meta-office-pro/overview.md', "Overview"],
+						// 		['/solutions/meta-office-pro/get-started.md', "Get Started !"],
+						// 		['/solutions/meta-office-pro/fundamentals.md', "Fundamentals"],
+						// 		['/solutions/meta-office-pro/whats-new.md', "What’s new​"],
+						// 		['/solutions/meta-office-pro/tutorials.md', "Tutorials"],
+						// 		['/solutions/meta-office-pro/limits.md', "Limits"],
+						// 		['/solutions/meta-office-pro/changelog.md', "Changelog​"],
+						// 	]
+						// },
 						{
-							title: 'Meta Office Pro',
-							collapsable: true,
-							path: "/solutions/meta-office-pro/overview/",
-							children: [
-								['/solutions/meta-office-pro/overview.md', "Overview"],
-								['/solutions/meta-office-pro/get-started.md', "Get Started !"],
-								['/solutions/meta-office-pro/fundamentals.md', "Fundamentals"],
-								['/solutions/meta-office-pro/whats-new.md', "What’s new​"],
-								['/solutions/meta-office-pro/tutorials.md', "Tutorials"],
-								['/solutions/meta-office-pro/limits.md', "Limits"],
-								['/solutions/meta-office-pro/changelog.md', "Changelog​"],
-							]
-						},
-						/*{
 							title: 'GPT Pro',
 							collapsable: true,
 							path: "/solutions/gpt-pro/overview/",
 							children: [
-								['/solutions/gpt-pro/overview.md', "GPT Pro - Overview"],
-								['/solutions/gpt-pro/get-started.md', "GPT Pro - Get Started !"],
-								['/solutions/gpt-pro/fundamentals.md', "GPT Pro - Fundamentals"],
-								['/solutions/gpt-pro/whats-new.md', "GPT Pro - What’s new​"],
-								['/solutions/gpt-pro/tutorials.md', "GPT Pro - Tutorials"],
-								['/solutions/gpt-pro/limits.md', "GPT Pro - Limits"],
-								['/solutions/gpt-pro/changelog.md', "GPT Pro - Change log​"],
+								['/solutions/gpt-pro/overview.md', "Overview"],
+								['/solutions/gpt-pro/get-started.md', "Get Started !"],
+								{
+									title: 'Fundamentals',
+									collapsable: true,
+									children: [
+										['/solutions/gpt-pro/fundamentals/dashboard.md', "Dashboard"],
+										['/solutions/gpt-pro/fundamentals/documents.md', "Documents"],
+										['/solutions/gpt-pro/fundamentals/prompts.md', "Prompts"],
+										['/solutions/gpt-pro/fundamentals/manage-plugins.md', "Plugins"],
+									]
+								},
+								['/solutions/gpt-pro/whats-new.md', "What’s new​"],
+								{
+									title: 'Tutorials',
+									collapsable: true,
+									children: [
+										['/solutions/gpt-pro/tutorials/plugins.md', "Plugins"],
+									]
+								},
+								['/solutions/gpt-pro/limits.md', "Limits"],
+								['/solutions/gpt-pro/changelog.md', "Change log​"],
 							]
-						},*/
+						},
 						{
-							title: 'Admin center',
+							title: 'TeamsPro Admin center',
 							collapsable: true,
 							path: "/solutions/admin-center/overview/",
 							children: [
@@ -1034,36 +1049,51 @@ module.exports = {
 									
 							]
 						},
+						// {
+						// 	title: 'Meta Office Pro',
+						// 	collapsable: true,
+						// 	path: "/solutions/meta-office-pro/overview/",
+						// 	children: [
+						// 		['/solutions/meta-office-pro/overview.md', "Overview"],
+						// 		['/solutions/meta-office-pro/get-started.md', "Get Started !"],
+						// 		['/solutions/meta-office-pro/fundamentals.md', "Fundamentals"],
+						// 		['/solutions/meta-office-pro/whats-new.md', "What’s new​"],
+						// 		['/solutions/meta-office-pro/tutorials.md', "Tutorials"],
+						// 		['/solutions/meta-office-pro/limits.md', "Limits"],
+						// 		['/solutions/meta-office-pro/changelog.md', "Changelog​"],
+						// 	]
+						// },
 						{
-							title: 'Meta Office Pro',
-							collapsable: true,
-							path: "/solutions/meta-office-pro/overview/",
-							children: [
-								['/solutions/meta-office-pro/overview.md', "Overview"],
-								['/solutions/meta-office-pro/get-started.md', "Get Started !"],
-								['/solutions/meta-office-pro/fundamentals.md', "Fundamentals"],
-								['/solutions/meta-office-pro/whats-new.md', "What’s new​"],
-								['/solutions/meta-office-pro/tutorials.md', "Tutorials"],
-								['/solutions/meta-office-pro/limits.md', "Limits"],
-								['/solutions/meta-office-pro/changelog.md', "Changelog​"],
-							]
-						},
-						/*{
 							title: 'GPT Pro',
 							collapsable: true,
 							path: "/solutions/gpt-pro/overview/",
 							children: [
-								['/solutions/gpt-pro/overview.md', "GPT Pro - Overview"],
-								['/solutions/gpt-pro/get-started.md', "GPT Pro - Get Started !"],
-								['/solutions/gpt-pro/fundamentals.md', "GPT Pro - Fundamentals"],
-								['/solutions/gpt-pro/whats-new.md', "GPT Pro - What’s new​"],
-								['/solutions/gpt-pro/tutorials.md', "GPT Pro - Tutorials"],
-								['/solutions/gpt-pro/limits.md', "GPT Pro - Limits"],
-								['/solutions/gpt-pro/changelog.md', "GPT Pro - Change log​"],
+								['/solutions/gpt-pro/overview.md', "Overview"],
+								['/solutions/gpt-pro/get-started.md', "Get Started !"],
+								{
+									title: 'Fundamentals',
+									collapsable: true,
+									children: [
+										['/solutions/gpt-pro/fundamentals/dashboard.md', "Dashboard"],
+										['/solutions/gpt-pro/fundamentals/documents.md', "Documents"],
+										['/solutions/gpt-pro/fundamentals/prompts.md', "Prompts"],
+										['/solutions/gpt-pro/fundamentals/manage-plugins.md', "Plugins"],
+									]
+								},
+								['/solutions/gpt-pro/whats-new.md', "What’s new​"],
+								{
+									title: 'Tutorials',
+									collapsable: true,
+									children: [
+										['/solutions/gpt-pro/tutorials/plugins.md', "Plugins"],
+									]
+								},
+								['/solutions/gpt-pro/limits.md', "Limits"],
+								['/solutions/gpt-pro/changelog.md', "Change log​"],
 							]
-						},*/
+						},
 						{
-							title: 'Admin center',
+							title: 'TeamsPro Admin center',
 							collapsable: true,
 							path: "/solutions/admin-center/overview/",
 							children: [
@@ -1847,36 +1877,51 @@ module.exports = {
 									
 							]
 						},
+						// {
+						// 	title: 'Meta Office Pro',
+						// 	collapsable: true,
+						// 	path: "/solutions/meta-office-pro/overview/",
+						// 	children: [
+						// 		['/solutions/meta-office-pro/overview.md', "Overview"],
+						// 		['/solutions/meta-office-pro/get-started.md', "Get Started !"],
+						// 		['/solutions/meta-office-pro/fundamentals.md', "Fundamentals"],
+						// 		['/solutions/meta-office-pro/whats-new.md', "What’s new​"],
+						// 		['/solutions/meta-office-pro/tutorials.md', "Tutorials"],
+						// 		['/solutions/meta-office-pro/limits.md', "Limits"],
+						// 		['/solutions/meta-office-pro/changelog.md', "Changelog​"],
+						// 	]
+						// },
 						{
-							title: 'Meta Office Pro',
-							collapsable: true,
-							path: "/solutions/meta-office-pro/overview/",
-							children: [
-								['/solutions/meta-office-pro/overview.md', "Overview"],
-								['/solutions/meta-office-pro/get-started.md', "Get Started !"],
-								['/solutions/meta-office-pro/fundamentals.md', "Fundamentals"],
-								['/solutions/meta-office-pro/whats-new.md', "What’s new​"],
-								['/solutions/meta-office-pro/tutorials.md', "Tutorials"],
-								['/solutions/meta-office-pro/limits.md', "Limits"],
-								['/solutions/meta-office-pro/changelog.md', "Changelog​"],
-							]
-						},
-						/*{
 							title: 'GPT Pro',
 							collapsable: true,
 							path: "/solutions/gpt-pro/overview/",
 							children: [
-								['/solutions/gpt-pro/overview.md', "GPT Pro - Overview"],
-								['/solutions/gpt-pro/get-started.md', "GPT Pro - Get Started !"],
-								['/solutions/gpt-pro/fundamentals.md', "GPT Pro - Fundamentals"],
-								['/solutions/gpt-pro/whats-new.md', "GPT Pro - What’s new​"],
-								['/solutions/gpt-pro/tutorials.md', "GPT Pro - Tutorials"],
-								['/solutions/gpt-pro/limits.md', "GPT Pro - Limits"],
-								['/solutions/gpt-pro/changelog.md', "GPT Pro - Change log​"],
+								['/solutions/gpt-pro/overview.md', "Overview"],
+								['/solutions/gpt-pro/get-started.md', "Get Started !"],
+								{
+									title: 'Fundamentals',
+									collapsable: true,
+									children: [
+										['/solutions/gpt-pro/fundamentals/dashboard.md', "Dashboard"],
+										['/solutions/gpt-pro/fundamentals/documents.md', "Documents"],
+										['/solutions/gpt-pro/fundamentals/prompts.md', "Prompts"],
+										['/solutions/gpt-pro/fundamentals/manage-plugins.md', "Plugins"],
+									]
+								},
+								['/solutions/gpt-pro/whats-new.md', "What’s new​"],
+								{
+									title: 'Tutorials',
+									collapsable: true,
+									children: [
+										['/solutions/gpt-pro/tutorials/plugins.md', "Plugins"],
+									]
+								},
+								['/solutions/gpt-pro/limits.md', "Limits"],
+								['/solutions/gpt-pro/changelog.md', "Change log​"],
 							]
-						},*/
+						},
 						{
-							title: 'Admin center',
+							title: 'TeamsPro Admin center',
 							collapsable: true,
 							path: "/solutions/admin-center/overview/",
 							children: [

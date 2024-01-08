@@ -22,7 +22,9 @@ Here is how we're managing data for these different categories:
 | Bot Configuration | ✔ | ✔ | ✔ |🚫| Accessed and updated after creation of a bot.<br/>Stored as long as the organization is active. |
 | User data | ✔ | 🚫 | ✔ |🚫| Users data (AAD ID, UPN).<br/>Stored as long as the organization is active. |
 | Bot conversations | ✔ | ✔ | ✔ |🚫| Bot conversations.<br/>Accessed at each time the user connect to the bot. |
-| KB files | ✔ | ✔ | ✔ |🚫| Files for the KB of the bot.<br/>Accessed when the indexer vectorize the content. |
+| Conversations history | ✔ | ✔ | ✔ |🚫| Bot conversations history.<br/>Accessed at each time the user connect to the bot. |
+| User feedbacks | ✔ | ✔ | ✔ |🚫| User feedback about a bot message.<br/>Accessed when an admin coonect to the admin center. |
+| Document files | ✔ | ✔ | ✔ |🚫| Files for the KB of the bot.<br/>Accessed when the indexer vectorize the content. |
 | Teams files | 🚫 | 🚫 | 🚫 |🚫| No access.<br/>No cache.<br/>No storage. |
 
 ## Microsoft Graph
@@ -49,12 +51,30 @@ The Azure AD App ID is: **9fcafdeb-1249-4000-9e96-38e848a963d2**
 
 ![GPT Pro architecture](/assets/img/gpt-architecture.png)
 
+## Plugins
+
+GPT Pro's plugins are designed as APIs, enabling efficient and seamless integration with various systems and applications.
+HTTPS Protocol:
+
+All plugin communications are secured using HTTPS, ensuring that data transferred between GPT Pro and external services is encrypted and secure.
+OpenAPI Standards:
+
+These plugins adhere to the OpenAPI standards, which guarantees consistent, accessible, and understandable documentation for developers, fostering a robust and interoperable ecosystem.
+Data Transmission to Third-Party APIs:
+
+GPT Pro plugins may transmit certain information to third-party APIs. This includes:
+
+* userId: A unique identifier for the user.
+* User Display Name: The name displayed for the user.
+* Context About the Query: Relevant contextual information to enhance the query's relevance and accuracy.
+
+
 ## Resource Endpoints
 
-All the traffic from and to the TeamsPro platform uses HTTPS protocol on port 443.
+All the traffic from and to the GPT Pro platform uses HTTPS protocol on port 443.
 Here is a short description of each flow:
 
 | Name                                | Comments                             |
 | ----------------------------------- | ------------------------------------ |
-| gpt.witivio.com            | for the apps including help contents |
+| admin.gpt-pro.com            | for the admin center |
 | .msecnd.net and \*.visualstudio.com | for performance metrics analysis     |

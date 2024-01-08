@@ -76,7 +76,7 @@ Learn more about [Authentication and authorization basics for Microsoft Graph...
 
 * Learn more for [MetaOffice Pro...](/architecture-security/metaoffice-pro/#microsoft-graph)
 
-#### MetaOffice Pro
+#### GPT Pro
 
 * Learn more for [GPT Pro...](/architecture-security/gpt-pro/#microsoft-graph)
 

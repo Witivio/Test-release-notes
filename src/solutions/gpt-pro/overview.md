@@ -1,23 +1,24 @@
 ---
-tagline: User documentation for GPT Pro.
+tagTitle: User solutions for GPT Pro and GPT Pro Admin Center.
+tagLine: Manage your own enterprise custom GPTs
 actionText: Get Started →
-actionLink: /documentation/gpt-pro/get-started/
+actionLink: /solutions/gpt-pro/get-started/
 items:
 - title: Fundamentals​
   itemImage: /heart-book.svg
-  link: /documentation/gpt-pro/fundamentals/
+  link: /solutions/gpt-pro/fundamentals/dashboard
 - title: What’s new
   itemImage: /light.svg
-  link: /documentation/gpt-pro/whats-new/
+  link: /solutions/gpt-pro/whats-new/
 - title: Tutorials
   itemImage: /graduation-hat.svg
-  link: /documentation/gpt-pro/tutorials/
+  link: /solutions/gpt-pro/tutorials/plugins
 - title: Limits
   itemImage: /wheel.svg
-  link: /documentation/gpt-pro/limits/
+  link: /solutions/gpt-pro/limits/
 - title: Changelog
   itemImage: /changelog.svg
-  link: /documentation/gpt-pro/changelog/
+  link: /solutions/gpt-pro/changelog/
 ---
 
 <Overview />

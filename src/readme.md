@@ -10,14 +10,14 @@ items:
   itemImage: /virtual-agent-studio.png
   itemDescription: Virtual Agent Studio
   link: /solutions/virtual-agent-studio/chatbot/build_your_chatbot/
-- title: Meta Office Pro
-  itemImage: /meta-office-pro.png
-  itemDescription: Meta Office Pro
-  link: /solutions/meta-office-pro/overview/
-# - title: GPT Pro
-#   itemImage: /gpt-pro-icon.png
-#   itemDescription: GPT Pro
-#   link: /solutions/gpt-pro/overview/
+# - title: Meta Office Pro
+#   itemImage: /meta-office-pro.png
+#   itemDescription: Meta Office Pro
+#   link: /solutions/meta-office-pro/overview/
+- title: GPT Pro
+  itemImage: /gpt-pro-icon.png
+  itemDescription: GPT Pro
+  link: /solutions/gpt-pro/overview/
 - title: Calendar Pro
   itemImage: /calendar.png
   itemDescription: Calendar Pro
