@@ -17,6 +17,18 @@ These best practices are gounded by the [OWASP Security Design Principles](https
 * Fix security issues correctly: Once a security issue has been identified, it is important to develop a test for it, and to understand the root cause of the issue. When design patterns are used, it is likely that the security issue is widespread amongst all code bases, so developing the right fix without introducing regressions is essential.
 * Secure Release Process: Aside from the Secure Development Principles, we're using several tools during our release process as a gateway before each release and deployment, to reduce risks and avoid common pitfalls.
 
+## Development Stack
+
+- **.NET 6 / 8**: A free, cross-platform, open-source developer platform for building various applications, ideal for robust back-end services.
+- **C#**: A modern, object-oriented, and type-safe programming language used for its strong typing and powerful language features.
+- **Microsoft Bot Framework **: Enables the building, testing, deploying, and managing of sophisticated chatbots, integral for interactive customer support solutions.
+- **ASP.NET Core 6 / 8**: A high-performance, open-source framework for building modern, cloud-based, internet-connected applications.
+- **TypeScript **: A strongly typed programming language that builds on JavaScript, enhancing the reliability and maintainability of client-side scripting.
+- **React**: A JavaScript library for building user interfaces, known for its efficiency and flexibility in creating dynamic and responsive UIs.
+- **HTML 5 / CSS 3**: Core technologies for building web pages, ensuring structurally sound and visually appealing interfaces.
+- **Azure SaaS and PaaS**: Cloud services provided by Azure, including Software as a Service and Platform as a Service, used for deploying scalable, secure, and efficient cloud-based solutions.
+
+
 ## Microsoft Azure best practices
 
 Witivio applies best practices in Web and Cloud development. 
@@ -48,6 +60,23 @@ Audit reports contain information about potential security vulnerabilities in ou
 
 Learn more about [NPM Audit](https://docs.npmjs.com/cli/audit)
 
+
+## Code Repositories
+
+Witivio employs Microsoft Azure DevOps (formerly VSTS) for its repository hosting, provided by Microsoft. The management activities undertaken by Witivio include:
+- Organization and tracking of tasks and work items.
+- Source code management utilizing the Git Flow methodology.
+- Integration of work items with source code tracking capabilities.
+- Implementation of code reviews and testing for each pull request.
+- Adoption of continuous integration and build processes, incorporating both unit tests and integration tests.
+- Monitoring and tracking of releases in conjunction with work items.
+
+### Code Branch Structure
+Witivio's code branching strategy includes:
+- A primary branch named 'Main'.
+- Individual branches dedicated to specific features.
+- Separate branches for each hotfix.
+
 ## Code review
 
 ![code review](/assets/img/pull-request.jpg)
@@ -55,5 +84,51 @@ Learn more about [NPM Audit](https://docs.npmjs.com/cli/audit)
 ## Deployment process
 
 ![Deployment process](/assets/img/deployment-process.jpg)
+
+# Infrastructure as Code Implementation
+
+## Azure DevOps: Script Management and Lifecycle
+
+Azure DevOps is central to Witivio's Infrastructure as Code (IaC) strategy, providing a comprehensive platform for managing and maintaining infrastructure scripts.
+
+### Key Features in Azure DevOps:
+
+- **Version Control**: Ensures that all infrastructure scripts are subject to version control, providing a history of changes and facilitating rollback if needed.
+- **Collaboration**: Facilitates team collaboration in the development, review, and deployment processes, enhancing script quality and efficiency.
+- **Lifecycle Management**: Supports the complete lifecycle of infrastructure scripts, encompassing development, testing, deployment, and ongoing maintenance.
+
+## Azure Bicep: Infrastructure Instantiation
+
+Witivio utilizes Azure Bicep for the declarative deployment of Azure resources. This approach streamlines the process of defining and managing infrastructure.
+
+### Implementation Strategy:
+
+- **Script Development**: Infrastructure requirements are translated into Azure Bicep scripts, ensuring an accurate and efficient setup.
+- **Instantiation Process**: These scripts are executed to instantiate Azure components, providing a consistent and repeatable method for environment setup.
+
+## Manual Configurations
+
+Beyond automated script deployment, Witivio also incorporates manual configurations for certain infrastructure components. These manual steps, necessary due to specific operational requirements or complexities, are well-documented and integrated into our standard deployment procedures.
+
+Through the combination of Azure DevOps and Azure Bicep, along with strategic manual configurations, Witivio effectively implements an Infrastructure as Code model that enhances operational efficiency, maintains consistency, and ensures scalable management of IT infrastructure.
+
+## Tools
+
+Witivio employs a suite of development solutions primarily based on Microsoft's technology stacks. The development environment is supported by a variety of tools and integrated development environments (IDEs), including:
+
+1. Visual Studio (Versions 2019 and 2022)
+2. Visual Studio Code
+3. Azure DevOps (formerly known as VSTS)
+4. Bot Framework Emulator
+5. Office 365 demo tenants for testing and development purposes
+6. Azure Storage Emulator
+7. Cosmos DB Emulator
+8. Individual Azure accounts allocated to each developer
+9. Azure Storage Explorer
+10. PGAdmin for database management
+11. Docker Desktop for containerization needs
+
+These tools and resources are integral to the development process, providing a robust and versatile environment for software development and operational tasks.
+
 
 <Classification label="public" />

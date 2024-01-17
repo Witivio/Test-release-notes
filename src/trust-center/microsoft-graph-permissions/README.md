@@ -7,15 +7,14 @@ Examples of these kinds of permissions include the following:
 * Write data to an organization's directory by using ```Directory.ReadWrite.All```
 * Read all groups in an organization's directory by using ```Groups.Read.All```
 
-For TeamsPro to access data in Microsoft Graph, your administrator must grant it the correct permissions via a consent process.  
+For Witivio soliutions to access data in Microsoft Graph, your administrator must grant it the correct permissions via a consent process.  
 
 Learn more:
-* [TeamsPro Install and Setup Guide](https://help.TeamsPro.com/articles/3505270-install-TeamsPro-app-on-microsoft-teams)
 * [Azure AD application consent experience...](https://docs.microsoft.com/en-us/azure/active-directory/develop/application-consent-experience)
 
 ## Required Permissions
 
-For TeamsPro to work properly and perform some administrative operations, it requires the following permissions.
+For Witivio solutions to work properly and perform some administrative operations, it requires the following permissions.
 
 ### OpenId standard scopes
 The OpenID scopes represents the basics required for any OAuth authentication:
@@ -43,17 +42,9 @@ Learn more about [Authentication and authorization basics for Microsoft Graph...
 
 * Learn more for [Contact Pro...](/architecture-security/contact-pro/#microsoft-graph)
 
-#### Distribution List Pro
-
-* Learn more for [Distribution List Pro...](/architecture-security/distribution-list-pro/#microsoft-graph)
-
 #### Keepass Pro
 
 * Learn more for [Keepass Pro...](/architecture-security/keepass-pro/#microsoft-graph)
-
-#### Home Pro
-
-* Under development 🏗
 
 #### Map Pro
 
@@ -75,6 +66,10 @@ Learn more about [Authentication and authorization basics for Microsoft Graph...
 #### MetaOffice Pro
 
 * Learn more for [MetaOffice Pro...](/architecture-security/metaoffice-pro/#microsoft-graph)
+
+#### Green Center
+
+* Learn more for [Green Center...](/architecture-security/green-center/#microsoft-graph)
 
 #### GPT Pro
 

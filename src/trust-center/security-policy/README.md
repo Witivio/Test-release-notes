@@ -1,15 +1,15 @@
 # Security Policy
 
-## How TeamsPro handles security vulnerabilities
+## How Witivio handles security vulnerabilities
 
 As a provider of products and services for many organizations, we recognize how important it is to help protect user privacy and security.  
 We understand that secure products are instrumental in maintaining the trust users place in us and we strive to create innovative products that both serve user needs and operate in the user s best interest.
 
 ## Reporting a Vulnerability
 
-If you believe you have discovered a vulnerability in a TeamsPro product or have a security incident to report, please send us a message to **[teams-pro-help@witivio.com](mailto:teams-pro-help@witivio.com)** (english as a preferred languages) that includes a detailed reports with reproducible steps.  
+If you believe you have discovered a vulnerability in a Witivio product or have a security incident to report, please send us a message to **[dpop@witivio.com](mailto:dpo@witivio.com)** (english as a preferred languages) that includes a detailed reports with reproducible steps.  
   
-## TeamsPro's vulnerability disclosure policy
+## Witivio's vulnerability disclosure policy
 We believe that vulnerability disclosure is a two-way street. Vendors, as well as researchers, must act responsibly.  
 **This is why Witivio adheres to a 90-day disclosure deadline.**  
 We notify vendors of vulnerabilities immediately, with details shared in public with the defensive community after 90 days, or sooner if the vendor releases a fix.  

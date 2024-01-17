@@ -1,22 +1,22 @@
 ﻿# Communication & Network Security
 
 ## Network diagram
-In order to prepare your organization's network for TeamsPro, here is an overview of the the different network flows involved:
+In order to prepare your organization's network for Witivio solutions, here is an overview of the the different network flows involved:
 
 ![TeamsPro architecture](/assets/img/global-architecture.png)
 
-### Flows between your organization's network and the TeamsPro platform
+### Flows between your organization's network and Witivio solutions
 
-**All the traffic from and to the TeamsPro platform uses HTTPS protocol on port 443.**  
+**All the traffic from and to the Witivio solutions use HTTPS protocol on port 443.**  
 Here is a short description of each flow:
-1. *.teams-pro.com for the apps including help contents
+1. *.teams-pro.com / gpt-pro.com for the apps including help contents
 2. *.msecnd.net and *..visualstudio.com for performance metrics analysis
 3. *.windows.net for blob cache storage
 4. *.microsoft.com for Microsoft Graph API access
 
 ## Traffic encryption
 
-All the traffic from and to the TeamsPro platform is encrypted (and HTTPS protocol enforced), using [TLS v1.2](https://github.com/ssllabs/research/wiki/SSL-and-TLS-Deployment-Best-Practices), ensuring secure communication between our customers and our platform. To do so, we’re using Azure Front Door as the only entry point to the app (web apps and API).
+All the traffic from and to Witivio solutions are encrypted (and HTTPS protocol enforced), using [TLS v1.2](https://github.com/ssllabs/research/wiki/SSL-and-TLS-Deployment-Best-Practices), ensuring secure communication between our customers and our platform. To do so, we’re using Azure Front Door as the only entry point to the app (web apps and API).
 
 ::: tip Online SSL Test
 You can see a detailed report of our SSL certificate using this free online service that performs a deep analysis of the configuration of our SSL:  
@@ -31,49 +31,83 @@ Learn more about [Azure Traffic Manager](https://docs.microsoft.com/en-us/azure/
 
 ## Domains whitelisting
 
-We understand that our customers need to be confident that they are communicating with TeamsPro in a secure environment. Domains whitelisting is one of the most effective methods of ensuring this and prevents any internet traffic intended for TeamsPro from being hijacked or rerouted to a rogue website.  
+We understand that our customers need to be confident that they are communicating with Witivio solutions in a secure environment. Domains whitelisting is one of the most effective methods of ensuring this and prevents any internet traffic intended for Witivio from being hijacked or rerouted to a rogue website.  
 Our complete portfolio of domains are outlined below to help our customers configure their corporate web proxy.
 
 ::: tip Note
 This information is subject to change and we recommend that you check back quarterly for the addition of new domains.
 :::
 
-### TeamsPro Web App
+### TeamsPro & MetaOffice Pro
+
+#### TeamsPro Web App
 * Domains/Hosts: ***.teams-pro.com**
 * Justification/Purpose: TeamsPro web applications for Microsoft Teams
 
-### TeamsPro Help Center
+#### TeamsPro Help Center
 * Domains/Hosts: **docs.teams-pro.com**
 
-### TeamsPro Trust Center
+#### TeamsPro Trust Center
 * Domains/Hosts: **trust.teams-pro.com**
 
-### TeamsPro Admin Center
+#### TeamsPro Admin Center
 * Domains/Hosts: **admin.teams-pro.com**
 * Justification/Purpose: Admin center of TeamsPro
 
-### TeamsPro Subscription manager
+#### TeamsPro Subscription manager
 * Domains/Hosts: **subscription.witivio.com**
 * Justification/Purpose: Subscription management for TeamsPro licence
 
-### Microsoft Azure Application Insight
-* Domains/Hosts:
-  * **az416426.vo.msecnd.net**
-  * **dc.services.visualstudio.com**
-* Justification/Purpose: Azure service used by TeamsPro to collect anonymous performance metrics, telemetry and application logs/traces. [More infos](https://docs.microsoft.com/en-us/azure/azure-monitor/app/ip-addresses)
-
-### Microsoft Graph API
-* Domains/Hosts: **graph.microsoft.com**
-* Justification/Purpose: API used by TeamsPro to interact with Microsoft 365 services
-
-### Chargebee
+#### Chargebee
 * Domains/Hosts:
   * ***.chargebee.com**
 * Justification/Purpose: Subsription and billing management.
 
-### Intercom
-* Domains/Hosts:
-  * ***.intercom.com**
+#### Intercom
+* Domains/Hosts: ***.intercom.com**
 * Justification/Purpose: Support management.
+
+#### Clarity
+* Domains/Hosts: **clarity.ms**
+* Justification/Purpose: Microsoft service used by Witivio solutions to collect anonymous telemetry
+
+
+### GPT Pro
+
+#### GPT Pro Web App
+* Domains/Hosts: ***.gpt-pro.com**
+* Justification/Purpose: GPTPro web applications for Microsoft Teams
+
+#### GPT Pro Help Center
+* Domains/Hosts: **docs.witivio.com**
+
+#### GPT Pro Trust Center
+* Domains/Hosts: **trust.witivio.com**
+
+#### GPT Pro Admin Center
+* Domains/Hosts: **admin.gpt-pro.com**
+* Justification/Purpose: Admin center of GPT Pro
+
+#### Clarity
+* Domains/Hosts: **clarity.ms**
+* Justification/Purpose: Microsoft service used by Witivio solutions to collect anonymous telemetry
+
+## All
+
+### Microsoft Azure Application Insight
+* Domains/Hosts:
+  * **applicationinsights.azure.com**
+  * **dc.services.visualstudio.com**
+* Justification/Purpose: Microsoft Azure service used by Witivio solutions to collect anonymous performance metrics, telemetry and application logs/traces. [More infos](https://docs.microsoft.com/en-us/azure/azure-monitor/app/ip-addresses)
+
+### Microsoft Graph API
+* Domains/Hosts: **graph.microsoft.com**
+* Justification/Purpose: API used by Witivio solutions to interact with Microsoft 365 services
+
+### Fonts
+* Domains/Hosts: **fonts.gstatic.com**
+* Justification/Purpose: Fonts used by Witivio solutions
+
+
 
 <Classification label="public" />

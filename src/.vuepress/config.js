@@ -862,7 +862,8 @@ module.exports = {
 						['/architecture-security/map-pro/', 'Map Pro'],
 						['/architecture-security/gantt-chart-pro/', 'Gantt Chart Pro'],
 						['/architecture-security/metaoffice-pro/', 'MetaOffice Pro'],
-						['/architecture-security/gpt-pro/', 'GPT Pro']
+						['/architecture-security/gpt-pro/', 'GPT Pro'],
+						['/architecture-security/green-center/', 'Green Center']
 					]
 
 				}
@@ -1690,7 +1691,8 @@ module.exports = {
 						['/architecture-security/map-pro/', 'Map Pro'],
 						['/architecture-security/gantt-chart-pro/', 'Gantt Chart Pro'],
 						['/architecture-security/metaoffice-pro/', 'MetaOffice Pro'],
-						['/architecture-security/gpt-pro/', 'GPT Pro']
+						['/architecture-security/gpt-pro/', 'GPT Pro'],
+						['/architecture-security/green-center/', 'Green Center']
 					]
 
 				}
@@ -2518,7 +2520,8 @@ module.exports = {
 						['/architecture-security/map-pro/', 'Map Pro'],
 						['/architecture-security/gantt-chart-pro/', 'Gantt Chart Pro'],
 						['/architecture-security/metaoffice-pro/', 'MetaOffice Pro'],
-						['/architecture-security/gpt-pro/', 'GPT Pro']
+						['/architecture-security/gpt-pro/', 'GPT Pro'],
+						['/architecture-security/green-center/', 'Green Center']
 					]
 
 				}

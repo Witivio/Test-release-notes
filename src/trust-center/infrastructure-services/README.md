@@ -37,8 +37,7 @@ Here is a summary of the key architecture components involved:
 
 | Service | Role |
 |---------|------|
-| Azure Front Door | Azure Front Door is a global, scalable entry-point that uses the Microsoft global edge network to create fast, secure, and widely scalable web 
-applications. [Learn more...](https://docs.microsoft.com/en-us/azure/frontdoor) |
+| Azure Front Door | Azure Front Door is a global, scalable entry-point that uses the Microsoft global edge network to create fast, secure, and widely scalable web applications. [Learn more...](https://docs.microsoft.com/en-us/azure/frontdoor) |
 | Azure App Service | The Witivio Platform is hosted in Azure App Service, enabling vertical and horizontal scale-up based on application needs and reach high availability. [Learn more...](https://docs.microsoft.com/en-us/azure/app-service/) |
 | Azure Application Insights | Application Insights is an extensible Application Performance Management (APM). We're using it to monitor our live production environments, gather telemetry such as performance counters, Azure diagnostics and diagnostic trace logs. [Learn more...](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-overview) |
 | Azure Cosmos DB | Azure Cosmos DB is a globally distributed, multi-model database service that supports document, key-value, wide-column, and graph databases. The Witivio Platform relies on it as the main back-end data store. [Learn more...](https://docs.microsoft.com/en-us/azure/cosmos-db/)
@@ -46,8 +45,10 @@ applications. [Learn more...](https://docs.microsoft.com/en-us/azure/frontdoor) 
 | Azure Key Vault | Microsoft Azure Key Vault is a cloud-hosted management service that allows the Witivio Platform to encrypt keys and small secrets by using keys that are protected by hardware security modules (HSMs). The Witivio Platform relies on it to store securely its encryption keys. [Learn more...](https://docs.microsoft.com/en-us/azure/key-vault/) |
 | Azure Blob Storage | Azure Blob Storage is a massively scalable object storage for unstructured data that allows the Witivio Platform to store securely blobs contents such as images. [Learn more...](https://azure.microsoft.com/en-us/services/storage/blobs/) |
 | Azure Bot Service | Bot Service is a comprehensive conversational AI development environment for designing conversational AI experiences. [Learn more...](https://azure.microsoft.com/en-us/services/bot-services/) |
+| Azure Service Bus | Azure Service Bus is a fully managed enterprise integration message broker. This cloud messaging service enables reliable and secure communication between applications and services even when they are located in diverse environments. [Learn more...](https://azure.microsoft.com/en-us/services/service-bus/) |
 | Azure Communication Service | Azure Communication Services is a cloud-based communications service that lets to add voice, video, chat, and telephony. [Learn more...](https://azure.microsoft.com/en-us/services/communication-services/) |
 | Azure PostgreSQL | Azure Database for PostgreSQL is a relational database service based on the open-source Postgres database engine. [Learn more...](https://azure.microsoft.com/en-us/products/postgresql) |
+| Azure OpenAI Service | Azure OpenAI Service provides access to OpenAI's powerful models, including GPT-3, Codex, and DALL-E, integrating cutting-edge AI capabilities into a wide range of applications. [Learn more...](https://azure.microsoft.com/en-us/services/openai-service) |
 
 ::: tip
 Learn more about [Azure Data Residency](./datamanagement.html#data-residency) from our [Data Management Practices](./datamanagement) page

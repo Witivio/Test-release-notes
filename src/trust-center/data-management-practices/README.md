@@ -1,6 +1,6 @@
 ﻿# Data Management Practices
 
-We understand that our customers need to be confident using TeamsPro, and be aware of our data collection practices.
+We understand that our customers need to be confident using Witivio solutions, and be aware of our data collection practices.
 
 ::: tip Note
 This section is subject to change and we recommend that you check back quarterly for updates.
@@ -8,7 +8,7 @@ This section is subject to change and we recommend that you check back quarterly
 
 ## Application data
 
-Through the implementation of its different features, TeamsPro access, processes and stores several kind of data:
+Through the implementation of its different features, Witivio solustions access, processes and stores several kind of data:
 - Calendar Pro: [Architecture & Security](/architecture-security/calendar-pro/)
 - Booking Room Pro: [Architecture & Security](/architecture-security/bookingroom-pro/)
 - Parking Pro: [Architecture & Security](/architecture-security/parking-pro/)
@@ -18,6 +18,8 @@ Through the implementation of its different features, TeamsPro access, processes
 - Keepass Pro: [Architecture & Security](/architecture-security/keepass-pro/)
 - Map Pro: [Architecture & Security](/architecture-security/map-pro/)
 - Gantt Chart Pro: [Architecture & Security](/architecture-security/gantt-chart-pro/)
+- GPT Pro: [Architecture & Security](/architecture-security/gpt-pro/)
+- Green Center: [Architecture & Security](/architecture-security/green-center/)
 
 
 ### Teams data
@@ -32,11 +34,11 @@ As part of its provisionning feature, TeamsPro may access, process or store temp
 
 #### Teams conversations
 
-TeamsPro NEVER access, process or store teams conversations.
+Witivio solutions NEVER access, process or store teams conversations.
 
 ## Metadata Collection
 
-In addition to core application data, TeamsPro collects metadata to help us understand how the product is being used and what kinds of errors, such as sign-in errors, have occurred. This information helps us understand usage patterns, plan new features, and troubleshoot and fix problem areas.
+In addition to core application data, Witivio solutions collect metadata to help us understand how the product is being used and what kinds of errors, such as sign-in errors, have occurred. This information helps us understand usage patterns, plan new features, and troubleshoot and fix problem areas.
 
 Collected metadata falls into these four categories:
 -  [Census data](#census-data)
@@ -45,7 +47,7 @@ Collected metadata falls into these four categories:
 -  [Error reporting data](#error-reporting-data)
 
 ## Census data
-Census data is acquired solely to provide, support, and improve TeamsPro. It includes environmental information such as device and operating system versions, and regional and language settings. Here are some specific examples of the census data that's collected:
+Census data is acquired solely to provide, support, and improve Witivio solutions. It includes environmental information such as device and operating system versions, and regional and language settings. Here are some specific examples of the census data that's collected:
 
 | Data type | Example | Notes |
 |-----------|---------|-------|
@@ -54,11 +56,11 @@ Census data is acquired solely to provide, support, and improve TeamsPro. It inc
 | OSName | iPhoneiOS | |
 | OSVersion | 8.3 | |
 | UserLanguage | EN-US | |
-| UserID | E296D735-4F36-4E18-7C3B-52E1A02A0164 | TeamsPro automatically generates anonymous user IDs, then populates telemetry events with these IDs as they're sent from the app. A hashing ensures the ID cannot be linked to a specific user. |
-| Session ID | 5E872200-F546-4CCD-8F23-AF5F507AA2DD | TeamsPro automatically generates anonymous session IDs, then populates telemetry events with these IDs as they're sent from your app. A hashing ensures the ID cannot be linked to a specific user. |
+| UserID | E296D735-4F36-4E18-7C3B-52E1A02A0164 | Witivio automatically generates anonymous user IDs, then populates telemetry events with these IDs as they're sent from the app. A hashing ensures the ID cannot be linked to a specific user. |
+| Session ID | 5E872200-F546-4CCD-8F23-AF5F507AA2DD | Witivio automatically generates anonymous session IDs, then populates telemetry events with these IDs as they're sent from your app. A hashing ensures the ID cannot be linked to a specific user. |
 
-These anonymous data are collected through the Azure Application Insights service.  
-For reference, see [Usage analysis with Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/usage-overview)
+These anonymous data are collected through the Azure Application Insights service and Microsoft Clarity
+For reference, see [Usage analysis with Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/usage-overview) and [Microsoft Clarity](https://learn.microsoft.com/en-us/clarity/setup-and-installation/about-clarity)
 
 In addition, we're collecting anonymous network latency measurements (aka Real User Measurements) through the Azure Traffic Manager service to apply load-balancing rules more effectively.  
 For reference, see [How to send Real User Measurements to Azure Traffic Manager using web pages](https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-create-rum-web-pages)
@@ -84,7 +86,7 @@ Usage data collection is on by default and cannot be turned off by admins or end
 :::
 
 Usage data are processed in two ways:
-* We are processing anonymous usage data to understand how our customers are using TeamsPro.
+* We are processing anonymous usage data to understand how our customers are using Witivio solutions.
 * We are processing non-anonymous usage data to create in-app usage dashboards and audit trails for our customers administrators.
 
 ## Support data
@@ -124,7 +126,7 @@ Error reporting data collection is on by default and cannot be turned off by adm
 
 ## Data Residency
 
-The TeamsPro Platform relies entirely on the Microsoft Azure platform located in North Europe datacenter in Ireland.
+The Witivio solutions rely entirely on the Microsoft Azure platform located in North Europe datacenter in Ireland or France Central in France.
 
 ::: tip Reference
 Learn more about [Azure Regions](https://azure.microsoft.com/en-us/global-infrastructure/regions/)
