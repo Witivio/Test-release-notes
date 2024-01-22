@@ -221,7 +221,7 @@ module.exports = {
 									
 							]
 						},
-						{
+						/*{
 							title: 'Meta Office Pro',
 							collapsable: true,
 							path: "/solutions/meta-office-pro/overview/",
@@ -234,7 +234,7 @@ module.exports = {
 								['/solutions/meta-office-pro/limits.md', "Limits"],
 								['/solutions/meta-office-pro/changelog.md', "Changelog​"],
 							]
-						},
+						},*/
 						{
 							title: 'GPT Pro',
 							collapsable: true,
@@ -1155,7 +1155,7 @@ module.exports = {
 									
 							]
 						},
-						{
+						/*{
 							title: 'Meta Office Pro',
 							collapsable: true,
 							path: "/solutions/meta-office-pro/overview/",
@@ -1168,7 +1168,7 @@ module.exports = {
 								['/solutions/meta-office-pro/limits.md', "Limits"],
 								['/solutions/meta-office-pro/changelog.md', "Changelog​"],
 							]
-						},
+						},*/
 						{
 							title: 'GPT Pro',
 							collapsable: true,
@@ -2090,7 +2090,7 @@ module.exports = {
 									
 							]
 						},
-						{
+						/*{
 							title: 'Meta Office Pro',
 							collapsable: true,
 							path: "/solutions/meta-office-pro/overview/",
@@ -2103,7 +2103,7 @@ module.exports = {
 								['/solutions/meta-office-pro/limits.md', "Limits"],
 								['/solutions/meta-office-pro/changelog.md', "Changelog​"],
 							]
-						},
+						},*/
 						{
 							title: 'GPT Pro',
 							collapsable: true,
