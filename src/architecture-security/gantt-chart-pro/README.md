@@ -80,19 +80,19 @@ Here is a short description of each flow:
 | @microsoft/teams-js | 2.12.0 | https://github.com/OfficeDev/microsoft-teams-library-js | MIT |
 | @microsoft/teamsfx | 2.0.0 | https://github.com/OfficeDev/TeamsFx | MIT |
 | @reduxjs/toolkit | 1.9.5 | https://github.com/reduxjs/redux-toolkit | MIT |
-| @syncfusion/ej2-base | 19.2.60 | https://github.com/syncfusion/ej2-javascript-ui-controls | SEE LICENSE IN license |
-| @syncfusion/ej2-data | 19.2.60 | https://registry.npmjs.org/@syncfusion/ej2-data | SEE LICENSE IN license |
-| @syncfusion/ej2-react-dropdowns | 19.2.44 | https://github.com/syncfusion/ej2-react-dropdowns | SEE LICENSE IN license |
-| @syncfusion/ej2-react-gantt | 19.2.44 | https://github.com/syncfusion/ej2-react-gantt | SEE LICENSE IN license |
-| @syncfusion/ej2-react-inputs | 19.2.44 | https://github.com/syncfusion/ej2-react-ui-components | SEE LICENSE IN license |
-| @syncfusion/ej2-react-splitbuttons | 19.2.44 | https://github.com/syncfusion/ej2-react-splitbuttons | SEE LICENSE IN license |
+| @syncfusion/ej2-base | 19.2.60 | https://github.com/syncfusion/ej2-javascript-ui-controls | MIT |
+| @syncfusion/ej2-data | 19.2.60 | https://registry.npmjs.org/@syncfusion/ej2-data | MIT |
+| @syncfusion/ej2-react-dropdowns | 19.2.44 | https://github.com/syncfusion/ej2-react-dropdowns | MIT |
+| @syncfusion/ej2-react-gantt | 19.2.44 | https://github.com/syncfusion/ej2-react-gantt | MIT |
+| @syncfusion/ej2-react-inputs | 19.2.44 | https://github.com/syncfusion/ej2-react-ui-components | MIT |
+| @syncfusion/ej2-react-splitbuttons | 19.2.44 | https://github.com/syncfusion/ej2-react-splitbuttons | MIT |
 | @types/react | 18.2.18 | https://github.com/DefinitelyTyped/DefinitelyTyped | MIT |
 | @types/react-dom | 18.2.7 | https://github.com/DefinitelyTyped/DefinitelyTyped | MIT |
 | @types/react-router-dom | 5.3.3 | https://github.com/DefinitelyTyped/DefinitelyTyped | MIT |
 | axios | 1.4.0 | https://github.com/axios/axios | MIT |
 | cldr-data | 36.0.0 | https://github.com/rxaviers/cldr-data-npm.git |  |
 | copy-to-clipboard | 3.3.3 | https://github.com/sudodoki/copy-to-clipboard | MIT |
-| env-cmd | 10.1.0 | ssh://git@github.com/toddbluhm/env-cmd | MIT |
+| env-cmd | 10.1.0 | https://github.com/toddbluhm/env-cmd | MIT |
 | history | 5.3.0 | https://github.com/remix-run/history | MIT |
 | moment | 2.29.3 | https://github.com/moment/moment | MIT |
 | react | 18.2.0 | https://github.com/facebook/react | MIT |

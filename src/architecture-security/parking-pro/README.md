@@ -78,7 +78,7 @@ Here is a short description of each flow:
 | @fullcalendar/list | 5.11.5 | https://github.com/fullcalendar/fullcalendar | MIT |
 | @fullcalendar/moment-timezone | 5.11.5 | https://github.com/fullcalendar/fullcalendar | MIT |
 | @fullcalendar/react | 5.11.5 | https://github.com/fullcalendar/fullcalendar-react | MIT |
-| @fullcalendar/resource-timeline | 5.11.5 | https://github.com/fullcalendar/fullcalendar-workspace | SEE LICENSE IN LICENSE.md |
+| @fullcalendar/resource-timeline | 5.11.5 | https://github.com/fullcalendar/fullcalendar-workspace | MIT |
 | @fullcalendar/rrule | 5.11.5 | https://github.com/fullcalendar/fullcalendar | MIT |
 | @fullcalendar/timegrid | 5.11.5 | https://github.com/fullcalendar/fullcalendar | MIT |
 | @microsoft/applicationinsights-analytics-js | 3.0.3 | https://github.com/microsoft/ApplicationInsights-JS#main | MIT |
@@ -96,9 +96,9 @@ Here is a short description of each flow:
 | axios | 1.4.0 | https://github.com/axios/axios | MIT |
 | copy-to-clipboard | 3.3.3 | https://github.com/sudodoki/copy-to-clipboard | MIT |
 | emoji-picker-react | 4.5.2 | https://github.com/ealush/emoji-picker-react | MIT |
-| env-cmd | 10.1.0 | ssh://git@github.com/toddbluhm/env-cmd | MIT |
+| env-cmd | 10.1.0 | https://github.com/toddbluhm/env-cmd | MIT |
 | history | 5.3.0 | https://github.com/remix-run/history | MIT |
-| html2canvas | 1.4.1 | ssh://git@github.com/niklasvh/html2canvas | MIT |
+| html2canvas | 1.4.1 | https://github.com/niklasvh/html2canvas | MIT |
 | moment | 2.9.0 | https://github.com/moment/moment | MIT |
 | moment-timezone | 0.5.43 | https://github.com/moment/moment-timezone | MIT |
 | react | 18.2.0 | https://github.com/facebook/react | MIT |

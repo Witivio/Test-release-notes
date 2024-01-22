@@ -81,7 +81,7 @@ Here is a short description of each flow:
 | @types/react-dom | 18.2.7 | https://github.com/DefinitelyTyped/DefinitelyTyped | MIT |
 | @types/react-router-dom | 5.3.3 | https://github.com/DefinitelyTyped/DefinitelyTyped | MIT |
 | axios | 1.4.0 | https://github.com/axios/axios | MIT |
-| env-cmd | 10.1.0 | ssh://git@github.com/toddbluhm/env-cmd | MIT |
+| env-cmd | 10.1.0 | https://github.com/toddbluhm/env-cmd | MIT |
 | history | 5.3.0 | https://github.com/remix-run/history | MIT |
 | moment | 2.29.3 | https://github.com/moment/moment | MIT |
 | react | 18.2.0 | https://github.com/facebook/react | MIT |

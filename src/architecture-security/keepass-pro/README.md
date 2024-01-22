@@ -81,7 +81,7 @@ Here is a short description of each flow:
 | axios | 0.24.0 | https://github.com/axios/axios | MIT |
 | clarity-js | 0.6.43 | https://github.com/microsoft/clarity | MIT |
 | copy-to-clipboard | 3.3.1 | https://github.com/sudodoki/copy-to-clipboard | MIT |
-| env-cmd | 10.1.0 | ssh://git@github.com/toddbluhm/env-cmd | MIT |
+| env-cmd | 10.1.0 | https://github.com/toddbluhm/env-cmd | MIT |
 | immutability-helper | 3.1.1 | https://github.com/kolodny/immutability-helper | MIT |
 | kdbxweb | 1.14.4 | https://github.com/keeweb/kdbxweb | MIT |
 | randomatic | 3.1.1 | https://github.com/jonschlinkert/randomatic | MIT |

@@ -79,13 +79,13 @@ Here is a short description of each flow:
 | axios | 0.26.0 | https://github.com/axios/axios | MIT |
 | clarity-js | 0.6.43 | https://github.com/microsoft/clarity | MIT |
 | copy-to-clipboard | 3.3.1 | https://github.com/sudodoki/copy-to-clipboard | MIT |
-| env-cmd | 10.1.0 | ssh://git@github.com/toddbluhm/env-cmd | MIT |
+| env-cmd | 10.1.0 | https://github.com/toddbluhm/env-cmd | MIT |
 | eslint-plugin-react-hooks | 4.3.0 | https://github.com/facebook/react | MIT |
 | moment | 2.29.1 | https://github.com/moment/moment | MIT |
 | moment-timezone | 0.5.34 | https://github.com/moment/moment-timezone | MIT |
 | react | 16.14.0 | https://github.com/facebook/react | MIT |
 | react-dom | 16.14.0 | https://github.com/facebook/react | MIT |
-| react-intl | 5.20.12 | ssh://git@github.com/formatjs/formatjs | BSD-3-Clause |
+| react-intl | 5.20.12 | https://github.com/formatjs/formatjs | BSD-3-Clause |
 | react-router-dom | 5.3.0 | https://github.com/remix-run/react-router | MIT |
 | react-scripts | 4.0.3 | https://github.com/facebook/create-react-app | MIT |
 | rxjs | 7.5.3 | https://github.com/reactivex/rxjs | Apache-2.0 |
