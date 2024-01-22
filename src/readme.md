@@ -46,6 +46,10 @@ items:
   itemImage: /map.png
   itemDescription: Map Pro
   link: /solutions/map-pro/overview/
+- title: Image Pro
+  itemImage: /image-pro.png
+  itemDescription: Image Pro
+  link: /solutions/image-pro/overview/
 - title: Home Pro
   itemImage: /home.png
   itemDescription: Home Pro

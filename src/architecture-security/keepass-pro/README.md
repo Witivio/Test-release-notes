@@ -30,7 +30,11 @@ Here is how we're managing data for these different categories:
 | Scope | Description | Justification | Admin Consent Required |
 |-------|-------------|---------------|:----------------------:|
 | ```User.Read``` | Retrieve the properties and relationships of user object. | **Allows Keepass Pro to read user information and to display it in the UI.** | No |
-| ```Files.ReadWrite.All``` | Read and Write file. / onedrive. | *Read and Write the kbdx file in user sharepoint / onedrive.** | No |
+| ```Files.ReadWrite.All``` | Read and Write file. / onedrive. | **Read and Write the kbdx file in user sharepoint / onedrive.** | No |
+|```email```| Gives the app access to the user's primary email address in the form of the email claim | | No |
+|```openid```| Used to sign in with OpenID Connect | | No |
+|```offline_access```| Gives thee app access to resources on behalf of the user for an extended time. | **When a user approves the offline_access scope, Keepass Pro can receive refresh tokens from the Microsoft identity platform token endpoint. Refresh tokens are long-lived. Keepass Pro can get new access tokens as older ones expire.** | No |
+|```profile```| Gives the app access to basic information about the user in the claims.| | No |
 
 ::: tip
 The Azure AD App ID is: **597cc93d-8951-4f62-b549-eca97ba5c042**
@@ -64,43 +68,45 @@ Here is a short description of each flow:
 
 ### Client
 
-| Name                                    | Version | Repository                                                                                                           | Publisher                           | NpmLink                                                                      | License     |
-| ---------------------------------------- | ------- | -------------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ---------------------------------------------------------------------------- | ------------ |
-| @azure/msal-browser@2.18.0               | 2.18.0  | https://github.com/AzureAD/microsoft-authentication-library-for-js                                                   | Microsoft                           | https://www.npmjs.com/package/@azure/msal-browser                            | MIT          |
-| @microsoft/applicationinsights-web@2.7.0 | 2.7.0   | https://github.com/microsoft/ApplicationInsights-JS                                                                  | Microsoft Application Insights Team | https://www.npmjs.com/package/@microsoft/applicationinsights-web             | MIT          |
-| @microsoft/microsoft-graph-client@3.0.0  | 3.0.0   | https://github.com/microsoftgraph/msgraph-sdk-javascript | Microsoft                           | https://www.npmjs.com/package/@microsoft/microsoft-graph-client              | MIT          |
-| @microsoft/teams-js@1.11.0               | 1.11.0  | https://github.com/OfficeDev/microsoft-teams-library-js                                                              | Microsoft Teams                     | https://www.npmjs.com/package/@microsoft/teams-js                            | MIT          |
-| axios@0.21.4                             | @0.21.4 | https://github.com/axios/axios                                                                                       | Matt Zabriskie                      | https://www.npmjs.com/package/axios                                          | MIT          |
-| copy-to-clipboard@3.3.1                  | @3.3.1  | https://github.com/sudodoki/copy-to-clipboard                                                                        | sudodoki                            | https://www.npmjs.com/package/copy-to-clipboard                              | MIT          |
-| env-cmd@10.1.0                           | @10.1.0 | https://github.com/toddbluhm/env-cmd                                                                                 | Todd Bluhm                          | https://www.npmjs.com/package/env-cmd                                        | MIT          |
-| randomatic@3.1.1                         | @3.1.1  | https://github.com/jonschlinkert/randomatic                                                                          | Jon Schlinkert                      | https://www.npmjs.com/package/randomatic                                     | MIT          |
-| react-clear-cache@1.4.12                 | @1.4.12 | https://github.com/noahjohn9259/react-clear-cache                                                                    | noahjohn9259                        | https://www.npmjs.com/package/react-clear-cache                              | MIT          |
-| react-dom@17.0.2                         | @17.0.2 | https://github.com/facebook/react                                                                                    | Facebook                            | https://www.npmjs.com/package/react-dom                                      | MIT          |
-| react-intl@5.21.0                        | @5.21.0 | https://github.com/formatjs/formatjs                                                                                 | Eric Ferraiuolo                     | https://www.npmjs.com/package/react-intl                                     | BSD-3-Clause |
-| react-router-dom@5.3.0                   | @5.3.0  | https://github.com/ReactTraining/react-router                                                                        | React Training                      | https://www.npmjs.com/package/react-router-dom                               | MIT          |
-| react-router@5.2.1                       | @5.2.1  | https://github.com/ReactTraining/react-router                                                                        | React Training                      | https://www.npmjs.com/package/react-router                                   | MIT          |
-| react-scripts@4.0.3                      | @4.0.3  | https://github.com/facebook/create-react-app                                                                         | Facebook                            | https://www.npmjs.com/package/react-scripts                                  | MIT          |
-| react@17.0.2                             | @17.0.2 | https://github.com/facebook/react                                                                                    | Facebook                            | https://www.npmjs.com/package/react                                          | MIT          |
-| sass@1.43.4                              | @1.43.4 | https://github.com/sass/dart-sass                                                                                    | Natalie Weizenbaum                  | https://www.npmjs.com/package/sass                                           | MIT          |
-| typescript@4.4.4                         | @4.4.4  | https://github.com/Microsoft/TypeScript                                                                              | Microsoft Corp.                     | https://www.npmjs.com/package/typescript                                     | Apache-2.0   |
-| use-file-picker@0.2.5                    | @0.2.5  | https://github.com/Jaaneek/useFilePicker                                                                             | Milosz Jankiewicz                   | https://www.npmjs.com/package/use-file-picker                                | MIT          |
-| uuidv4@6.2.12                            | @6.2.12 | https://github.com/thenativeweb/uuidv4                                                                               | /                                   | https://www.npmjs.com/package/uuidv4 | MIT          |
-| web-vitals@1.1.2                         | @1.1.2  | https://github.com/GoogleChrome/web-vitals                                                                           | Philip Walton                       | https://www.npmjs.com/package/web-vitals                                     | Apache-2.0   |
+| Name | Version | Url | Licence |
+| ---- | ------- | --- | ------- |
+| @azure/msal-browser | 2.19.0 | https://github.com/AzureAD/microsoft-authentication-library-for-js | MIT |
+| @fluentui/react-icons | 2.0.209 | https://github.com/microsoft/fluentui-system-icons | MIT |
+| @fluentui/react-northstar | 0.59.0 | https://github.com/microsoft/fluentui | MIT |
+| @microsoft/applicationinsights-react-js | 2.5.4 | https://github.com/microsoft/applicationinsights-react-js | MIT |
+| @microsoft/applicationinsights-web | 2.7.1 | https://github.com/microsoft/ApplicationInsights-JS | MIT |
+| @microsoft/teams-js | 2.0 | https://github.com/OfficeDev/microsoft-teams-library-js | MIT |
+| @microsoft/teamsfx | 2.0 | https://github.com/OfficeDev/TeamsFx | MIT |
+| @sideway/address | 4.1.2 | https://github.com/sideway/address | BSD-3-Clause |
+| axios | 0.24.0 | https://github.com/axios/axios | MIT |
+| clarity-js | 0.6.43 | https://github.com/microsoft/clarity | MIT |
+| copy-to-clipboard | 3.3.1 | https://github.com/sudodoki/copy-to-clipboard | MIT |
+| env-cmd | 10.1.0 | ssh://git@github.com/toddbluhm/env-cmd | MIT |
+| immutability-helper | 3.1.1 | https://github.com/kolodny/immutability-helper | MIT |
+| kdbxweb | 1.14.4 | https://github.com/keeweb/kdbxweb | MIT |
+| randomatic | 3.1.1 | https://github.com/jonschlinkert/randomatic | MIT |
+| react | 16.14.0 | https://github.com/facebook/react | MIT |
+| react-dom | 16.14.0 | https://github.com/facebook/react | MIT |
+| react-router-dom | 5.2.0 | https://github.com/remix-run/react-router | MIT |
+| react-scripts | 4.0.3 | https://github.com/facebook/create-react-app | MIT |
+| sass | 1.43.4 | https://github.com/sass/dart-sass | MIT |
+| use-file-picker | 1.4.1 | https://github.com/Jaaneek/useFilePicker | MIT |
+| uuid | 8.3.2 | https://github.com/uuidjs/uuid | MIT |
+| web-vitals | 2.1.2 | https://github.com/GoogleChrome/web-vitals | Apache-2.0 |
 
 ### Server
 
-| Name                                        | Version | Url                                                                                                                                                                                | License    |
-| ------------------------------------------- | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-| Microsoft.ApplicationInsights.AspNetCore    | 2.17.0  | https://licenses.nuget.org/MIT                                                                                                                                                     | MIT        |
-| Microsoft.AspNetCore.Mvc.NewtonsoftJson     | 3.1.11  | https://licenses.nuget.org/Apache-2.0                                                                                                                                              | Apache-2.0 |
-| Microsoft.AspNetCore.SpaServices.Extensions | 3.1.13  | https://licenses.nuget.org/Apache-2.0                                                                                                                                              | Apache-2.0 |
-| Microsoft.Azure.DocumentDB                  | 2.14.1  | https://www.nuget.org/packages/Microsoft.Azure.DocumentDB/2.16.2/License                               | MIT        |
-| Microsoft.Azure.DocumentDB.Core             | 2.14.1  | https://www.nuget.org/packages/Microsoft.Azure.DocumentDB/2.16.2/License                               | MIT        |
-| Microsoft.Extensions.HealthChecks           | 1.0.0   | https://www.nuget.org/packages/Microsoft.Azure.DocumentDB/2.16.2/License                              | MIT        |
-| Microsoft.Identity.Web                      | 1.9.2   | https://licenses.nuget.org/MIT                                                                                                                                                     | MIT        |
-| Microsoft.Identity.Web.MicrosoftGraph       | 1.9.2   | https://licenses.nuget.org/MIT                                                                                                                                                     | MIT        |
-| Newtonsoft.Json                             | 12.0.3  | https://licenses.nuget.org/MIT                                                                                                                                                     | MIT        |
-| Swashbuckle.AspNetCore                      | 5.6.3   | https://raw.githubusercontent.com/domaindrivendev/Swashbuckle.AspNetCore/master/LICENSE | MIT        |
-| Swashbuckle.AspNetCore.Swagger              | 5.6.3   | https://raw.githubusercontent.com/domaindrivendev/Swashbuckle.AspNetCore/master/LICENSE                                                                                            | MIT        |
-| Swashbuckle.AspNetCore.SwaggerGen           | 5.6.3   | https://raw.githubusercontent.com/domaindrivendev/Swashbuckle.AspNetCore/master/LICENSE                                                                                            | MIT        |
-| Swashbuckle.AspNetCore.SwaggerUI            | 5.6.3   | https://raw.githubusercontent.com/domaindrivendev/Swashbuckle.AspNetCore/master/LICENSE                                                                                            | MIT        |
+| Name | Version | Url | Licence |
+| ---- | ------- | --- | ------- |
+| Microsoft.ApplicationInsights.AspNetCore | 2.17.0 | https://github.com/Microsoft/ApplicationInsights-dotnet | MIT |
+| Microsoft.Azure.DocumentDB.Core | 2.14.1 | https://www.nuget.org/packages/Microsoft.Azure.DocumentDB.Core/2.14.1 |  |
+| Microsoft.Extensions.HealthChecks | 1.0.0 | https://github.com/seven1986/HealthChecks |  |
+| Microsoft.Identity.Web | 1.9.2 | https://github.com/AzureAD/microsoft-identity-web | MIT |
+| Microsoft.Identity.Web.MicrosoftGraph | 1.9.2 | https://github.com/AzureAD/microsoft-identity-web | MIT |
+| Swashbuckle.AspNetCore | 5.6.3 | https://github.com/domaindrivendev/Swashbuckle.AspNetCore.git |  |
+| Swashbuckle.AspNetCore.Swagger | 5.6.3 | https://github.com/domaindrivendev/Swashbuckle.AspNetCore.git |  |
+| Swashbuckle.AspNetCore.SwaggerGen | 5.6.3 | https://github.com/domaindrivendev/Swashbuckle.AspNetCore.git |  |
+| Swashbuckle.AspNetCore.SwaggerUI | 5.6.3 | https://github.com/domaindrivendev/Swashbuckle.AspNetCore.git |  |
+| Microsoft.AspNetCore.Mvc.NewtonsoftJson | 6.0.20 | https://github.com/dotnet/aspnetcore | MIT |
+| Microsoft.AspNetCore.SpaServices.Extensions | 6.0.20 | https://github.com/dotnet/aspnetcore | MIT |
+| Newtonsoft.Json | 13.0.3 | https://github.com/JamesNK/Newtonsoft.Json | MIT |

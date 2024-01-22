@@ -36,6 +36,10 @@ Here is how we're managing data for these different categories:
 |-------|-------------|---------------|:----------------------:|
 | ```User.Read``` | Retrieve the properties and relationships of user object. | **Allows Company Communicator Pro to read user information and to display it in the UI.** | No |
 | ```Group.Read.All``` | Allows the app to list groups, and to read their properties and all group memberships on behalf of the signed-in user.| **Allows Company Communicator Pro to read group members and to display it in the UI.** | Yes |
+|```email```| Gives the app access to the user's primary email address in the form of the email claim | | No |
+|```openid```| Used to sign in with OpenID Connect | | No |
+|```offline_access```| Gives thee app access to resources on behalf of the user for an extended time. | **When a user approves the offline_access scope, Company Communicator Pro can receive refresh tokens from the Microsoft identity platform token endpoint. Refresh tokens are long-lived. Company Communicator Pro can get new access tokens as older ones expire.** | No |
+|```profile```| Gives the app access to basic information about the user in the claims.| | No |
 
 ::: tip
 The Azure AD App ID is: **0e249f6c-14c5-4935-bb83-d0b632ced6eb**

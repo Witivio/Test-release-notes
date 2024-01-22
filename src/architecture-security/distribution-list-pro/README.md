@@ -32,6 +32,10 @@ Here is how we're managing data for these different categories:
 | ```Group.Read.All``` | Allows the app to list groups, and to read their properties and all group memberships on behalf of the signed-in user.| **Allows Distribution List Pro to read user information and to display it in the UI.** | Yes |
 | ```Presence.Read.All``` | Retrieve the presence of a user. | **Allows Distribution List Pro to read user information and to display it in the UI.** | Yes |
 | ```User.Read.All``` | Retrieve the properties and relationships of user object. | **Allows Distribution List Pro to read user information and to display it in the UI.** | Yes |
+|```email```| Gives the app access to the user's primary email address in the form of the email claim | | No |
+|```openid```| Used to sign in with OpenID Connect | | No |
+|```offline_access```| Gives thee app access to resources on behalf of the user for an extended time. | **When a user approves the offline_access scope, Distribution List Pro can receive refresh tokens from the Microsoft identity platform token endpoint. Refresh tokens are long-lived. Distribution List Pro can get new access tokens as older ones expire.** | No |
+|```profile```| Gives the app access to basic information about the user in the claims.| | No |
 
 ::: tip
 The Azure AD App ID is: **4cda80df-64fe-4961-8d73-cbe8d5ad0724**
@@ -56,6 +60,6 @@ Here is a short description of each flow:
 
 | Name | Comments |
 |------|----------|
-| contactgroup.teams-pro.com  | for the apps including help contents |
+| Distribution Listgroup.teams-pro.com  | for the apps including help contents |
 |.msecnd.net and *.visualstudio.com  | for performance metrics analysis |
 |graph.microsoft.com | for Microsoft Graph API access |
