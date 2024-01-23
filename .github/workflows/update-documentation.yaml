@@ -16,13 +16,12 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
 
-      - name: Extract Markdown from GPT-3.5 Turbo response
-        id: extract-markdown
-        run: echo "::set-output name=markdown::${{fromJson(github.event.client_payload.data).choices[0].text}}"
+      - name: Debug GitHub event payload
+        run: echo "${{ github.event.client_payload.data }}"
 
       - name: Run Custom Script
         run: |
-          pwsh ./scripts/update_documentation_script_git.ps1 -FilePath ./src/solutions/gpt-pro/changelog.md -MarkdownData "${{ steps.extract-markdown.outputs.markdown }}"
+          pwsh ./scripts/update_documentation_script_git.ps1 -FilePath ./src/solutions/gpt-pro/changelog.md -MarkdownData "${{github.event.client_payload.data}}"
 
       - name: Update resources
         uses: test-room-7/action-update-file@v1
