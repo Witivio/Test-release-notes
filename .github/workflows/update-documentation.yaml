@@ -18,7 +18,7 @@ jobs:
 
       - name: Extract Markdown from GPT-3.5 Turbo response
         id: extract-markdown
-        run: echo "::set-output name=markdown::${{ fromJson(github.event.client_payload.data).choices[0].text }}"
+        run: echo "::set-output name=markdown::${{fromJson(github.event.client_payload.data).choices[0].text}}"
 
       - name: Run Custom Script
         run: |
