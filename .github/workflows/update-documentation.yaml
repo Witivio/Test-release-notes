@@ -18,7 +18,7 @@ jobs:
 
       - name: Run Custom Script
         run: |
-          pwsh ./scripts/update_documentation_script_git.ps1 -FilePath ./src/solutions/gpt-pro/changelog.md -MarkdownData "${{github.event.client_payload.data}}"
+          echo "${{ github.event.client_payload.data }}" | pwsh ./scripts/update_documentation_script_git.ps1 -FilePath ./src/solutions/gpt-pro/changelog.md
 
       - name: Update resources
         uses: test-room-7/action-update-file@v1
