@@ -1,16 +1,14 @@
 ## What's new on GPTPro ?
  
-## What's New in this Update
+## What's New in This Update
 
-We're excited to announce the release of version 4.0.0. Here are the notable changes you'll find:
+Welcome to Version Number: 5.0.0! We're excited to introduce some fantastic improvements:
 
 ### Bug Fixes:
-1. **Syncing:** Long delays in data synchronization across devices have been resolved.
-2. **Login Errors:** Error messages for failed login attempts are now displayed.
+1. **Application Stability:** Resolved the issue causing the application to freeze when processing large datasets.
+2. **Data Validation:** Fixed inconsistencies in data validation leading to inaccurate results.
+3. **Mobile Compatibility:** Fixed scrollbar missing in the settings page on mobile devices.
 
 ### New Features:
-1. **Customizable User Profiles:** Create a personalized user profile that reflects your style and personality.
-2. **Real-time Notifications:** Stay up-to-date with critical updates with our real-time notification feature.
-
-### Other Changes:
-1. **Graphs and Charts:** Graphs and charts now render correctly in all browsers, including Internet Explorer. 
+1. **Machine Learning Integration:** Enjoy the cutting-edge technology of machine learning for predictive analysis.
+2. **PDF Export Feature:** Implement a feature for exporting data to PDF format for easy sharing and viewing. 
