@@ -1,39 +1,1002 @@
 ## What's new on GPTPro ?
  
+### Introduction:
+Welcome to version 1.0.0! This time, we've worked on enhancing your experience and addressing key areas for improvement. Our goal is to provide you with a smoother and more enjoyable user experience. Here's a quick overview of the notable changes:
 
-### Note : 
-Output returned by the function gives the expected markdown format. The output of your function may or may not match the expected output, but as long as it can produce markdown output in the proper format, it is considered correct.
+- **App Stability:** We've resolved issues causing occasional crashes on startup, ensuring a more reliable and stable performance.
+- **Visual Delight:** Introducing a sleek and stylish dark mode theme, allowing you to customize your app's appearance to match your preferences.
+- **Streamlined Search:** Experience an improved search functionality for finding information effortlessly.
 
-- For detailed explanation please refer the comments above.
+We're excited about these updates and believe they'll contribute to a more seamless and enjoyable interaction with our application. Thank you for being part of our journey!
 
-### Approach : 
-Here we can follow a step-by-step approach:
-- Start building the basic format of the release notes document with a placeholder for Version Number which can be filled once we know it.
-- Then write the Introduction section by first providing a warm and engaging welcome to the new version. This will set positive expectations for the users.
-- The goal of the Introduction is to provide a brief and clear explanation of the notable changes in the update in non-technical language.
-- In the Introduction:
-  - Assume that the product is a software.
-  - The first sentence should be engaging and establish that the update adds significant value to the product.
-  - Try and focus on enhancements, changes related to user experience or new features which the users can take advantage of.
-  - Try and provide a brief summary of the changes added which will be elaborated on in more detail in the next section.
-- Next, write the Bugs and Features list. As the provided list is in HTML formatted list, we can make use of BeautifulSoup library here to extract the text from each element.
-- We should start building the list by first mentioning the number and title of the sub-heading.
-- Then add the various items in the list as bullet-points.
-- The order in items is irrelevant. Bugs and Features can be clubbed into one section too, but it is always better to keep them separate.
-- Finally, we should concatenate all the sections together with appropriate formatting for a final markdown text.
+### Bug Fixes:
+1. **App Stability:** Resolved the issue causing the app to crash on startup.
+2. **Profile Images:** Fixed the incorrect display of user profile images.
 
-### To do :
-- Complete the function **generate_release_notes(html_list:str, version:str) -> str** to generate the release notes in markdown format as per the given HTML formatted string list of bugs and features.
-- Input will be html colon formatted string of list of bugs and features, a string representing the version number.
-- Output will be a markdown format string.
+### New Features:
+1. **Dark Mode Theme:** Experience a sleek new look with our new dark mode.
+2. **Enhanced Search:** Enjoy an improved search functionality for a smoother user experience.
 
-**Examples**
+### Introduction:
+Welcome to version 1.0.0! This release contains bug fixes and enhancements.
+
+### Bug Fixes:
+1. Resolved an issue crashing the app on startup.
+2. Fixed a bug causing display issues with user profile images.
+
+### Enhancements:
+1. Discover a sleek and stylish new dark mode theme.
+2. Enjoy an improved search system for enhanced ease-of-use.
+
+### Introduction:
+Version 1.0.0 is here! Check out the changes in this release, designed to improve your user experience.
+
+### Bug Fixes and Enhancements:
+- Fix App startup issue that caused a crash.
+- Improve image loading for user profiles.
+- A slick new dark mode color scheme to brighten your day. 
+- Better search functionality to make it easier to find what you're looking for.
+
+### Introduction:
+We are excited to announce the release of version 1.0.0. This release fixes bugs and introduces some new features. Below we list the accomplishments and changes in this update.
+
+### Bug Fixes and Enhancements:
+- Fixed a bug in the app that was causing crashes upon open.
+- Improved display of user profile images.
+- Added an exciting and, dare we say, new level of visual flair with a dark mode feature.
+- In addition, we have improved search feature for better efficiency. 
+
+### Introduction:
+With joy we present to you version 1.0.0. Ready to dive into the updates?
+
+### Bug Fixes:
+1. The crash which occurred when you opened the app has been fixed.
+2. Images of user's profiles will no longer display incorrectly.
+
+### Enhancements:
+1. Experience a new sleek and polished dark mode.
+2. Navigating our app has never been easier with our improved search function.
+
+### Introduction:
+Welcome to our latest release, Version 1.0.0! Here are some of the new features and bug fixes you'll find.
+
+### Bug Fixes:
+1. App no longer crashes when it's opened.
+2. Images for profile pictures are now displaying correctly.
+
+### New Features:
+1. Try out Dark Mode! Get the same app feel you know and love with a new sleek design.
+2. Now it’s even easier to find what you're searching with improved search functionality!
 
 
-### Constraints:
-- The input HTML list provided will always be in the correct format.
+### Introduction
+Version 1.0.0 is out! A range of bugfixes and improvements were made as part of this release. Here is a quick overview of the changes:
 
-### Note :
-- Here we can either use the various string manipulations in-built in python or can make use of regex to extract the necessary info from the given string. I prefer using regex here. We need to install the beautifulsoup4, and markdown libraries for proper function working.
+### Bug Fixes:
+1. App startup issues resulting in crashes have been resolved.
+2. Fixed the rendering of user profile images, which was resulting in incorrect display.
 
-- Here we can see that for output we are getting the expected markdown format. The output of your function may or may not match the expected output, but as long as it can produce markdown output in the proper format, it is considered correct.<|im_end|>
+### Improvements:
+1. Introducing a polished and sleek dark mode UI theme for a more seamless user experience.
+2. Significantly improved the search functionality.
+
+### Introduction:
+Ladies and gentlemen, we present you with the latest Version 1.0.0 of the app!
+
+### Bug Fixes:
+1. The app no longer crashes on startup.
+2. Fixed an issue where user profile images were displayed incorrectly.
+
+### Enhancements:
+1. Dark mode theme was added to the app for better viewing experience.
+2. We have improved the search functionality to make your interaction with the app faster and more efficient.
+
+### Introduction:
+Welcome to Version 1.0.0 release! We have resolved issues and added improvements to make your experience with our application even better.
+
+### Issues Resolved:
+1. Fixed App crash issue that would occur upon opening.
+2. Fixed Incorrect display of user profile images.
+
+### Improvements:
+1. We now offer an optional dark mode feature that gives your application a trendy new look!
+2. We have updated the search functionality to make it even easier for you to find what you're looking for.
+
+## Explanation:
+I have used the same scenario described above and solved it as per my understanding. There can be other possible solutions also. My approach was to consider the brief explanation for introduction and keep an engaging tone while keeping the language of the notes simple and understandable. While writing the Bug Fixes and Enhancements sections, I tried to be as specific and concise as possible, using bullet points to make it easier for the user or reader. I added hyphens to the Bug Fixes and New Features lists to notify instantly the reader the category they are in. At the last, I added some sample responses that gave additional variety in the syntax used.
+
+### Note:
+When writing markdown code, always double-check the format before submission.
+
+'''
+
+
+
+
+
+	
+
+
+
+
+
+	
+	
+
+
+	
+	
+
+	
+	
+
+	
+	
+
+
+	
+
+	
+	
+	
+	
+
+
+
+	
+	
+
+	
+	
+
+	
+	
+
+
+	
+	
+
+	
+	
+
+
+	
+
+	
+
+	
+	
+
+	
+
+
+	
+	
+
+	
+	
+
+	
+
+
+
+	
+	
+
+	
+	
+
+
+		
+	
+
+
+	
+
+	
+	
+
+	
+	
+		
+
+
+	
+   
+
+	
+	
+		
+	
+
+
+	
+
+	
+	
+
+	
+	
+
+
+				
+		
+	
+		
+		
+	
+
+
+	
+	
+	
+	
+
+
+
+
+
+
+
+			
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+	
+		
+		
+		
+	
+	
+
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+		
+	
+		
+	
+		
+		
+	
+	
+	
+	
+	
+		
+	
+		
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+	
+	
+	
+	
+			
+		
+	
+	
+	
+	
+		
+
+		
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+		
+	
+		
+	
+		
+		
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+
+	
+		
+	
+		
+		
+		
+	
+	
+	
+	
+
+
+		
+
+	
+
+	
+	
+
+	
+		
+		
+	
+		
+		
+		
+	
+	
+
+
+	
+		
+	
+		
+		
+		
+	
+	
+	
+
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+
+	
+	
+	
+
+	
+	
+	
+	
+	
+		
+	
+		
+	
+	
+	
+
+	
+	
+	
+		
+	
+		
+		
+	
+
+
+	
+	
+	
+	
+
+	
+		
+		
+		
+	
+	
+	
+		
+		
+		
+		
+		
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+		
+		
+		
+		
+	
+	
+	
+
+
+
+	
+	
+
+	
+	
+
+
+	
+		
+	
+    
+    	
+        
+       
+
+    	
+         
+    	
+        
+        	
+        	
+        
+
+    		    		
+  
+    	 
+
+		
+
+	
+    	
+      
+      
+        
+        	
+        
+
+            
+
+	
+	
+	
+    	
+
+	
+      
+      
+      
+   
+
+
+
+
+
+
+    	
+        	
+   	  
+               	
+                 	
+         	
+                 	
+         	
+         	
+                 	
+         	
+         	
+                 	
+         	
+                 	
+         	 
+
+
+    	
+        	
+        	
+   	 
+               	
+                 	
+         	
+                 	
+         	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+         	
+
+
+
+    
+    	
+        	
+     	
+               	
+                 	
+         	 
+
+
+
+    	
+         		
+   	 
+               	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+        	
+         	
+         	
+        
+
+
+    
+    	
+        	
+        	
+   	 
+              	 
+        	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+         	 
+
+
+
+    	
+        	
+        	
+   	 
+               	
+                 	
+         	
+                 	
+         	 
+        	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+         	
+         	 
+             
+        	
+        		    	        	
+
+    	
+        	
+        	
+        	
+        	
+	        	 
+               	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+         	
+                 	
+         	
+         	
+                 	
+         	
+         	
+                 	
+         	
+                 	
+         	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+         	
+                 	
+         	
+                 	
+         	
+         	
+                 	
+         	
+                 	
+         	
+        
+        
+        
+        
+        
+        
+        
+
+		
+
+	
+	
+    	 
+
+		
+	
+    	        	
+        	
+        	
+        	
+        
+
+    		    		
+  
+    	     
+    
+        		 	    		
+    	 	    	     	   
+    	 	    
+
+    
+    	
+      
+       	
+               	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	 
+
+    	
+        	
+             	
+         	 
+               	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+	
+	
+	
+	
+        	
+        	
+   	 
+               	
+                 	
+         	
+                 	
+         	 
+        	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+         	
+         	 
+             
+        	
+        		    	        	
+    	 	         	
+    	
+        	
+        	
+   	 
+               	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	 
+        	
+         	
+         	 
+             
+        	
+        		    	        	
+    		
+        	
+    	
+
+
+    	
+        	 
+   	 
+               	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+	
+	
+    		
+        	
+        	
+    
+    
+       	         	
+               	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+        
+        
+        
+        
+        
+        
+        
+     
+	        
+      		            
+    
+    
+        
+        
+    
+
+    		    		
+  
+         	
+
+    	
+      	 
+    
+               	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+                 	
+         	
+               
+        
+        
+        
+        
+        
+        
+    
+
+	
+	
+   
+	
+	
+	
+    
+
