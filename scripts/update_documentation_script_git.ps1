@@ -2,19 +2,12 @@ param (
     [Parameter(Mandatory=$true)]
     [string]$FilePath,
     [Parameter(Mandatory=$true)]
-    [object]$JsonData
+    [string]$MarkdownData
 )
-
-$choices = $JsonData.data.choices
-$markdownData = $choices[0].text
 
 $title = "## What's new on GPTPro ?"
 
-Write-Output "Debug :  $markdownData"
-
-$contentToWrite = "$title`r`n$markdownData"
-
-Write-Output "Debug2 :  $contentToWrite"
+$contentToWrite = "$title`r`n$MarkdownData"
 
 $contentToWrite | Set-Content -Path $FilePath -Force
 
