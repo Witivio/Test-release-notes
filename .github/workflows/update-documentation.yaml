@@ -16,10 +16,14 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
 
-      - name: Run Custom Script
+      - name: Set Markdown Data Environment Variable
         run: |
-          echo "${{ github.event.client_payload.data }}" | pwsh ./scripts/update_documentation_script_git.ps1 -FilePath ./src/solutions/gpt-pro/changelog.md
+          echo "##[set-env name=MARKDOWN_DATA]${{ github.event.client_payload.data }}"
 
+      - name: Run Update Script
+        run: |
+          pwsh ./scripts/update_documentation_script_git.ps1 -FilePath ./src/solutions/gpt-pro/changelog.md -MarkdownData $env:MARKDOWN_DATA
+      
       - name: Update resources
         uses: test-room-7/action-update-file@v1
         with:
