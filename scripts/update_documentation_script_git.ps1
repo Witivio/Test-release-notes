@@ -5,7 +5,7 @@ param (
     [string]$MarkdownData
 )
 
-$title = "## What's new on GPTPro ?"
+$title = "# What's new on GPTPro ?"
 
 $contentToWrite = "$title`r`n$MarkdownData"
 
