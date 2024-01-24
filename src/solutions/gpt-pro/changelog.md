@@ -1,14 +1,15 @@
 ## What's new on GPTPro ?
  
-## What's New in This Update
 
-Welcome to Version Number: 5.0.0! We're excited to introduce some fantastic improvements:
+## What's New in this Update
+
+Get ready, because version 5.0.0 is here and we're excited to show you the changes that are coming. Here's a quick overview:
 
 ### Bug Fixes:
-1. **Application Stability:** Resolved the issue causing the application to freeze when processing large datasets.
+1. **Application Freeze:** Addressed the issue of the application freezing when processing large datasets.
 2. **Data Validation:** Fixed inconsistencies in data validation leading to inaccurate results.
-3. **Mobile Compatibility:** Fixed scrollbar missing in the settings page on mobile devices.
+3. **Scrollbar on Mobile:** Enabled scrollbar on the settings page for mobile devices.
 
 ### New Features:
-1. **Machine Learning Integration:** Enjoy the cutting-edge technology of machine learning for predictive analysis.
-2. **PDF Export Feature:** Implement a feature for exporting data to PDF format for easy sharing and viewing. 
+1. **Predictive Analytics:** Enjoy machine learning capabilities for data-driven insights.
+2. **Export to PDF:** Export your data into a PDF format for easy sharing and distribution. 
